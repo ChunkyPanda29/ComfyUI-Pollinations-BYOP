@@ -8,172 +8,165 @@ import json
 import os
 import logging
 
-# SILENCE LOGGERS to prevent any console/pipe conflicts
+# SILENCE LOGGERS
 logging.getLogger("requests").setLevel(logging.CRITICAL)
 logging.getLogger("urllib3").setLevel(logging.CRITICAL)
 
-def load_model_list(category, default_list):
+def get_models():
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(current_dir, "models.json")
     try:
-        current_dir = os.path.dirname(os.path.abspath(__file__))
-        json_path = os.path.join(current_dir, "models.json")
         if os.path.exists(json_path):
             with open(json_path, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                return data.get(category, default_list)
-    except Exception:
-        pass
-    return default_list
+                return json.load(f)
+    except: pass
+    return {"image": ["flux"], "video": ["wan"], "text": ["openai"], "audio": ["elevenlabs"]}
+
+def upload_to_pollinations(image_tensor):
+    try:
+        i = 255. * image_tensor.cpu().numpy().squeeze()
+        img = Image.fromarray(np.clip(i, 0, 255).astype(np.uint8))
+        buffered = io.BytesIO()
+        img.save(buffered, format="PNG")
+        resp = requests.post("https://media.pollinations.ai/upload", files={"file": ("image.png", buffered.getvalue(), "image/png")})
+        if resp.status_code == 200: return resp.json().get("url")
+    except: pass
+    return None
 
 class PollinationsImageGen:
     @classmethod
     def INPUT_TYPES(s):
-        model_list = load_model_list("image", ["flux", "zimage", "klein-large"])
+        model_data = get_models()
         return {
             "required": {
                 "prompt": ("STRING", {"multiline": True, "default": "a cat in space"}),
-                "model": (model_list, {"default": "flux"}),
+                "model": (model_data["image"], {"default": "flux"}),
                 "width": ("INT", {"default": 1024, "min": 256, "max": 4096, "step": 8}),
                 "height": ("INT", {"default": 1024, "min": 256, "max": 4096, "step": 8}),
                 "seed": ("INT", {"default": 42, "min": -1, "max": 2147483647}),
             },
             "optional": {
                 "api_key": ("STRING", {"default": "", "multiline": False}),
+                "image_input": ("IMAGE",),
                 "negative_prompt": ("STRING", {"multiline": True, "default": ""})
             }
         }
-
-    RETURN_TYPES = ("IMAGE",)
-    RETURN_NAMES = ("image",)
+    RETURN_TYPES = ("IMAGE", "STRING")
+    RETURN_NAMES = ("image", "url")
     FUNCTION = "generate"
-    CATEGORY = "Pollinations"
+    CATEGORY = "Pollinations/Image"
 
-    def generate(self, prompt, model, width, height, seed, api_key, negative_prompt=""):
-        # Clean the model name by removing the diamond emoji and extra spaces
-        model = model.replace("💎", "").strip()
-        # 1. Official Path Construction
+    def generate(self, prompt, model, width, height, seed, api_key="", image_input=None, negative_prompt=""):
+        clean_model = model.replace("💎", "").strip()
         encoded_prompt = urllib.parse.quote(prompt.replace("\n", " ").strip())
+        url = f"https://gen.pollinations.ai/image/{encoded_prompt}?model={clean_model}&width={width}&height={height}&seed={seed}&nologo=true"
+        if image_input is not None:
+            img_url = upload_to_pollinations(image_input)
+            if img_url: url += f"&image={urllib.parse.quote(img_url)}"
+        if negative_prompt.strip(): url += f"&negative_prompt={urllib.parse.quote(negative_prompt.strip())}"
         
-        # Base URL from official api.json
-        base_url = f"https://gen.pollinations.ai/image/{encoded_prompt}"
-        
-        # 2. Query Parameters (Official Spec)
-        params = {
-            "model": model,
-            "width": width,
-            "height": height,
-            "seed": seed,
-            "nologo": "true"
-        }
-        
-        if negative_prompt and negative_prompt.strip() != "":
-             params["negative_prompt"] = negative_prompt.strip()
-
-        # 3. Headers (Crucial for WAF bypass and BYOP)
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        }
-        
-        if api_key and api_key.strip() != "":
-            headers["Authorization"] = f"Bearer {api_key.strip()}"
-            
+        headers = {"User-Agent": "Mozilla/5.0"}
+        if api_key.strip(): headers["Authorization"] = f"Bearer {api_key.strip()}"
         try:
-            response = requests.get(base_url, params=params, headers=headers, timeout=120)
-            
-            if response.status_code == 200:
-                image = Image.open(io.BytesIO(response.content)).convert("RGB")
-                image_np = np.array(image).astype(np.float32) / 255.0
-                return (torch.from_numpy(image_np)[None,],)
-            else:
-                # Return Black square with Red pixel in corner on error
-                err_img = np.zeros((width, height, 3), dtype=np.float32)
-                err_img[0,0] = [1.0, 0, 0] 
-                return (torch.from_numpy(err_img)[None,],)
-                
-        except Exception:
-            return (torch.zeros((1, 512, 512, 3)),)
+            r = requests.get(url, headers=headers, timeout=120)
+            if r.status_code == 200:
+                img = Image.open(io.BytesIO(r.content)).convert("RGB")
+                img_np = np.array(img).astype(np.float32) / 255.0
+                return (torch.from_numpy(img_np)[None,], url)
+        except: pass
+        return (torch.zeros((1, 512, 512, 3)), url)
 
-class PollinationsTextGen:
+class PollinationsAudioGen:
     @classmethod
     def INPUT_TYPES(s):
-        model_list = load_model_list("text", ["openai", "deepseek", "gemini"])
+        model_data = get_models()
         return {
             "required": {
-                "prompt": ("STRING", {"multiline": True, "default": "Hello!"}),
-                "model": (model_list, {"default": "openai"}),
-                "system_instruction": ("STRING", {"multiline": True, "default": "You are a helpful assistant."}),
-                "seed": ("INT", {"default": 42, "min": -1, "max": 9007199254740991}),
+                "text": ("STRING", {"multiline": True, "default": "Hello world"}),
+                "model": (model_data["audio"], {"default": "elevenlabs"}),
+                "voice": (["alloy", "echo", "fable", "onyx", "nova", "shimmer", "sarah", "rachel", "charlie"], {"default": "sarah"}),
             },
-            "optional": {
-                "api_key": ("STRING", {"default": "", "multiline": False})
-            }
+            "optional": {"api_key": ("STRING", {"default": ""})}
         }
-
     RETURN_TYPES = ("STRING",)
-    RETURN_NAMES = ("text",)
+    RETURN_NAMES = ("audio_url",)
     FUNCTION = "generate"
-    CATEGORY = "Pollinations"
+    CATEGORY = "Pollinations/Audio"
 
-    def generate(self, prompt, model, system_instruction, seed, api_key):
-        # Clean the model name by removing the diamond emoji and extra spaces
-        model = model.replace("💎", "").strip()
-        url = "https://gen.pollinations.ai/v1/chat/completions"
-        headers = {"Content-Type": "application/json"}
-        if api_key and api_key.strip() != "":
-            headers["Authorization"] = f"Bearer {api_key.strip()}"
-            
-        payload = {
-            "model": model,
-            "messages": [
-                {"role": "system", "content": system_instruction},
-                {"role": "user", "content": prompt}
-            ],
-            "seed": seed
-        }
-        
-        try:
-            response = requests.post(url, headers=headers, json=payload, timeout=60)
-            if response.status_code == 200:
-                return (response.json()["choices"][0]["message"]["content"],)
-            return (f"Error: {response.status_code}",)
-        except Exception as e:
-            return (str(e),)
+    def generate(self, text, model, voice, api_key=""):
+        clean_model = model.replace("💎", "").strip()
+        encoded_text = urllib.parse.quote(text.strip())
+        url = f"https://gen.pollinations.ai/audio/{encoded_text}?model={clean_model}&voice={voice}"
+        if api_key.strip(): url += f"&key={api_key.strip()}"
+        return (url,)
 
 class PollinationsVideoGen:
     @classmethod
     def INPUT_TYPES(s):
-        model_list = load_model_list("video", ["wan", "seedance", "veo"])
+        model_data = get_models()
         return {
             "required": {
-                "prompt": ("STRING", {"multiline": True, "default": "a sunset timelapse"}),
-                "model": (model_list, {"default": "wan"}),
+                "prompt": ("STRING", {"multiline": True, "default": "cinematic sunset"}),
+                "model": (model_data["video"], {"default": "wan"}),
             },
             "optional": {
-                "api_key": ("STRING", {"default": "", "multiline": False})
+                "api_key": ("STRING", {"default": ""}),
+                "image_input": ("IMAGE",),
+                "duration": ("INT", {"default": 5, "min": 2, "max": 15}),
             }
         }
-
-    RETURN_TYPES = ("STRING",) 
+    RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("video_url",)
     FUNCTION = "generate"
-    CATEGORY = "Pollinations"
+    CATEGORY = "Pollinations/Video"
 
-    def generate(self, prompt, model, api_key):
-        # Clean the model name by removing the diamond emoji and extra spaces
-        model = model.replace("💎", "").strip()
+    def generate(self, prompt, model, api_key="", image_input=None, duration=5):
+        clean_model = model.replace("💎", "").strip()
         encoded_prompt = urllib.parse.quote(prompt.strip())
-        url = f"https://gen.pollinations.ai/video/{encoded_prompt}?model={model}"
-        if api_key and api_key.strip() != "":
-            url += f"&key={api_key.strip()}"
+        url = f"https://gen.pollinations.ai/video/{encoded_prompt}?model={clean_model}&duration={duration}"
+        if image_input is not None:
+            img_url = upload_to_pollinations(image_input)
+            if img_url: url += f"&image={urllib.parse.quote(img_url)}"
+        if api_key.strip(): url += f"&key={api_key.strip()}"
         return (url,)
+
+class PollinationsTextGen:
+    @classmethod
+    def INPUT_TYPES(s):
+        model_data = get_models()
+        return {
+            "required": {
+                "prompt": ("STRING", {"multiline": True, "default": "Hi!"}),
+                "model": (model_data["text"], {"default": "openai"}),
+                "system_instruction": ("STRING", {"multiline": True, "default": "You are helpful assistant."}),
+            },
+            "optional": {"api_key": ("STRING", {"default": ""})}
+        }
+    RETURN_TYPES = ("STRING",)
+    FUNCTION = "generate"
+    CATEGORY = "Pollinations/Text"
+
+    def generate(self, prompt, model, system_instruction, api_key=""):
+        clean_model = model.replace("💎", "").strip()
+        url = "https://gen.pollinations.ai/v1/chat/completions"
+        headers = {"Content-Type": "application/json"}
+        if api_key.strip(): headers["Authorization"] = f"Bearer {api_key.strip()}"
+        payload = {"model": clean_model, "messages": [{"role": "system", "content": system_instruction}, {"role": "user", "content": prompt}]}
+        try:
+            r = requests.post(url, json=payload, headers=headers)
+            return (r.json()["choices"][0]["message"]["content"],)
+        except: return ("Error connecting to Text API",)
 
 NODE_CLASS_MAPPINGS = {
     "PollinationsImageGen": PollinationsImageGen,
     "PollinationsTextGen": PollinationsTextGen,
-    "PollinationsVideoGen": PollinationsVideoGen
+    "PollinationsVideoGen": PollinationsVideoGen,
+    "PollinationsAudioGen": PollinationsAudioGen
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "PollinationsImageGen": "🌸🖼️ Pollinations Image Gen (BYOP)",
     "PollinationsTextGen": "🌸🤖 Pollinations Text Gen (BYOP)",
-    "PollinationsVideoGen": "🌸🎞️ Pollinations Video Gen URL (BYOP)"
+    "PollinationsVideoGen": "🌸🎞️ Pollinations Video Gen URL (BYOP)",
+    "PollinationsAudioGen": "🌸🔊 Pollinations Audio Gen (BYOP)"
 }
