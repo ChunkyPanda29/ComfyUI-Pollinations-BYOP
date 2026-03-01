@@ -100,7 +100,8 @@ Text-to-speech, music generation, and audio transcription.
 
 ![🌸🤖 Pollinations Text Gen](images/Pollinations_Text_Gen_(BYOP).png) 
  
-![🌸🔊 Pollinations Audio Gen](images/Pollinations_Video_Gen_URL_(BYOP).png)  
+![🌸🔊 Pollinations Audio Gen](images/Pollinations_Audio_Gen_(BYOP).png)  
+
 ---
 
 ## ⚙️ Installation
@@ -145,6 +146,26 @@ Pollinations operates on a unique **"Pollen"** economy. While anonymous generati
 3. Once logged in, your API key will be visible on your dashboard.
 4. Copy the key and paste it into the `api_key` field of the ComfyUI node.
 5. *That's it! Your ComfyUI workflow is now fueled by your own Pollen.*
+
+---
+
+## 🔐 API Key Configuration (Set Once)
+
+You no longer need to paste your API Key into every node. You have three ways to set it:
+
+### Method 1: ComfyUI Settings Menu (Easiest)
+1. Open ComfyUI.
+2. Click the **Settings** (gear icon) in the ComfyUI menu.
+3. Scroll down to the **"Pollinations (BYOP)"** section.
+4. Paste your API key into the textbox. 
+5. The key is now saved locally and will be used automatically by all Pollinations nodes!
+
+### Method 2: Environment Variable
+Set an environment variable on your system (useful for cloud servers like RunPod):
+`POLLINATIONS_API_KEY=sk_your_key_here`
+
+### Method 3: Node-Level Override
+If you want to use a different key for a specific node, just paste it into the `api_key` field on the node itself. This will always take priority over global settings.
 
 ---
 

@@ -14,4 +14,7 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "PollinationsAudioGen": "🌸🔊 Pollinations Audio Gen (BYOP)"
 }
 
-__all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
+# CRITICAL: This tells ComfyUI to load the JavaScript from the /js folder
+WEB_DIRECTORY = "./js"
+
+__all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS', 'WEB_DIRECTORY']
