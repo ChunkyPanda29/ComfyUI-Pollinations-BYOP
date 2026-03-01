@@ -1,0 +1,23 @@
+{
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PollinationsImageGen",
+      "pos": [100, 100],
+      "size": {"0": 400, "1": 200},
+      "widgets_values": ["A cyberpunk city street at night, neon lights, rain, 8k", "flux", 1024, 1024, 42]
+    },
+    {
+      "id": 2,
+      "type": "PreviewImage",
+      "pos": [550, 100],
+      "size": {"0": 500, "1": 500}
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 0, "IMAGE"]
+  ],
+  "version": 0.4
+}

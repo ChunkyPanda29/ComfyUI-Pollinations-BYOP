@@ -1,0 +1,32 @@
+{
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PollinationsVideoGen",
+      "pos": [100, 100],
+      "size": {"0": 400, "1": 150},
+      "widgets_values": ["A drone shot of a tropical beach", "wan", 42]
+    },
+    {
+      "id": 2,
+      "type": "SaveTextFile", 
+      "pos": [550, 100],
+      "size": {"0": 400, "1": 200},
+      "title": "Video URL Output (Open in Browser)",
+      "widgets_values": [""]
+    },
+    {
+        "id": 3,
+        "type": "PrimitiveNode",
+        "pos": [550, 350],
+        "title": "NOTE: Output is a URL",
+        "widgets_values": ["Use a Video Load Node or Open URL in browser"]
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 0, "STRING"]
+  ],
+  "version": 0.4
+}

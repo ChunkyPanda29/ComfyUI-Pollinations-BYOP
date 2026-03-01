@@ -1,0 +1,31 @@
+{
+  "last_node_id": 5,
+  "last_link_id": 4,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PollinationsTextGen",
+      "pos": [50, 50],
+      "size": {"0": 400, "1": 200},
+      "widgets_values": ["A cat wearing sunglasses", "Expand this prompt into a highly detailed cinematic visual description.", "openai", 0.7, 42]
+    },
+    {
+      "id": 2,
+      "type": "PollinationsImageGen",
+      "pos": [500, 50],
+      "size": {"0": 400, "1": 200},
+      "widgets_values": ["", "flux", 1024, 1024, 42]
+    },
+    {
+      "id": 3,
+      "type": "PreviewImage",
+      "pos": [950, 50],
+      "size": {"0": 500, "1": 500}
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 0, "STRING"],
+    [2, 2, 0, 3, 0, "IMAGE"]
+  ],
+  "version": 0.4
+}
