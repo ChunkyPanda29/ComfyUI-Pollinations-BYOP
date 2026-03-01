@@ -48,45 +48,38 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 ### 2. 🌸 Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
-  * `wan` (Wan 2.6 - Paid)
-  * `grok-video` (Grok Video - Alpha)
-  * `ltx-2` (LTX-2 - Paid)
-  * `seedance` (Seedance Lite)
-  * `seedance-pro` (Seedance Pro-Fast - Paid)
-  * `veo` (Veo 3.1 Fast - Paid)
+  * `wan`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸 Pollinations Text Gen (BYOP)
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
-  * `openai` (GPT-5 Mini)
-  * `qwen-safety` (Qwen3Guard 8B)
-  * `qwen-character` (Qwen Character - Alpha)
-  * `nova-fast` (Amazon Nova Micro)
-  * `gemini-fast` (Google Gemini 2.5 Flash Lite)
-  * `mistral` (Mistral Small 3.2 24B)
-  * `gemini-search` (Google Gemini 2.5 Flash Lite - Search)
-  * `qwen-coder` (Qwen3 Coder 30B)
-  * `openai-fast` (OpenAI GPT-5 Nano)
-  * `grok` (xAI Grok 4 Fast - Paid)
-  * `perplexity-fast` (Perplexity Sonar)
-  * `minimax` (MiniMax M2.1)
-  * `deepseek` (DeepSeek V3.2)
-  * `perplexity-reasoning` (Perplexity Sonar Reasoning)
-  * `openai-large` (OpenAI GPT-5.2)
-  * `openai-audio` (OpenAI GPT-4o Mini Audio)
-  * `gemini` (Google Gemini 3 Flash - Paid)
-  * `midijourney` (MIDIjourney)
-  * `claude-fast` (Anthropic Claude Haiku 4.5)
-  * `glm` (Z.ai GLM-5)
-  * `kimi` (Moonshot Kimi K2.5)
-  * `claude` (Anthropic Claude Sonnet 4.6 - Paid)
-  * `gemini-legacy` (Google Gemini 2.5 Pro - Paid)
-  * `gemini-large` (Google Gemini 3 Pro - Paid)
-  * `claude-large` (Anthropic Claude Opus 4.6 - Paid)
-  * `claude-legacy` (Anthropic Claude Opus 4.5 - Paid)
-  * `nomnom` (NomNom - Alpha)
-  * `polly` (Polly - Alpha)
+  * `openai`
+  * `openai-fast`
+  * `openai-large`
+  * `qwen-coder`
+  * `mistral`
+  * `openai-audio`
+  * `gemini`
+  * `gemini-fast`
+  * `deepseek`
+  * `grok`
+  * `gemini-search`
+  * `midijourney`
+  * `claude-fast`
+  * `claude`
+  * `claude-large`
+  * `perplexity-fast`
+  * `perplexity-reasoning`
+  * `kimi`
+  * `gemini-large`
+  * `nova-fast`
+  * `glm`
+  * `minimax`
+  * `nomnom`
+  * `polly`
+  * `qwen-safety`
+  * `qwen-character`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ---
