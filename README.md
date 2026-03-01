@@ -1,12 +1,8 @@
-I've updated the `README.md` content with the full list of models you provided, structured cleanly within the sections for Image, Video, and Text generation nodes.
-
-Here is the finalized Markdown content ready for you to copy and paste directly into your `README.md` file:
-
-```markdown
 # 🌸 ComfyUI-Pollinations-BYOP
 
 [![ComfyUI](https://img.shields.io/badge/ComfyUI-Custom_Node-blue)](https://github.com/comfyanonymous/ComfyUI)
-[![Pollinations.ai](https://img.shields.io/badge/Powered_by-Pollinations.ai-pink)](https://pollinations.ai/)
+[![Pollinations.ai](https://img.shields.io/badge/API-Pollinations.ai-pink)](https://pollinations.ai/)
+[![Pollinations GitHub](https://img.shields.io/badge/Source-Pollinations_Repo-black)](https://github.com/pollinations/pollinations)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 The official ComfyUI custom node suite for **[Pollinations.ai](https://pollinations.ai/)** with full **BYOP (Bring Your Own Pollen)** support. 
