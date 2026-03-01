@@ -1,4 +1,4 @@
-from .pollinations_nodes import PollinationsImageGen, PollinationsTextGen, PollinationsVideoGen
+from .pollinations_nodes import PollinationsImageGen, PollinationsTextGen, PollinationsVideoGen, PollinationsAudioGen
 
 NODE_CLASS_MAPPINGS = {
     "PollinationsImageGen": PollinationsImageGen,

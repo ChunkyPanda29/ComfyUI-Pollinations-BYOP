@@ -5,9 +5,9 @@
 [![Pollinations GitHub](https://img.shields.io/badge/Source-Pollinations_Repo-black)](https://github.com/pollinations/pollinations)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-The official ComfyUI custom node suite for **[Pollinations.ai](https://pollinations.ai/)** with full **BYOP (Bring Your Own Pollen)** support. 
+The latest ComfyUI custom node suite for **[Pollinations.ai](https://pollinations.ai/)** with full **BYOP (Bring Your Own Pollen)** support. 
 
-Generate high-quality images, text, and videos using state-of-the-art models (like **Flux**, **DeepSeek**, and **Wan 2.6**) directly inside ComfyUI—**without using any of your local GPU VRAM.** 
+Generate high-quality images, text, videos and audio using state-of-the-art models (like **Flux**, **DeepSeek**, and **Wan 2.6**) directly inside ComfyUI—**without using any of your local GPU VRAM.** 
 
 Whether you are running on an 8GB laptop or a cloud server, this node suite offloads the heavy compute lifting to the Pollinations API.
 
@@ -15,7 +15,7 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 
 ## ✨ Features
 * **Zero Local VRAM Required:** Generation happens entirely in the cloud.
-* **Multimodal Generation:** Create Images, Videos, and Text all from within your node tree.
+* **Multimodal Generation:** Create Images, Videos, Audio and Text all from within your node tree.
 * **BYOP Support:** Seamlessly integrate your Pollinations API Key to use your own "Pollen" quota, bypassing anonymous rate limits and supporting the ecosystem.
 * **Lightning Fast:** Outputs load directly as standard ComfyUI `IMAGE` and `STRING` formats, ready for immediate downstream processing (Upscaling, I2V, Compositing).
 
@@ -23,7 +23,7 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 
 ## 🧩 Nodes Included & Supported Models
 
-### 1. 🌸 Pollinations Image Gen (BYOP)
+### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `flux`
@@ -41,7 +41,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `zimage`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
 
-### 2. 🌸 Pollinations Video Gen (BYOP)
+### 2. 🌸🎞️ Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
   * `grok-video`
@@ -52,7 +52,7 @@ Generates high-quality AI video.
   * `wan 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
-### 3. 🌸 Pollinations Text Gen (BYOP)
+### 3. 🌸🤖 Pollinations Text Gen (BYOP)
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `claude 💎`
@@ -83,16 +83,24 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-safety`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
+### 4.🌸🔊 Pollinations Audio Gen (BYOP)
+Text-to-speech, music generation, and audio transcription.
+* **Supported Models:**
+  * `elevenlabs`
+  * `elevenmusic`
+  * `scribe`
+  * `whisper`
 ---
 
 ## 📸 Screenshots
 
 ![🌸🖼️ Pollinations Image Gen](images/Pollinations_Image_Gen_(BYOP).png) 
 
-![🌸🤖 Pollinations Text Gen](images/Pollinations_Text_Gen_(BYOP).png) 
+![🌸🎞️ Pollinations Video Gen](images/Pollinations_Video_Gen_URL_(BYOP).png)
 
-![🌸🎞️ Pollinations Video Gen](images/Pollinations_Video_Gen_URL_(BYOP).png) 
-   
+![🌸🤖 Pollinations Text Gen](images/Pollinations_Text_Gen_(BYOP).png) 
+ 
+![🌸🔊 Pollinations Audio Gen](images/Pollinations_Video_Gen_URL_(BYOP).png)  
 ---
 
 ## ⚙️ Installation
@@ -143,7 +151,7 @@ Pollinations operates on a unique **"Pollen"** economy. While anonymous generati
 ## ❓ FAQ
 
 **Q: Does this cost money?**  
-**A:** No! Pollinations provides free anonymous generations, and every registered user receives a free allowance of "Pollen" every week. You only pay if you decide to scale up massively and buy extra Pollen.
+**A:** No! Pollinations provides free anonymous generations, and every registered user receives a free allowance of "Pollen" every week. You only pay if you decide to use the Paid Models 💎 or scale up massively and buy extra Pollen.
 
 **Q: Why does my generation fail or timeout?**  
 **A:** If you are leaving the `api_key` field blank, you are using the anonymous public tier, which can experience high traffic or strict rate limits. **Adding your free API key solves this.**

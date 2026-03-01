@@ -29,15 +29,9 @@ def fetch_api_models():
             else:
                 image_models.append(display)
 
-        # 3. Audio Models (NEW)
+        # 3. Audio Models
         audio_resp = requests.get("https://gen.pollinations.ai/audio/models", timeout=10).json()
         audio_models = [f"{m['name']} 💎" if m.get("paid_only") else m["name"] for m in audio_resp if "name" in m]
-
-        # Safety Fallbacks
-        if not text_models: text_models = ["openai"]
-        if not image_models: image_models = ["flux"]
-        if not video_models: video_models = ["wan"]
-        if not audio_models: audio_models = ["elevenlabs"]
 
         return {
             "image": sorted(image_models), 
@@ -55,31 +49,30 @@ def update_readme(models):
     with open(README_FILE, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    def replace_md_list(section_id, new_list, text):
-        escaped_id = re.escape(section_id)
-        # Regex looks for the section header down to the next parameter or section break
-        pattern = rf"(###.*?{escaped_id}.*?\n\* \*\*Supported Models:\*\*.*?\n)(.*?)(\n\* \*\*Parameters|\n---|\n##)"
+    def replace_md_list(marker, new_list, text):
+        # Escapes the marker and looks for the "Supported Models" block immediately after
+        pattern = rf"({re.escape(marker)}.*?\n\* \*\*Supported Models:\*\*.*?\n)(.*?)(\n\* \*\*Parameters|\n---|\n##|\Z)"
         formatted_list = "\n".join([f"  * `{m}`" for m in new_list])
-        return re.sub(pattern, f"\\1{formatted_list}\\3", text, flags=re.DOTALL | re.IGNORECASE)
+        return re.sub(pattern, f"\\1{formatted_list}\\3", text, flags=re.DOTALL)
 
-    content = replace_md_list("Image Gen", models["image"], content)
-    content = replace_md_list("Video Gen", models["video"], content)
-    content = replace_md_list("Text Gen", models["text"], content)
-    content = replace_md_list("Audio Gen", models["audio"], content)
+    content = replace_md_list("1. 🌸🖼️ Pollinations Image Gen", models["image"], content)
+    content = replace_md_list("2. 🌸🎞️ Pollinations Video Gen", models["video"], content)
+    content = replace_md_list("3. 🌸🤖 Pollinations Text Gen", models["text"], content)
+    content = replace_md_list("4.🌸🔊 Pollinations Audio Gen", models["audio"], content)
 
     with open(README_FILE, 'w', encoding='utf-8') as f:
         f.write(content)
 
 def git_sync_everything():
-    print("🚀 Synchronizing local machine to Cloud...")
+    print("🚀 Synchronizing machine to Cloud...")
     try:
         subprocess.run(["git", "add", "."], cwd=REPO_DIR)
         status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True, cwd=REPO_DIR)
         if not status.stdout.strip():
-            print("   ✅ Local state matches previous commit.")
+            print("   ✅ No changes detected.")
             return
         date_str = datetime.now().strftime("%Y-%m-%d")
-        subprocess.run(["git", "commit", "-m", f"Auto-Sync: Quad-Modal Update ({date_str})"], cwd=REPO_DIR)
+        subprocess.run(["git", "commit", "-m", f"Auto-Sync: Full Quad-Modal Refresh ({date_str})"], cwd=REPO_DIR)
         subprocess.run(["git", "pull", "origin", "main", "-X", "ours", "--no-edit"], cwd=REPO_DIR)
         subprocess.run(["git", "push", "origin", "main"], cwd=REPO_DIR)
         subprocess.run(["git", "push", "huggingface", "main", "--force"], cwd=REPO_DIR)
