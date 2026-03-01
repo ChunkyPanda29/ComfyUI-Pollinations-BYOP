@@ -26,13 +26,13 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸 Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
-  * `kontext`
-  * `nanobanana`
-  * `nanobanana-pro`
-  * `seedream`
-  * `seedream-pro`
+  * `kontext 💎`
+  * `nanobanana 💎`
+  * `nanobanana-pro 💎`
+  * `seedream 💎`
+  * `seedream-pro 💎`
   * `gptimage`
-  * `gptimage-large`
+  * `gptimage-large 💎`
   * `flux`
   * `zimage`
   * `klein`
@@ -44,12 +44,12 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 ### 2. 🌸 Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
-  * `veo`
+  * `veo 💎`
   * `seedance`
-  * `seedance-pro`
-  * `wan`
+  * `seedance-pro 💎`
+  * `wan 💎`
   * `grok-video`
-  * `ltx-2`
+  * `ltx-2 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸 Pollinations Text Gen (BYOP)
@@ -61,19 +61,19 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-coder`
   * `mistral`
   * `openai-audio`
-  * `gemini`
+  * `gemini 💎`
   * `gemini-fast`
   * `deepseek`
-  * `grok`
+  * `grok 💎`
   * `gemini-search`
   * `midijourney`
   * `claude-fast`
-  * `claude`
-  * `claude-large`
+  * `claude 💎`
+  * `claude-large 💎`
   * `perplexity-fast`
   * `perplexity-reasoning`
   * `kimi`
-  * `gemini-large`
+  * `gemini-large 💎`
   * `nova-fast`
   * `glm`
   * `minimax`
