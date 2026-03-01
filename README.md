@@ -1,8 +1,3 @@
-I've updated the `README.md` content with the full list of models you provided, structured cleanly within the sections for Image, Video, and Text generation nodes.
-
-Here is the finalized Markdown content ready for you to copy and paste directly into your `README.md` file:
-
-```markdown
 # 🌸 ComfyUI-Pollinations-BYOP
 
 [![ComfyUI](https://img.shields.io/badge/ComfyUI-Custom_Node-blue)](https://github.com/comfyanonymous/ComfyUI)
