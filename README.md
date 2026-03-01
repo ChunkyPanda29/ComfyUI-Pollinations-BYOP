@@ -26,25 +26,30 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸 Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
-  * `flux` (Flux Schnell)
-  * `zimage` (Z-Image Turbo)
-  * `imagen-4` (Imagen 4 - Alpha)
-  * `grok-imagine` (Grok Imagine - Alpha)
-  * `klein` (FLUX.2 Klein 4B)
-  * `klein-large` (FLUX.2 Klein 9B)
-  * `gptimage` (GPT Image 1 Mini)
-  * `seedream` (Seedream 4.0 - Paid)
-  * `kontext` (FLUX.1 Kontext - Paid)
-  * `nanobanana` (NanoBanana - Paid)
-  * `seedream-pro` (Seedream 4.5 Pro - Paid)
-  * `gptimage-large` (GPT Image 1.5 - Paid)
-  * `nanobanana-pro` (NanoBanana Pro - Paid)
+  * `kontext`
+  * `nanobanana`
+  * `nanobanana-pro`
+  * `seedream`
+  * `seedream-pro`
+  * `gptimage`
+  * `gptimage-large`
+  * `flux`
+  * `zimage`
+  * `klein`
+  * `klein-large`
+  * `imagen-4`
+  * `grok-imagine`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
 
 ### 2. 🌸 Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
+  * `veo`
+  * `seedance`
+  * `seedance-pro`
   * `wan`
+  * `grok-video`
+  * `ltx-2`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸 Pollinations Text Gen (BYOP)

@@ -9,19 +9,18 @@
         "gptimage-large",
         "flux",
         "zimage",
+        "klein",
+        "klein-large",
+        "imagen-4",
+        "grok-imagine"
+    ],
+    "video": [
         "veo",
         "seedance",
         "seedance-pro",
         "wan",
-        "klein",
-        "klein-large",
-        "imagen-4",
-        "grok-imagine",
         "grok-video",
         "ltx-2"
-    ],
-    "video": [
-        "wan"
     ],
     "text": [
         "openai",
