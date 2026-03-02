@@ -35,9 +35,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `klein-large`
   * `kontext 💎`
   * `nanobanana 💎`
+  * `nanobanana-2 💎`
   * `nanobanana-pro 💎`
-  * `seedream 💎`
-  * `seedream-pro 💎`
+  * `seedream5 💎`
   * `zimage`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
 
