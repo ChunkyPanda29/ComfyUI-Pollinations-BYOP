@@ -17,7 +17,7 @@
     "video": [
         "grok-video",
         "ltx-2 \ud83d\udc8e",
-        "seedance",
+        "seedance \ud83d\udc8e",
         "seedance-pro \ud83d\udc8e",
         "veo \ud83d\udc8e",
         "wan \ud83d\udc8e"
@@ -42,7 +42,7 @@
         "openai",
         "openai-audio",
         "openai-fast",
-        "openai-large",
+        "openai-large \ud83d\udc8e",
         "perplexity-fast",
         "perplexity-reasoning",
         "polly",

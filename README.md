@@ -46,7 +46,7 @@ Generates high-quality AI video.
 * **Supported Models:**
   * `grok-video`
   * `ltx-2 💎`
-  * `seedance`
+  * `seedance 💎`
   * `seedance-pro 💎`
   * `veo 💎`
   * `wan 💎`
@@ -74,7 +74,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `openai`
   * `openai-audio`
   * `openai-fast`
-  * `openai-large`
+  * `openai-large 💎`
   * `perplexity-fast`
   * `perplexity-reasoning`
   * `polly`
