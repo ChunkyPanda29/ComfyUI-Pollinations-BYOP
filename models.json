@@ -1,6 +1,7 @@
 {
     "image": [
         "flux",
+        "flux-2-dev",
         "gptimage",
         "gptimage-large \ud83d\udc8e",
         "grok-imagine",
@@ -48,12 +49,14 @@
         "polly",
         "qwen-character",
         "qwen-coder",
-        "qwen-safety"
+        "qwen-safety",
+        "step-3.5-flash"
     ],
     "audio": [
         "elevenlabs",
         "elevenmusic",
         "scribe",
+        "suno",
         "whisper"
     ]
 }

@@ -27,6 +27,7 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `flux`
+  * `flux-2-dev`
   * `gptimage`
   * `gptimage-large 💎`
   * `grok-imagine`
@@ -81,6 +82,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-character`
   * `qwen-coder`
   * `qwen-safety`
+  * `step-3.5-flash`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
@@ -89,6 +91,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenlabs`
   * `elevenmusic`
   * `scribe`
+  * `suno`
   * `whisper`
 ---
 
