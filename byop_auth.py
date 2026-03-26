@@ -11,8 +11,8 @@ import os
 from typing import Optional, Dict, Any
 
 # Default app key for attribution (users can override with their own)
-# Creating one at enter.pollinations.ai gives better branding on consent screen
-DEFAULT_APP_KEY = "pk_comfyui_byop_chunkypanda29"
+# Create one at enter.pollinations.ai for proper branding on consent screen
+DEFAULT_APP_KEY = "pk_iMLHCKZ31UTDgWQr"  # comfyui_byop app key
 
 class BYOPAuth:
     """
