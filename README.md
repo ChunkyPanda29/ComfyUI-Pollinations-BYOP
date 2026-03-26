@@ -140,10 +140,29 @@ Text-to-speech, music generation, and audio transcription.
 
 ---
 
+## 🔐 Official BYOP (Bring Your Own Pollen) Integration
+
+This node suite implements the official [Pollinations BYOP specification](https://github.com/pollinations/pollinations/blob/main/BRING_YOUR_OWN_POLLEN.md) with support for:
+
+- ✅ **Device Code Flow** - Browser-free authentication for headless/CLI environments
+- ✅ **App Key Attribution** - Track your app's traffic for tier upgrades
+- ✅ **User Info Retrieval** - Display username, email, and balance
+
+---
+
 ## 🔑 How to get your API Key (BYOP)
 
 Pollinations operates on a unique **"Pollen"** economy. While anonymous generation is free, it is heavily rate-limited. By using your own API key, you unlock your personal daily/weekly free Pollen grants, allowing for faster and more consistent generation.
 
+### Method 1: BYOP Login Node (Recommended)
+The easiest way - no copy/pasting keys!
+
+1. Add the **🔐🌸 Pollinations BYOP Login** node to your workflow
+2. Toggle **"Click to Login"** → the node will show you a URL and code
+3. Go to the URL on any device and enter the code
+4. Return to ComfyUI - your key is now saved automatically!
+
+### Method 2: Manual Key Entry
 1. Go to **[enter.pollinations.ai](https://enter.pollinations.ai/)**.
 2. Sign in using your Discord or Google account.
 3. Once logged in, your API key will be visible on your dashboard.

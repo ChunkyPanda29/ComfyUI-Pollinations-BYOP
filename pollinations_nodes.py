@@ -196,3 +196,64 @@ class PollinationsTextGen:
             r = requests.post(url, json=payload, headers=headers)
             return (r.json()["choices"][0]["message"]["content"],)
         except: return ("Error connecting to Text API",)
+
+
+class PollinationsBYOPLogin:
+    """
+    BYOP (Bring Your Own Pollen) Login Node
+    Implements device code flow for headless/CLI authentication
+    Reference: https://github.com/pollinations/pollinations/blob/main/BRING_YOUR_OWN_POLLEN.md
+    """
+    @classmethod
+    def INPUT_TYPES(s):
+        return {
+            "required": {
+                "login_trigger": ("BOOLEAN", {"default": False, "label_on": "Click to Login", "label_off": "Idle"}),
+            },
+            "optional": {
+                "app_key": ("STRING", {"default": "", "multiline": False, "placeholder": "Optional: Your pk_... app key for attribution"}),
+            }
+        }
+    
+    RETURN_TYPES = ("STRING", "STRING", "STRING", "INT")
+    RETURN_NAMES = ("api_key", "username", "email", "balance")
+    FUNCTION = "login"
+    CATEGORY = "Pollinations/BYOP"
+    OUTPUT_NODE = True
+
+    def login(self, login_trigger, app_key=""):
+        # If not triggered, return empty values
+        if not login_trigger:
+            return ("", "", "", 0)
+        
+        # Import here to avoid startup overhead
+        from .byop_auth import BYOPAuth
+        
+        auth = BYOPAuth(app_key if app_key.strip() else None)
+        api_key = auth.authenticate_interactive()
+        
+        if api_key:
+            # Get user info
+            user_info = auth.get_user_info(api_key)
+            if user_info:
+                username = user_info.get('name', user_info.get('preferred_username', 'Unknown'))
+                email = user_info.get('email', '')
+                balance = user_info.get('balance', 0)
+                
+                # Save to config for other nodes
+                config_path = get_config_path()
+                try:
+                    config = {}
+                    if os.path.exists(config_path):
+                        with open(config_path, 'r') as f:
+                            config = json.load(f)
+                    config["api_key"] = api_key
+                    config["byop_username"] = username
+                    with open(config_path, 'w') as f:
+                        json.dump(config, f)
+                except Exception as e:
+                    print(f"[BYOP] Failed to save config: {e}")
+                
+                return (api_key, username, email, balance)
+        
+        return ("", "", "", 0)
