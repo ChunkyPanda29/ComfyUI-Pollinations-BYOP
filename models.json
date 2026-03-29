@@ -1,27 +1,32 @@
 {
     "image": [
         "flux",
-        "flux-2-dev",
         "gptimage",
         "gptimage-large \ud83d\udc8e",
         "grok-imagine",
-        "imagen-4",
+        "grok-imagine-pro \ud83d\udc8e",
         "klein",
-        "klein-large",
         "kontext \ud83d\udc8e",
         "nanobanana \ud83d\udc8e",
         "nanobanana-2 \ud83d\udc8e",
         "nanobanana-pro \ud83d\udc8e",
+        "nova-canvas \ud83d\udc8e",
+        "p-image \ud83d\udc8e",
+        "p-image-edit \ud83d\udc8e",
+        "qwen-image",
         "seedream5 \ud83d\udc8e",
         "zimage"
     ],
     "video": [
-        "grok-video",
-        "ltx-2 \ud83d\udc8e",
+        "grok-video-pro \ud83d\udc8e",
+        "ltx-2",
+        "nova-reel",
+        "p-video \ud83d\udc8e",
         "seedance \ud83d\udc8e",
         "seedance-pro \ud83d\udc8e",
         "veo \ud83d\udc8e",
-        "wan \ud83d\udc8e"
+        "wan \ud83d\udc8e",
+        "wan-fast"
     ],
     "text": [
         "claude \ud83d\udc8e",
@@ -34,11 +39,13 @@
         "gemini-search",
         "glm",
         "grok \ud83d\udc8e",
+        "grok-reasoning \ud83d\udc8e",
         "kimi",
         "midijourney",
+        "midijourney-large \ud83d\udc8e",
         "minimax",
         "mistral",
-        "nomnom",
+        "nova \ud83d\udc8e",
         "nova-fast",
         "openai",
         "openai-audio",
@@ -47,16 +54,16 @@
         "perplexity-fast",
         "perplexity-reasoning",
         "polly",
-        "qwen-character",
         "qwen-coder",
+        "qwen-coder-large \ud83d\udc8e",
+        "qwen-large",
         "qwen-safety",
-        "step-3.5-flash"
+        "qwen-vision"
     ],
     "audio": [
         "elevenlabs",
         "elevenmusic",
         "scribe",
-        "suno",
         "whisper"
     ]
 }

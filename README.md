@@ -27,17 +27,19 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `flux`
-  * `flux-2-dev`
   * `gptimage`
   * `gptimage-large 💎`
   * `grok-imagine`
-  * `imagen-4`
+  * `grok-imagine-pro 💎`
   * `klein`
-  * `klein-large`
   * `kontext 💎`
   * `nanobanana 💎`
   * `nanobanana-2 💎`
   * `nanobanana-pro 💎`
+  * `nova-canvas 💎`
+  * `p-image 💎`
+  * `p-image-edit 💎`
+  * `qwen-image`
   * `seedream5 💎`
   * `zimage`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
@@ -45,12 +47,15 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 ### 2. 🌸🎞️ Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
-  * `grok-video`
-  * `ltx-2 💎`
+  * `grok-video-pro 💎`
+  * `ltx-2`
+  * `nova-reel`
+  * `p-video 💎`
   * `seedance 💎`
   * `seedance-pro 💎`
   * `veo 💎`
   * `wan 💎`
+  * `wan-fast`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
@@ -66,11 +71,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search`
   * `glm`
   * `grok 💎`
+  * `grok-reasoning 💎`
   * `kimi`
   * `midijourney`
+  * `midijourney-large 💎`
   * `minimax`
   * `mistral`
-  * `nomnom`
+  * `nova 💎`
   * `nova-fast`
   * `openai`
   * `openai-audio`
@@ -79,10 +86,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `perplexity-fast`
   * `perplexity-reasoning`
   * `polly`
-  * `qwen-character`
   * `qwen-coder`
+  * `qwen-coder-large 💎`
+  * `qwen-large`
   * `qwen-safety`
-  * `step-3.5-flash`
+  * `qwen-vision`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
@@ -91,7 +99,6 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenlabs`
   * `elevenmusic`
   * `scribe`
-  * `suno`
   * `whisper`
 ---
 
