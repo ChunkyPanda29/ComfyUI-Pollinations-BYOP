@@ -29,7 +29,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `flux`
   * `gptimage`
   * `gptimage-large 💎`
-  * `grok-imagine`
+  * `grok-imagine 💎`
   * `grok-imagine-pro 💎`
   * `klein`
   * `kontext 💎`
@@ -55,7 +55,7 @@ Generates high-quality AI video.
   * `seedance-pro 💎`
   * `veo 💎`
   * `wan 💎`
-  * `wan-fast`
+  * `wan-fast 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
@@ -97,7 +97,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 Text-to-speech, music generation, and audio transcription.
 * **Supported Models:**
   * `elevenlabs`
-  * `elevenmusic`
+  * `elevenmusic 💎`
   * `scribe`
   * `whisper`
 ---

@@ -3,7 +3,7 @@
         "flux",
         "gptimage",
         "gptimage-large \ud83d\udc8e",
-        "grok-imagine",
+        "grok-imagine \ud83d\udc8e",
         "grok-imagine-pro \ud83d\udc8e",
         "klein",
         "kontext \ud83d\udc8e",
@@ -26,7 +26,7 @@
         "seedance-pro \ud83d\udc8e",
         "veo \ud83d\udc8e",
         "wan \ud83d\udc8e",
-        "wan-fast"
+        "wan-fast \ud83d\udc8e"
     ],
     "text": [
         "claude \ud83d\udc8e",
@@ -62,7 +62,7 @@
     ],
     "audio": [
         "elevenlabs",
-        "elevenmusic",
+        "elevenmusic \ud83d\udc8e",
         "scribe",
         "whisper"
     ]
