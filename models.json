@@ -15,6 +15,8 @@
         "p-image-edit \ud83d\udc8e",
         "qwen-image",
         "seedream5 \ud83d\udc8e",
+        "wan-image",
+        "wan-image-pro \ud83d\udc8e",
         "zimage"
     ],
     "video": [
@@ -49,6 +51,7 @@
         "nova-fast",
         "openai",
         "openai-audio",
+        "openai-audio-large \ud83d\udc8e",
         "openai-fast",
         "openai-large \ud83d\udc8e",
         "perplexity-fast",
@@ -61,6 +64,7 @@
         "qwen-vision"
     ],
     "audio": [
+        "acestep",
         "elevenlabs",
         "elevenmusic \ud83d\udc8e",
         "scribe",

@@ -41,6 +41,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `p-image-edit 💎`
   * `qwen-image`
   * `seedream5 💎`
+  * `wan-image`
+  * `wan-image-pro 💎`
   * `zimage`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
 
@@ -81,6 +83,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `nova-fast`
   * `openai`
   * `openai-audio`
+  * `openai-audio-large 💎`
   * `openai-fast`
   * `openai-large 💎`
   * `perplexity-fast`
@@ -96,6 +99,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
 Text-to-speech, music generation, and audio transcription.
 * **Supported Models:**
+  * `acestep`
   * `elevenlabs`
   * `elevenmusic 💎`
   * `scribe`
