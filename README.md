@@ -28,11 +28,11 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `flux`
   * `gptimage`
-  * `gptimage-large 💎`
+  * `gptimage-large`
   * `grok-imagine 💎`
   * `grok-imagine-pro 💎`
   * `klein`
-  * `kontext 💎`
+  * `kontext`
   * `nanobanana 💎`
   * `nanobanana-2 💎`
   * `nanobanana-pro 💎`
@@ -73,25 +73,26 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-large 💎`
   * `gemini-search`
   * `glm`
-  * `grok 💎`
-  * `grok-reasoning 💎`
+  * `grok`
+  * `grok-large`
   * `kimi`
   * `midijourney`
   * `midijourney-large 💎`
   * `minimax`
   * `mistral`
-  * `nova 💎`
+  * `mistral-large`
+  * `nova`
   * `nova-fast`
   * `openai`
   * `openai-audio`
-  * `openai-audio-large 💎`
+  * `openai-audio-large`
   * `openai-fast`
-  * `openai-large 💎`
+  * `openai-large`
   * `perplexity-fast`
   * `perplexity-reasoning`
   * `polly`
   * `qwen-coder`
-  * `qwen-coder-large 💎`
+  * `qwen-coder-large`
   * `qwen-large`
   * `qwen-safety`
   * `qwen-vision`
