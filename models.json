@@ -1,6 +1,7 @@
 {
     "image": [
         "flux",
+        "gpt-image-2",
         "gptimage",
         "gptimage-large",
         "grok-imagine \ud83d\udc8e",
@@ -34,6 +35,7 @@
         "claude \ud83d\udc8e",
         "claude-fast",
         "claude-large \ud83d\udc8e",
+        "claude-opus-4.7 \ud83d\udc8e",
         "deepseek",
         "gemini \ud83d\udc8e",
         "gemini-fast",
@@ -44,6 +46,7 @@
         "grok",
         "grok-large",
         "kimi",
+        "kimi-k2.6",
         "midijourney",
         "midijourney-large \ud83d\udc8e",
         "minimax",
@@ -69,6 +72,8 @@
         "acestep",
         "elevenlabs",
         "elevenmusic \ud83d\udc8e",
+        "qwen-tts",
+        "qwen-tts-instruct \ud83d\udc8e",
         "scribe",
         "whisper"
     ]

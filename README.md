@@ -27,6 +27,7 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `flux`
+  * `gpt-image-2`
   * `gptimage`
   * `gptimage-large`
   * `grok-imagine 💎`
@@ -66,6 +67,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude 💎`
   * `claude-fast`
   * `claude-large 💎`
+  * `claude-opus-4.7 💎`
   * `deepseek`
   * `gemini 💎`
   * `gemini-fast`
@@ -76,6 +78,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok`
   * `grok-large`
   * `kimi`
+  * `kimi-k2.6`
   * `midijourney`
   * `midijourney-large 💎`
   * `minimax`
@@ -104,6 +107,8 @@ Text-to-speech, music generation, and audio transcription.
   * `acestep`
   * `elevenlabs`
   * `elevenmusic 💎`
+  * `qwen-tts`
+  * `qwen-tts-instruct 💎`
   * `scribe`
   * `whisper`
 ---
