@@ -68,7 +68,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude-fast`
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
-  * `deepseek`
+  * `deepseek 💎`
+  * `deepseek-pro 💎`
   * `gemini 💎`
   * `gemini-fast`
   * `gemini-flash-lite-3.1 💎`
