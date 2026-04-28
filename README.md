@@ -77,7 +77,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search`
   * `glm`
   * `grok`
-  * `grok-large`
+  * `grok-large 💎`
   * `kimi`
   * `kimi-k2.6`
   * `midijourney`
