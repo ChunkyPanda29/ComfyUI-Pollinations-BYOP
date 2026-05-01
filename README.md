@@ -80,6 +80,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok-large 💎`
   * `kimi`
   * `kimi-k2.6`
+  * `llama`
   * `midijourney`
   * `midijourney-large 💎`
   * `minimax`
