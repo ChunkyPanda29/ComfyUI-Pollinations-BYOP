@@ -1,7 +1,7 @@
 {
     "image": [
         "flux",
-        "gpt-image-2",
+        "gpt-image-2 \ud83d\udc8e",
         "gptimage",
         "gptimage-large",
         "grok-imagine \ud83d\udc8e",
@@ -72,7 +72,7 @@
     ],
     "audio": [
         "acestep",
-        "elevenlabs",
+        "elevenlabs \ud83d\udc8e",
         "elevenmusic \ud83d\udc8e",
         "qwen-tts",
         "qwen-tts-instruct \ud83d\udc8e",
