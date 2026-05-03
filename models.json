@@ -44,6 +44,7 @@
         "gemini-large \ud83d\udc8e",
         "gemini-search",
         "glm",
+        "gpt-5.5 \ud83d\udc8e",
         "grok",
         "grok-large \ud83d\udc8e",
         "kimi",
@@ -77,6 +78,8 @@
         "qwen-tts",
         "qwen-tts-instruct \ud83d\udc8e",
         "scribe",
+        "universal-2",
+        "universal-3-pro \ud83d\udc8e",
         "whisper"
     ]
 }

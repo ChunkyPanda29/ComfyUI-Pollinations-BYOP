@@ -76,6 +76,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-large 💎`
   * `gemini-search`
   * `glm`
+  * `gpt-5.5 💎`
   * `grok`
   * `grok-large 💎`
   * `kimi`
@@ -112,6 +113,8 @@ Text-to-speech, music generation, and audio transcription.
   * `qwen-tts`
   * `qwen-tts-instruct 💎`
   * `scribe`
+  * `universal-2`
+  * `universal-3-pro 💎`
   * `whisper`
 ---
 
