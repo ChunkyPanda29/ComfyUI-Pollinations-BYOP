@@ -55,6 +55,7 @@ Generates high-quality AI video.
   * `nova-reel`
   * `p-video 💎`
   * `seedance 💎`
+  * `seedance-2.0 💎`
   * `seedance-pro 💎`
   * `veo 💎`
   * `wan 💎`
