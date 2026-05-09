@@ -76,6 +76,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-flash-lite-3.1 💎`
   * `gemini-large 💎`
   * `gemini-search`
+  * `gemma 💎`
   * `glm`
   * `gpt-5.5 💎`
   * `grok`
