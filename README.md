@@ -41,6 +41,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `p-image 💎`
   * `p-image-edit 💎`
   * `qwen-image`
+  * `seedream 💎`
+  * `seedream-pro 💎`
   * `seedream5 💎`
   * `wan-image`
   * `wan-image-pro 💎`
@@ -69,7 +71,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude-fast`
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
-  * `deepseek 💎`
+  * `deepseek`
   * `deepseek-pro 💎`
   * `gemini 💎`
   * `gemini-fast`
@@ -78,6 +80,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search`
   * `gemma 💎`
   * `glm`
+  * `gpt-5.4-mini`
   * `gpt-5.5 💎`
   * `grok`
   * `grok-large 💎`
@@ -90,6 +93,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `midijourney-large 💎`
   * `minimax`
   * `mistral`
+  * `mistral-4`
   * `mistral-large`
   * `nova`
   * `nova-fast`
@@ -106,6 +110,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-large`
   * `qwen-safety`
   * `qwen-vision`
+  * `qwen-vision-pro`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)

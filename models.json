@@ -15,6 +15,8 @@
         "p-image \ud83d\udc8e",
         "p-image-edit \ud83d\udc8e",
         "qwen-image",
+        "seedream \ud83d\udc8e",
+        "seedream-pro \ud83d\udc8e",
         "seedream5 \ud83d\udc8e",
         "wan-image",
         "wan-image-pro \ud83d\udc8e",
@@ -37,7 +39,7 @@
         "claude-fast",
         "claude-large \ud83d\udc8e",
         "claude-opus-4.7 \ud83d\udc8e",
-        "deepseek \ud83d\udc8e",
+        "deepseek",
         "deepseek-pro \ud83d\udc8e",
         "gemini \ud83d\udc8e",
         "gemini-fast",
@@ -46,6 +48,7 @@
         "gemini-search",
         "gemma \ud83d\udc8e",
         "glm",
+        "gpt-5.4-mini",
         "gpt-5.5 \ud83d\udc8e",
         "grok",
         "grok-large \ud83d\udc8e",
@@ -58,6 +61,7 @@
         "midijourney-large \ud83d\udc8e",
         "minimax",
         "mistral",
+        "mistral-4",
         "mistral-large",
         "nova",
         "nova-fast",
@@ -73,7 +77,8 @@
         "qwen-coder-large",
         "qwen-large",
         "qwen-safety",
-        "qwen-vision"
+        "qwen-vision",
+        "qwen-vision-pro"
     ],
     "audio": [
         "acestep",
