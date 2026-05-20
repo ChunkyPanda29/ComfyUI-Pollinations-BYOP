@@ -73,10 +73,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `deepseek`
   * `deepseek-pro 💎`
   * `gemini 💎`
-  * `gemini-fast`
+  * `gemini-3.5-flash 💎`
+  * `gemini-fast 💎`
   * `gemini-flash-lite-3.1 💎`
   * `gemini-large 💎`
-  * `gemini-search`
+  * `gemini-search 💎`
   * `gemma 💎`
   * `glm`
   * `gpt-5.4-mini`
@@ -121,7 +122,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenmusic 💎`
   * `qwen-tts`
   * `qwen-tts-instruct 💎`
-  * `scribe`
+  * `scribe 💎`
   * `universal-2`
   * `universal-3-pro 💎`
   * `whisper`
