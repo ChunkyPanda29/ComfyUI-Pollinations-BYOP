@@ -37,7 +37,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `nanobanana 💎`
   * `nanobanana-2 💎`
   * `nanobanana-pro 💎`
-  * `nova-canvas 💎`
+  * `nova-canvas`
   * `p-image 💎`
   * `p-image-edit 💎`
   * `qwen-image`
@@ -61,6 +61,7 @@ Generates high-quality AI video.
   * `veo 💎`
   * `wan 💎`
   * `wan-fast 💎`
+  * `wan-pro 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
@@ -71,26 +72,29 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
   * `deepseek`
-  * `deepseek-pro 💎`
+  * `deepseek-pro`
   * `gemini 💎`
   * `gemini-3.5-flash 💎`
   * `gemini-fast 💎`
   * `gemini-flash-lite-3.1 💎`
   * `gemini-large 💎`
   * `gemini-search 💎`
-  * `gemma 💎`
+  * `gemini-search-fast 💎`
+  * `gemini-search-large 💎`
+  * `gemma`
   * `glm`
   * `gpt-5.4-mini`
-  * `gpt-5.5 💎`
+  * `gpt-5.5`
   * `grok`
-  * `grok-large 💎`
+  * `grok-4.3`
+  * `grok-large`
   * `kimi`
   * `kimi-k2.6`
   * `llama`
   * `llama-maverick 💎`
   * `llama-scout`
   * `midijourney`
-  * `midijourney-large 💎`
+  * `midijourney-large`
   * `minimax`
   * `mistral`
   * `mistral-4`
@@ -124,7 +128,7 @@ Text-to-speech, music generation, and audio transcription.
   * `qwen-tts-instruct 💎`
   * `scribe 💎`
   * `universal-2`
-  * `universal-3-pro 💎`
+  * `universal-3-pro`
   * `whisper`
 ---
 
