@@ -39,6 +39,7 @@
         "claude-fast",
         "claude-large \ud83d\udc8e",
         "claude-opus-4.7 \ud83d\udc8e",
+        "claude-opus-4.8 \ud83d\udc8e",
         "deepseek",
         "deepseek-pro",
         "gemini \ud83d\udc8e",
@@ -74,6 +75,8 @@
         "openai-audio-large",
         "openai-fast",
         "openai-large",
+        "perplexity",
+        "perplexity-deep",
         "perplexity-fast",
         "perplexity-reasoning",
         "polly",
@@ -82,7 +85,9 @@
         "qwen-large",
         "qwen-safety",
         "qwen-vision",
-        "qwen-vision-pro"
+        "qwen-vision-pro",
+        "step-3.5-flash",
+        "step-flash"
     ],
     "audio": [
         "acestep",

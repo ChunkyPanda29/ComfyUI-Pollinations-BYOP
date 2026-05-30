@@ -71,6 +71,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude-fast`
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
+  * `claude-opus-4.8 💎`
   * `deepseek`
   * `deepseek-pro`
   * `gemini 💎`
@@ -106,6 +107,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `openai-audio-large`
   * `openai-fast`
   * `openai-large`
+  * `perplexity`
+  * `perplexity-deep`
   * `perplexity-fast`
   * `perplexity-reasoning`
   * `polly`
@@ -115,6 +118,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-safety`
   * `qwen-vision`
   * `qwen-vision-pro`
+  * `step-3.5-flash`
+  * `step-flash`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
