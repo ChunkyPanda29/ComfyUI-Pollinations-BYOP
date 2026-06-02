@@ -97,6 +97,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `midijourney`
   * `midijourney-large`
   * `minimax`
+  * `minimax-m3`
   * `mistral`
   * `mistral-4`
   * `mistral-large`
