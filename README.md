@@ -40,11 +40,11 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `nova-canvas`
   * `p-image 💎`
   * `p-image-edit 💎`
-  * `qwen-image`
+  * `qwen-image 💎`
   * `seedream 💎`
   * `seedream-pro 💎`
   * `seedream5 💎`
-  * `wan-image`
+  * `wan-image 💎`
   * `wan-image-pro 💎`
   * `zimage`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
@@ -68,7 +68,7 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `claude 💎`
-  * `claude-fast`
+  * `claude-fast 💎`
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
   * `claude-opus-4.8 💎`
@@ -114,7 +114,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `perplexity-reasoning`
   * `polly`
   * `qwen-coder`
-  * `qwen-coder-large`
+  * `qwen-coder-large 💎`
   * `qwen-large`
   * `qwen-safety`
   * `qwen-vision`
@@ -130,7 +130,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenflash 💎`
   * `elevenlabs 💎`
   * `elevenmusic 💎`
-  * `qwen-tts`
+  * `qwen-tts 💎`
   * `qwen-tts-instruct 💎`
   * `scribe 💎`
   * `universal-2`
