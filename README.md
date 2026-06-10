@@ -55,7 +55,8 @@ Generates high-quality AI video.
   * `grok-video-pro 💎`
   * `ltx-2`
   * `nova-reel`
-  * `p-video 💎`
+  * `p-video-1080p 💎`
+  * `p-video-720p 💎`
   * `seedance-2.0 💎`
   * `seedance-pro 💎`
   * `veo 💎`
