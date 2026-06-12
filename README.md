@@ -69,6 +69,7 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `claude 💎`
+  * `claude-fable-5 💎`
   * `claude-fast 💎`
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
