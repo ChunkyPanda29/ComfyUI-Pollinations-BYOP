@@ -63,6 +63,7 @@ Generates high-quality AI video.
   * `wan 💎`
   * `wan-fast 💎`
   * `wan-pro 💎`
+  * `wan-pro-1080p 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
@@ -93,6 +94,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok-large`
   * `kimi`
   * `kimi-k2.6`
+  * `kimi-k2.7-code`
   * `llama`
   * `llama-maverick 💎`
   * `llama-scout`
