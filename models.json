@@ -6,6 +6,9 @@
         "gptimage-large",
         "grok-imagine \ud83d\udc8e",
         "grok-imagine-pro \ud83d\udc8e",
+        "ideogram-v4-balanced \ud83d\udc8e",
+        "ideogram-v4-quality \ud83d\udc8e",
+        "ideogram-v4-turbo \ud83d\udc8e",
         "klein",
         "kontext",
         "nanobanana \ud83d\udc8e",
@@ -38,7 +41,6 @@
     ],
     "text": [
         "claude \ud83d\udc8e",
-        "claude-fable-5 \ud83d\udc8e",
         "claude-fast \ud83d\udc8e",
         "claude-large \ud83d\udc8e",
         "claude-opus-4.7 \ud83d\udc8e",

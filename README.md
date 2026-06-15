@@ -32,6 +32,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `gptimage-large`
   * `grok-imagine 💎`
   * `grok-imagine-pro 💎`
+  * `ideogram-v4-balanced 💎`
+  * `ideogram-v4-quality 💎`
+  * `ideogram-v4-turbo 💎`
   * `klein`
   * `kontext`
   * `nanobanana 💎`
@@ -70,7 +73,6 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `claude 💎`
-  * `claude-fable-5 💎`
   * `claude-fast 💎`
   * `claude-large 💎`
   * `claude-opus-4.7 💎`
