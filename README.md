@@ -75,12 +75,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude 💎`
   * `claude-fast 💎`
   * `claude-large 💎`
+  * `claude-opus-4.6 💎`
   * `claude-opus-4.7 💎`
-  * `claude-opus-4.8 💎`
   * `deepseek`
   * `deepseek-pro`
   * `gemini 💎`
-  * `gemini-3.5-flash 💎`
+  * `gemini-3-flash 💎`
   * `gemini-fast 💎`
   * `gemini-flash-lite-3.1 💎`
   * `gemini-large 💎`
@@ -89,24 +89,23 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search-large 💎`
   * `gemma`
   * `glm`
+  * `gpt-5.4`
   * `gpt-5.4-mini`
-  * `gpt-5.5`
   * `grok`
-  * `grok-4.3`
+  * `grok-4-20-reasoning`
   * `grok-large`
   * `kimi`
-  * `kimi-k2.6`
-  * `kimi-k2.7-code`
+  * `kimi-code`
   * `llama`
   * `llama-maverick 💎`
   * `llama-scout`
   * `midijourney`
   * `midijourney-large`
   * `minimax`
-  * `minimax-m3`
+  * `minimax-m2.7`
   * `mistral`
-  * `mistral-4`
   * `mistral-large`
+  * `mistral-small-3.2`
   * `nova`
   * `nova-fast`
   * `openai`
