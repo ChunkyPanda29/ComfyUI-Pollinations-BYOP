@@ -97,12 +97,15 @@
     ],
     "audio": [
         "acestep",
+        "eleven-multilingual-v2 \ud83d\udc8e",
+        "eleven-sfx \ud83d\udc8e",
         "elevenflash \ud83d\udc8e",
         "elevenlabs \ud83d\udc8e",
         "elevenmusic \ud83d\udc8e",
         "qwen-tts \ud83d\udc8e",
         "qwen-tts-instruct \ud83d\udc8e",
         "scribe \ud83d\udc8e",
+        "stable-audio-2.5 \ud83d\udc8e",
         "universal-2",
         "universal-3-pro",
         "whisper"

@@ -132,12 +132,15 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 Text-to-speech, music generation, and audio transcription.
 * **Supported Models:**
   * `acestep`
+  * `eleven-multilingual-v2 💎`
+  * `eleven-sfx 💎`
   * `elevenflash 💎`
   * `elevenlabs 💎`
   * `elevenmusic 💎`
   * `qwen-tts 💎`
   * `qwen-tts-instruct 💎`
   * `scribe 💎`
+  * `stable-audio-2.5 💎`
   * `universal-2`
   * `universal-3-pro`
   * `whisper`
