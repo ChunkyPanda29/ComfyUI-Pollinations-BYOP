@@ -67,6 +67,7 @@
         "llama",
         "llama-maverick \ud83d\udc8e",
         "llama-scout",
+        "mercury \ud83d\udc8e",
         "midijourney",
         "midijourney-large",
         "minimax",
@@ -105,7 +106,8 @@
         "qwen-tts \ud83d\udc8e",
         "qwen-tts-instruct \ud83d\udc8e",
         "scribe \ud83d\udc8e",
-        "stable-audio-2.5 \ud83d\udc8e",
+        "stable-audio-3-large \ud83d\udc8e",
+        "stable-audio-3-medium \ud83d\udc8e",
         "universal-2",
         "universal-3-pro",
         "whisper"

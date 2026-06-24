@@ -99,6 +99,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `llama`
   * `llama-maverick 💎`
   * `llama-scout`
+  * `mercury 💎`
   * `midijourney`
   * `midijourney-large`
   * `minimax`
@@ -140,7 +141,8 @@ Text-to-speech, music generation, and audio transcription.
   * `qwen-tts 💎`
   * `qwen-tts-instruct 💎`
   * `scribe 💎`
-  * `stable-audio-2.5 💎`
+  * `stable-audio-3-large 💎`
+  * `stable-audio-3-medium 💎`
   * `universal-2`
   * `universal-3-pro`
   * `whisper`
