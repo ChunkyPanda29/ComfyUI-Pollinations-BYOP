@@ -40,6 +40,8 @@
         "wan-pro-1080p \ud83d\udc8e"
     ],
     "text": [
+        "CloudCompile/gemma-4-e2b",
+        "Spit-fires/LFM2.5-230M",
         "claude \ud83d\udc8e",
         "claude-fast \ud83d\udc8e",
         "claude-large \ud83d\udc8e",
@@ -93,8 +95,21 @@
         "qwen-safety",
         "qwen-vision",
         "qwen-vision-pro",
+        "sharktide/inferenceport.ai-gpt-5-chat-latest",
+        "sharktide/inferenceport.ai-gpt-oss-20b",
+        "smplstuff/qwen3-0.6b",
         "step-3.5-flash",
-        "step-flash"
+        "step-flash",
+        "tomdacatto/ezra",
+        "voodoohop/airforce-deepseek-v3.2",
+        "voodoohop/airforce-doubao-pro",
+        "voodoohop/airforce-glm-5.2",
+        "voodoohop/airforce-grok-4-fast",
+        "voodoohop/airforce-mimo",
+        "voodoohop/airforce-mimo-pro",
+        "voodoohop/airforce-minimax-m2.7",
+        "voodoohop/airforce-qwen3-max",
+        "voodoohop/anyvm-deepseek-chat"
     ],
     "audio": [
         "acestep",

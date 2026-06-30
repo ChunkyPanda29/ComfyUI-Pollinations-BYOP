@@ -72,6 +72,8 @@ Generates high-quality AI video.
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
+  * `CloudCompile/gemma-4-e2b`
+  * `Spit-fires/LFM2.5-230M`
   * `claude 💎`
   * `claude-fast 💎`
   * `claude-large 💎`
@@ -125,8 +127,21 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-safety`
   * `qwen-vision`
   * `qwen-vision-pro`
+  * `sharktide/inferenceport.ai-gpt-5-chat-latest`
+  * `sharktide/inferenceport.ai-gpt-oss-20b`
+  * `smplstuff/qwen3-0.6b`
   * `step-3.5-flash`
   * `step-flash`
+  * `tomdacatto/ezra`
+  * `voodoohop/airforce-deepseek-v3.2`
+  * `voodoohop/airforce-doubao-pro`
+  * `voodoohop/airforce-glm-5.2`
+  * `voodoohop/airforce-grok-4-fast`
+  * `voodoohop/airforce-mimo`
+  * `voodoohop/airforce-mimo-pro`
+  * `voodoohop/airforce-minimax-m2.7`
+  * `voodoohop/airforce-qwen3-max`
+  * `voodoohop/anyvm-deepseek-chat`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
