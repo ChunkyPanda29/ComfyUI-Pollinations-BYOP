@@ -39,6 +39,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `kontext`
   * `nanobanana 💎`
   * `nanobanana-2 💎`
+  * `nanobanana-2-lite 💎`
   * `nanobanana-pro 💎`
   * `nova-canvas`
   * `p-image 💎`
@@ -73,12 +74,35 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `CloudCompile/gemma-4-e2b`
+  * `MarcosFRG/cosmosrp-2.1`
+  * `MarcosFRG/deepseek-v3.2`
+  * `MarcosFRG/deepseek-v4-flash`
+  * `MarcosFRG/deepseek-v4-pro`
+  * `MarcosFRG/gemini-2.5-flash-lite`
+  * `MarcosFRG/gemini-3-flash-preview`
+  * `MarcosFRG/gemma-3-27b`
+  * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/gpt-5-nano`
+  * `MarcosFRG/gpt-5.4-nano`
+  * `MarcosFRG/grok-4.20-non-reasoning`
+  * `MarcosFRG/grok-4.20-reasoning`
+  * `MarcosFRG/grok-4.3`
+  * `MarcosFRG/kimi-k2.6`
+  * `MarcosFRG/llama-4-scout`
+  * `MarcosFRG/mimo-v2.5`
+  * `MarcosFRG/minimax-m3`
+  * `MarcosFRG/mistral-large-3`
+  * `MarcosFRG/qwen3-coder-30b-a3b`
+  * `MarcosFRG/step-3.5-flash`
+  * `MarcosFRG/step-3.7-flash`
   * `Spit-fires/LFM2.5-230M`
+  * `Spit-fires/Supra-1.5-50M-instruct`
   * `claude 💎`
   * `claude-fast 💎`
   * `claude-large 💎`
   * `claude-opus-4.6 💎`
   * `claude-opus-4.7 💎`
+  * `claude-sonnet-5 💎`
   * `deepseek`
   * `deepseek-pro`
   * `gemini 💎`
@@ -127,19 +151,18 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-safety`
   * `qwen-vision`
   * `qwen-vision-pro`
+  * `sharktide/inferenceport-ai-command-r-plus`
+  * `sharktide/inferenceport-ai-kimi-k2.6`
+  * `sharktide/inferenceport-ai-mimo-v2.5`
   * `sharktide/inferenceport.ai-gpt-5-chat-latest`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
+  * `skullcrushercmd/gemini-3.1-pro-preview`
   * `smplstuff/qwen3-0.6b`
   * `step-3.5-flash`
   * `step-flash`
   * `tomdacatto/ezra`
-  * `voodoohop/airforce-deepseek-v3.2`
   * `voodoohop/airforce-doubao-pro`
-  * `voodoohop/airforce-glm-5.2`
   * `voodoohop/airforce-grok-4-fast`
-  * `voodoohop/airforce-mimo`
-  * `voodoohop/airforce-mimo-pro`
-  * `voodoohop/airforce-minimax-m2.7`
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
