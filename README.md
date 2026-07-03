@@ -73,15 +73,24 @@ Generates high-quality AI video.
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
+  * `Bakhshi7889/gemma-4-31b-it`
   * `CloudCompile/gemma-4-e2b`
   * `MarcosFRG/cosmosrp-2.1`
+  * `MarcosFRG/deepseek-v3.2`
+  * `MarcosFRG/deepseek-v4-flash`
+  * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
+  * `MarcosFRG/gemini-3-flash-preview`
+  * `MarcosFRG/gemma-3-27b`
+  * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/glm-4.6v-flash`
   * `Minor-fun/LongCat-2.0`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/deepseek-v4-flash`
   * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/LFM2.5-230M`
-  * `Spit-fires/Supra-1.5-50M-instruct`
+  * `Spit-fires/bonsai-image-1024x1024-4`
+  * `Spit-fires/bonsai-image-512x512-4`
   * `Spit-fires/diffusiongemma-26b-a4b-it`
   * `Spit-fires/gpt-oss-20b-free`
   * `Spit-fires/step-3.5-flash-free`
@@ -122,7 +131,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral`
   * `mistral-large`
   * `mistral-small-3.2`
-  * `morriszdweck/nova-cheap`
+  * `morriszdweck/kimi-k2.6-cheap`
   * `morriszdweck/qwen-3.7-plus-cheap`
   * `nova`
   * `nova-fast`
@@ -161,9 +170,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sixfingerdev/glm-5`
   * `sixfingerdev/gpt-5.4`
   * `sixfingerdev/kimi-k2.7-code`
+  * `smplstuff/falcon-h1-tiny`
   * `step-3.5-flash`
   * `step-flash`
   * `tomdacatto/ezra`
+  * `vendouple/deepseek-v4-flash`
+  * `vendouple/gpt-5.5`
+  * `vendouple/kimi-k2.6`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
