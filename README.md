@@ -74,8 +74,11 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
+  * `Catniti/Laguna-xs-2.1`
+  * `Catniti/gpt-4.0`
+  * `Catniti/mistral-small-latest`
+  * `Catniti/nemotron-3-ultra-550b-a55b`
   * `CloudCompile/gemma-4-e2b`
-  * `MarcosFRG/cosmosrp-2.1`
   * `MarcosFRG/deepseek-v3.2`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
@@ -83,7 +86,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
-  * `MarcosFRG/glm-4.6v-flash`
+  * `MarcosFRG/minimax-m2.7`
+  * `MarcosFRG/minimax-m3`
   * `Minor-fun/LongCat-2.0`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/deepseek-v4-flash`
@@ -95,6 +99,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Spit-fires/gpt-oss-20b-free`
   * `Spit-fires/step-3.5-flash-free`
   * `claude 💎`
+  * `claude-fable-5 💎`
   * `claude-fast 💎`
   * `claude-large 💎`
   * `claude-opus-4.6 💎`
@@ -156,14 +161,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-mimo-v2.5`
   * `sharktide/inferenceport.ai-gpt-5-chat-latest`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
-  * `sixfingerdev/claude-fable-5`
   * `sixfingerdev/claude-haiku-4-5`
   * `sixfingerdev/claude-opus-4-1`
   * `sixfingerdev/claude-opus-4-5`
   * `sixfingerdev/claude-opus-4-7`
   * `sixfingerdev/claude-opus-4-7-fast`
   * `sixfingerdev/claude-opus-4-8`
-  * `sixfingerdev/claude-opus-4-8-fast`
   * `sixfingerdev/claude-sonnet-4-5`
   * `sixfingerdev/claude-sonnet-4-6`
   * `sixfingerdev/deepseek-v4-flash`
@@ -174,9 +177,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `step-3.5-flash`
   * `step-flash`
   * `tomdacatto/ezra`
+  * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4-flash`
-  * `vendouple/gpt-5.5`
+  * `vendouple/gemma-4-31b`
+  * `vendouple/gpt-oss-120b`
   * `vendouple/kimi-k2.6`
+  * `vendouple/qwen3.6-27b`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
