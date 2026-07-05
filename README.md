@@ -84,7 +84,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
-  * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/minimax-m2.7`
   * `MarcosFRG/minimax-m3`
@@ -130,7 +129,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mercury 💎`
   * `midijourney`
   * `midijourney-large`
-  * `mikl-shortcuts/command-a-plus`
+  * `mikl-shortcuts/ministral-3`
   * `minimax`
   * `minimax-m2.7`
   * `mistral`
@@ -166,10 +165,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sixfingerdev/claude-opus-4-5`
   * `sixfingerdev/claude-opus-4-7`
   * `sixfingerdev/claude-opus-4-7-fast`
-  * `sixfingerdev/claude-opus-4-8`
   * `sixfingerdev/claude-sonnet-4-5`
   * `sixfingerdev/claude-sonnet-4-6`
+  * `sixfingerdev/claude-sonnet-5`
   * `sixfingerdev/deepseek-v4-flash`
+  * `sixfingerdev/gemini-3.1-pro-preview`
+  * `sixfingerdev/gemini-3.5-flash`
   * `sixfingerdev/glm-5`
   * `sixfingerdev/gpt-5.4`
   * `sixfingerdev/kimi-k2.7-code`
@@ -178,7 +179,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `step-flash`
   * `tomdacatto/ezra`
   * `vendouple/deepseek-v3.2`
-  * `vendouple/deepseek-v4-flash`
   * `vendouple/gemma-4-31b`
   * `vendouple/gpt-oss-120b`
   * `vendouple/kimi-k2.6`
