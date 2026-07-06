@@ -84,7 +84,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
+  * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m2.7`
   * `MarcosFRG/minimax-m3`
   * `Minor-fun/LongCat-2.0`
@@ -180,7 +182,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/ezra`
   * `vendouple/deepseek-v3.2`
   * `vendouple/gemma-4-31b`
-  * `vendouple/gpt-oss-120b`
   * `vendouple/kimi-k2.6`
   * `vendouple/qwen3.6-27b`
   * `voodoohop/airforce-doubao-pro`
