@@ -94,10 +94,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/deepseek-v4-flash`
   * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/LFM2.5-230M`
-  * `Spit-fires/bonsai-image-1024x1024-4`
   * `Spit-fires/bonsai-image-512x512-4`
   * `Spit-fires/diffusiongemma-26b-a4b-it`
   * `Spit-fires/gpt-oss-20b-free`
+  * `Spit-fires/ministral-3b-2512`
+  * `Spit-fires/mistral-small-2506`
   * `Spit-fires/step-3.5-flash-free`
   * `claude 💎`
   * `claude-fable-5 💎`
@@ -182,6 +183,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/ezra`
   * `vendouple/deepseek-v3.2`
   * `vendouple/gemma-4-31b`
+  * `vendouple/gpt-5.5`
   * `vendouple/kimi-k2.6`
   * `vendouple/qwen3.6-27b`
   * `voodoohop/airforce-doubao-pro`
