@@ -84,11 +84,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
+  * `MarcosFRG/gemini-3.1-flash-lite`
+  * `MarcosFRG/gemini-3.1-pro-preview`
   * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m2.7`
   * `MarcosFRG/minimax-m3`
+  * `MarcosFRG/step-3.5-flash`
   * `Minor-fun/LongCat-2.0`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/deepseek-v4-flash`
