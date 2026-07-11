@@ -48,6 +48,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream 💎`
   * `seedream-pro 💎`
   * `seedream5 💎`
+  * `seedream5-pro 💎`
   * `wan-image 💎`
   * `wan-image-pro 💎`
   * `zimage`
@@ -75,9 +76,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/Laguna-xs-2.1`
+  * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-4.0`
   * `Catniti/mistral-small-latest`
   * `Catniti/nemotron-3-ultra-550b-a55b`
+  * `Catniti/north-mini-code:free`
+  * `Catniti/openai-o4-mini`
+  * `Circuit-Overtime/lixsearch`
   * `CloudCompile/gemma-4-e2b`
   * `MarcosFRG/deepseek-v3.2`
   * `MarcosFRG/deepseek-v4-flash`
@@ -88,6 +93,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/gemini-3.1-pro-preview`
   * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/glm-4.6v-flash`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m2.7`
   * `MarcosFRG/minimax-m3`
@@ -124,6 +130,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `glm`
   * `gpt-5.4`
   * `gpt-5.4-mini`
+  * `gpt-5.6-luna`
+  * `gpt-5.6-sol`
+  * `gpt-5.6-terra`
   * `grok`
   * `grok-4-20-reasoning`
   * `grok-large`
@@ -174,21 +183,21 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sixfingerdev/claude-sonnet-4-5`
   * `sixfingerdev/claude-sonnet-4-6`
   * `sixfingerdev/claude-sonnet-5`
-  * `sixfingerdev/deepseek-v4-flash`
   * `sixfingerdev/gemini-3.1-pro-preview`
   * `sixfingerdev/gemini-3.5-flash`
   * `sixfingerdev/glm-5`
   * `sixfingerdev/gpt-5.4`
   * `sixfingerdev/kimi-k2.7-code`
+  * `sixfingerdev/qwen2.5-0.5b`
   * `smplstuff/falcon-h1-tiny`
+  * `solarnode-developement/hy3`
   * `step-3.5-flash`
   * `step-flash`
   * `tomdacatto/ezra`
   * `vendouple/deepseek-v3.2`
-  * `vendouple/gemma-4-31b`
-  * `vendouple/gpt-5.5`
+  * `vendouple/deepseek-v4-flash`
+  * `vendouple/gpt-5.6-sol`
   * `vendouple/kimi-k2.6`
-  * `vendouple/qwen3.6-27b`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
