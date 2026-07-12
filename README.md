@@ -76,6 +76,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/Laguna-xs-2.1`
+  * `Catniti/claude-sonnet-4-6`
+  * `Catniti/glm-4.7`
   * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-4.0`
   * `Catniti/mistral-small-latest`
@@ -180,7 +182,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sixfingerdev/claude-opus-4-5`
   * `sixfingerdev/claude-opus-4-7`
   * `sixfingerdev/claude-opus-4-7-fast`
-  * `sixfingerdev/claude-sonnet-4-5`
+  * `sixfingerdev/claude-opus-4-8`
   * `sixfingerdev/claude-sonnet-4-6`
   * `sixfingerdev/claude-sonnet-5`
   * `sixfingerdev/gemini-3.1-pro-preview`
@@ -188,7 +190,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sixfingerdev/glm-5`
   * `sixfingerdev/gpt-5.4`
   * `sixfingerdev/kimi-k2.7-code`
-  * `sixfingerdev/qwen2.5-0.5b`
   * `smplstuff/falcon-h1-tiny`
   * `solarnode-developement/hy3`
   * `step-3.5-flash`
