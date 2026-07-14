@@ -27,7 +27,7 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `flux`
-  * `gpt-image-2 💎`
+  * `gpt-image-2`
   * `gptimage`
   * `gptimage-large`
   * `grok-imagine 💎`
@@ -83,7 +83,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-4.0`
   * `Catniti/gpt-oss-120b`
-  * `Catniti/mistral-small-latest`
   * `Catniti/nemotron-3-ultra-550b-a55b`
   * `Catniti/openai-o4-mini`
   * `Circuit-Overtime/lixsearch`
@@ -98,6 +97,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/glm-4.6v-flash`
+  * `MarcosFRG/glm-5.2`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m2.7`
   * `MarcosFRG/minimax-m3`
@@ -106,10 +106,22 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/deepseek-v4-flash`
   * `Spit-fires/LFM2.5-230M`
   * `Spit-fires/bonsai-image-512x512-4`
-  * `Spit-fires/diffusiongemma-26b-a4b-it`
   * `Spit-fires/gpt-oss-20b-free`
   * `Spit-fires/ministral-3b-2512`
   * `Spit-fires/step-3.5-flash-free`
+  * `YoannDev90/deepseek-v4-pro`
+  * `YoannDev90/diffusiongemma-26b-a4b-it`
+  * `YoannDev90/gemini-3-pro`
+  * `YoannDev90/gpt-4o-mini-search-preview`
+  * `YoannDev90/gpt-5.4-mini`
+  * `YoannDev90/gpt-oss-120b`
+  * `YoannDev90/grok-4.1-fast`
+  * `YoannDev90/hy3-preview`
+  * `YoannDev90/llama-3.3-70b-instruct`
+  * `YoannDev90/llama-4-scout`
+  * `YoannDev90/minimax-m3`
+  * `YoannDev90/qwen3.7-plus`
+  * `YoannDev90/step-3.7-flash`
   * `claude 💎`
   * `claude-fable-5 💎`
   * `claude-fast 💎`
@@ -179,6 +191,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `smplstuff/falcon-h1-tiny`
   * `solarnode-developement/free`
+  * `solarnode-developement/glm-5.2-cheap`
   * `solarnode-developement/hy3`
   * `step-3.5-flash`
   * `step-flash`
