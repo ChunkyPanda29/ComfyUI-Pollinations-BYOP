@@ -78,10 +78,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/Laguna-xs-2.1`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/claude-sonnet-4.6`
-  * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-4.0`
+  * `Catniti/gpt-5.5`
+  * `Catniti/gpt-5.6-luna`
   * `Catniti/gpt-oss-120b`
   * `Catniti/nemotron-3-ultra-550b-a55b`
   * `Catniti/openai-o4-mini`
@@ -102,12 +103,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/minimax-m2.7`
   * `MarcosFRG/minimax-m3`
   * `MarcosFRG/step-3.5-flash`
+  * `Minor-fun/LongCat-2.0`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/deepseek-v4-flash`
-  * `Spit-fires/LFM2.5-230M`
+  * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/bonsai-image-512x512-4`
+  * `Spit-fires/diffusiongemma-26b-a4b-it`
+  * `Spit-fires/free`
   * `Spit-fires/gpt-oss-20b-free`
-  * `Spit-fires/ministral-3b-2512`
   * `Spit-fires/step-3.5-flash-free`
   * `YoannDev90/deepseek-v4-pro`
   * `YoannDev90/diffusiongemma-26b-a4b-it`
@@ -199,9 +202,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4-flash`
   * `vendouple/deepseek-v4-pro`
+  * `vendouple/gemma-4-31B`
   * `vendouple/gpt-5.6-sol`
+  * `vendouple/gpt-5.6-terra`
   * `vendouple/kimi-k2.6`
-  * `vendouple/ministral-14b-latest`
   * `vendouple/nemotron-3-ultra`
   * `vendouple/unlocked-deepseek`
   * `voodoohop/airforce-doubao-pro`
