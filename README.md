@@ -65,6 +65,7 @@ Generates high-quality AI video.
   * `seedance-2.0 💎`
   * `seedance-pro 💎`
   * `veo 💎`
+  * `veo-1080p 💎`
   * `wan 💎`
   * `wan-fast 💎`
   * `wan-pro 💎`
@@ -78,10 +79,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/Laguna-xs-2.1`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/claude-sonnet-4.6`
+  * `Catniti/deepseek-v4-pro`
+  * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
-  * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-4.0`
-  * `Catniti/gpt-5.5`
   * `Catniti/gpt-5.6-luna`
   * `Catniti/gpt-oss-120b`
   * `Catniti/nemotron-3-ultra-550b-a55b`
@@ -108,23 +109,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/deepseek-v4-flash`
   * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/bonsai-image-512x512-4`
-  * `Spit-fires/diffusiongemma-26b-a4b-it`
   * `Spit-fires/free`
   * `Spit-fires/gpt-oss-20b-free`
   * `Spit-fires/step-3.5-flash-free`
-  * `YoannDev90/deepseek-v4-pro`
   * `YoannDev90/diffusiongemma-26b-a4b-it`
-  * `YoannDev90/gemini-3-pro`
-  * `YoannDev90/gpt-4o-mini-search-preview`
-  * `YoannDev90/gpt-5.4-mini`
-  * `YoannDev90/gpt-oss-120b`
-  * `YoannDev90/grok-4.1-fast`
-  * `YoannDev90/hy3-preview`
-  * `YoannDev90/llama-3.3-70b-instruct`
-  * `YoannDev90/llama-4-scout`
-  * `YoannDev90/minimax-m3`
-  * `YoannDev90/qwen3.7-plus`
-  * `YoannDev90/step-3.7-flash`
   * `claude 💎`
   * `claude-fable-5 💎`
   * `claude-fast 💎`
@@ -195,7 +183,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `smplstuff/falcon-h1-tiny`
   * `solarnode-developement/free`
   * `solarnode-developement/glm-5.2-cheap`
-  * `solarnode-developement/hy3`
   * `step-3.5-flash`
   * `step-flash`
   * `tomdacatto/ezra`
@@ -207,6 +194,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/gpt-5.6-terra`
   * `vendouple/kimi-k2.6`
   * `vendouple/nemotron-3-ultra`
+  * `vendouple/sonnet-5`
   * `vendouple/unlocked-deepseek`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
