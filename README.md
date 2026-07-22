@@ -81,13 +81,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/agnes-2.0-flash`
   * `Catniti/auto-router-1`
   * `Catniti/claude-sonnet-4.6`
+  * `Catniti/deepseek-v4-flash`
+  * `Catniti/gemini-3.6-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
   * `Catniti/openai-fast`
   * `Circuit-Overtime/lixsearch`
   * `CloudCompile/afforda-claude-haiku-4.5`
-  * `CloudCompile/agnes-1.5-flash`
   * `CloudCompile/agnes-2.0-flash`
   * `CloudCompile/agnes-image-2.1-flash-1k`
   * `CloudCompile/agnes-image-2.1-flash-2k`
@@ -97,12 +98,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
-  * `MarcosFRG/gemini-3.1-pro-preview`
   * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/glm-4.6v-flash`
   * `MarcosFRG/glm-5.2`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
+  * `MarcosFRG/north-mini-code`
+  * `MarcosFRG/ternary-bonsai-27b`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/deepseek-v4-flash`
   * `Minor-fun/gemini-3.1-pro-preview`
@@ -113,7 +116,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Spit-fires/gpt-oss-20b-free`
   * `Spit-fires/step-3.5-flash-free`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
-  * `YoannDev90/gemma-4-31b-it:free`
   * `YoannDev90/laguna-xs-2.1:free`
   * `YoannDev90/llama-3.1-8b-instant:free`
   * `claude 💎`
@@ -163,7 +165,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral`
   * `mistral-large`
   * `mistral-small-3.2`
-  * `morriszdweck/kimi-k3-cheap`
+  * `morriszdweck/mistral-fat`
   * `morriszdweck/qwen-3.7-plus-cheap`
   * `muse-spark-1.1 💎`
   * `nova`
@@ -174,8 +176,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `openai-fast`
   * `openai-large`
   * `perplexity`
-  * `perplexity-deep`
   * `perplexity-fast`
+  * `perplexity-high`
   * `perplexity-reasoning`
   * `polly`
   * `qwen-coder`
