@@ -26,6 +26,9 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
+  * `Catniti/agnes-image-2.0-flash`
+  * `Catniti/agnes-image-2.1-flash`
+  * `Catniti/qwen-image-3.0-pro`
   * `flux`
   * `gpt-image-2`
   * `gptimage`
@@ -50,6 +53,14 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream-pro 💎`
   * `seedream5 💎`
   * `seedream5-pro 💎`
+  * `sharktide/inferenceport-ai-lightning-image-turbo`
+  * `tomdacatto/krea-2-medium-turbo`
+  * `tomdacatto/mai-image-2.5`
+  * `tomdacatto/nano-banana`
+  * `tomdacatto/nano-banana-2`
+  * `tomdacatto/nano-banana-2-lite`
+  * `tomdacatto/nano-banana-pro`
+  * `tomdacatto/seedream-5-pro`
   * `wan-image 💎`
   * `wan-image-pro 💎`
   * `zimage`
@@ -85,6 +96,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/gemini-3.6-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
+  * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-oss-120b`
   * `Catniti/openai-fast`
   * `Circuit-Overtime/lixsearch`
@@ -111,11 +123,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/gemini-3.1-pro-preview`
   * `Minor-fun/gemini-3.5-flash`
   * `Minor-fun/gemma-4-31B-it`
-  * `Spit-fires/bonsai-image-512x512-4`
-  * `Spit-fires/free`
-  * `Spit-fires/gpt-oss-20b-free`
-  * `Spit-fires/step-3.5-flash-free`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
+  * `YoannDev90/laguna-s-2.1:free`
   * `YoannDev90/laguna-xs-2.1:free`
   * `YoannDev90/llama-3.1-8b-instant:free`
   * `claude 💎`
@@ -129,7 +138,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `deepseek-pro`
   * `gemini 💎`
   * `gemini-3-flash 💎`
-  * `gemini-fast 💎`
+  * `gemini-fast`
   * `gemini-flash-lite-3.1 💎`
   * `gemini-large 💎`
   * `gemini-search 💎`
@@ -151,9 +160,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `kimi`
   * `kimi-code`
   * `kimi-k3 💎`
+  * `laguna 💎`
   * `llama`
   * `llama-maverick 💎`
   * `llama-scout`
+  * `longcat 💎`
   * `mercury 💎`
   * `midijourney`
   * `midijourney-large`
@@ -165,8 +176,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral`
   * `mistral-large`
   * `mistral-small-3.2`
+  * `morriszdweck/mercury-cheap`
   * `morriszdweck/mistral-fat`
-  * `morriszdweck/qwen-3.7-plus-cheap`
   * `muse-spark-1.1 💎`
   * `nova`
   * `nova-fast`
@@ -207,14 +218,15 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `timemachine-studio/mercury2`
   * `timemachine-studio/minimax-m3`
   * `tomdacatto/ezra`
+  * `tomdacatto/gemma-4-31b-fast`
+  * `vendouple/claude-opus-4-8`
   * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4-flash`
   * `vendouple/deepseek-v4-pro`
-  * `vendouple/gpt-5.6-sol`
-  * `vendouple/grok-4.5`
+  * `vendouple/gemma-4-31B`
   * `vendouple/kimi-k2.6`
-  * `vendouple/kimi-k3`
   * `vendouple/nemotron-3-ultra`
+  * `vendouple/qwen3.8-max-preview`
   * `vendouple/unlocked-deepseek`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
@@ -225,6 +237,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
 Text-to-speech, music generation, and audio transcription.
 * **Supported Models:**
+  * `csm-1b 💎`
   * `eleven-multilingual-v2 💎`
   * `eleven-sfx 💎`
   * `elevenflash 💎`
