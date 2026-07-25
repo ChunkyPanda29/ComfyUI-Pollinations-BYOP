@@ -48,6 +48,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `p-image 💎`
   * `p-image-edit 💎`
   * `qwen-image 💎`
+  * `recraft-v4.1-vector 💎`
   * `sana`
   * `seedream 💎`
   * `seedream-pro 💎`
@@ -57,8 +58,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `tomdacatto/grok-imagine`
   * `tomdacatto/grok-imagine-quality`
   * `tomdacatto/kling-image-3`
-  * `tomdacatto/krea-2-medium-turbo`
-  * `tomdacatto/mai-image-2.5`
   * `tomdacatto/nano-banana`
   * `tomdacatto/nano-banana-2`
   * `tomdacatto/nano-banana-2-lite`
@@ -66,14 +65,13 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `tomdacatto/seedream-5-pro`
   * `vendouple/animagine-xl-v3.1`
   * `vendouple/flux-2`
-  * `vendouple/gpt-image-2`
   * `vendouple/grok-imagine`
   * `vendouple/imagen-4-ultra`
-  * `vendouple/midjourney`
-  * `vendouple/nano-banana-2`
+  * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/seedream-5-lite`
   * `vendouple/uncensored-image`
+  * `vendouple/zimage`
   * `wan-image 💎`
   * `wan-image-pro 💎`
   * `zimage`
@@ -115,9 +113,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `CloudCompile/agnes-2.0-flash`
   * `CloudCompile/grok-4.5`
   * `MarcosFRG/deepseek-v4-flash`
+  * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
+  * `MarcosFRG/gemini-3.1-pro-preview`
   * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/glm-4.6v-flash`
@@ -126,11 +126,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/minimax-m3`
   * `MarcosFRG/north-mini-code`
   * `Minor-fun/deepseek-v3.2`
-  * `Minor-fun/gemini-3.1-pro-preview`
-  * `Minor-fun/gemini-3.5-flash`
   * `Minor-fun/gemma-4-31B-it`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
-  * `YoannDev90/laguna-s-2.1:free`
+  * `YoannDev90/laguna-s-2.1:free(n2)`
   * `YoannDev90/laguna-xs-2.1:free`
   * `YoannDev90/llama-3.1-8b-instant:free`
   * `claude 💎`
@@ -144,7 +142,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `deepseek-pro`
   * `gemini 💎`
   * `gemini-3-flash 💎`
-  * `gemini-fast`
+  * `gemini-fast 💎`
   * `gemini-flash-lite-3.5 💎`
   * `gemini-large 💎`
   * `gemini-search 💎`
@@ -214,7 +212,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `solarnode-developement/glm-5.2-cheap`
-  * `solarnode-developement/hy3`
   * `step-3.5-flash`
   * `step-flash`
   * `timemachine-studio/mercury2`
@@ -222,12 +219,15 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/ezra`
   * `tomdacatto/gemma-4-31b-fast`
   * `vendouple/claude-opus-4-8`
-  * `vendouple/deepseek-v3.2`
+  * `vendouple/claude-opus-5`
   * `vendouple/deepseek-v4-flash`
   * `vendouple/deepseek-v4-pro`
+  * `vendouple/gemini-3.6-flash`
   * `vendouple/gemma-4-31B`
+  * `vendouple/grok-4.5`
   * `vendouple/kimi-k2.6`
-  * `vendouple/nemotron-3-ultra`
+  * `vendouple/laguna-s-2.1:free`
+  * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max-preview`
   * `vendouple/unlocked-deepseek`
   * `voodoohop/airforce-doubao-pro`
@@ -245,6 +245,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenflash 💎`
   * `elevenlabs 💎`
   * `elevenmusic 💎`
+  * `lyria-3-clip 💎`
   * `qwen-tts 💎`
   * `qwen-tts-instruct 💎`
   * `scribe 💎`
