@@ -31,6 +31,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `Catniti/qwen-image-3.0-pro`
   * `CloudCompile/agnes-image-2.0-flash`
   * `Spit-fires/flux-schnell`
+  * `dreamshaper`
   * `flux`
   * `gpt-image-2`
   * `gptimage`
@@ -52,7 +53,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `p-image-edit 💎`
   * `qwen-image 💎`
   * `recraft-v4.1-vector 💎`
-  * `sana`
   * `seedream 💎`
   * `seedream-pro 💎`
   * `seedream5 💎`
@@ -71,12 +71,14 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `vendouple/flux-2`
   * `vendouple/grok-imagine`
   * `vendouple/imagen-4-ultra`
-  * `vendouple/leonardo-phoenix`
   * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
+  * `vendouple/pony-diffusion-XL-v6`
   * `vendouple/seedream-5-lite`
   * `vendouple/uncensored-image`
+  * `vendouple/uncensored-image-enhanced`
+  * `vendouple/wai-illustrious-xl`
   * `wan-image 💎`
   * `wan-image-pro 💎`
   * `zimage`
@@ -104,7 +106,6 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
-  * `Catniti/agnes-1.5-flash`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/auto-router-1`
   * `Catniti/claude-sonnet-4.6`
@@ -120,18 +121,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `CloudCompile/agnes-2.0-flash`
   * `CloudCompile/grok-4.5`
   * `JustScriptzz/big-pickle`
-  * `JustScriptzz/deepseek-v4-flash-free`
-  * `JustScriptzz/kimi-k2.6`
-  * `JustScriptzz/kimi-k2.6-thinking`
-  * `JustScriptzz/qwen-3.6-plus`
-  * `JustScriptzz/qwen-plus`
-  * `JustScriptzz/qwen3-coder-plus`
-  * `JustScriptzz/qwen3.5-397b`
-  * `JustScriptzz/qwen3.5-omni-flash`
-  * `JustScriptzz/qwen3.5-plus`
-  * `JustScriptzz/qwen3.6-max-preview`
-  * `JustScriptzz/qwen3.7-max`
-  * `JustScriptzz/qwen3.8-max`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
   * `Lorodn4x/qwen3.7-max`
@@ -151,10 +140,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
-  * `YoannDev90/gemma-4-31b:free`
   * `YoannDev90/laguna-s-2.1:free`
-  * `YoannDev90/laguna-xs-2.1:free`
-  * `YoannDev90/llama-3.1-8b-fast:free`
   * `claude 💎`
   * `claude-fable-5 💎`
   * `claude-fast 💎`
@@ -162,6 +148,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `claude-opus-4.6 💎`
   * `claude-opus-4.7 💎`
   * `claude-sonnet-5 💎`
+  * `command-a-plus`
   * `deepseek`
   * `deepseek-pro`
   * `gemini 💎`
@@ -172,8 +159,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search 💎`
   * `gemini-search-fast 💎`
   * `gemini-search-large 💎`
-  * `gemma`
-  * `gemma-4-31b`
+  * `gemma 💎`
+  * `gemma-4-31b 💎`
   * `glm`
   * `gpt-5.4`
   * `gpt-5.4-mini`
@@ -187,23 +174,23 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok-large`
   * `kimi`
   * `kimi-code`
-  * `kimi-k3 💎`
+  * `kimi-k3`
   * `laguna 💎`
   * `llama`
   * `llama-maverick 💎`
-  * `llama-scout`
+  * `llama-scout 💎`
   * `longcat 💎`
   * `mercury 💎`
   * `midijourney`
   * `midijourney-large`
   * `mikl-shortcuts/ministral-3`
-  * `mimo-v2.5`
-  * `mimo-v2.5-pro`
+  * `mimo-v2.5 💎`
+  * `mimo-v2.5-pro 💎`
   * `minimax`
   * `minimax-m2.7`
-  * `mistral`
+  * `mistral 💎`
   * `mistral-large`
-  * `mistral-small-3.2`
+  * `mistral-small-3.2 💎`
   * `morriszdweck/mercury-cheap`
   * `muse-spark-1.1 💎`
   * `nemotron 💎`
@@ -220,16 +207,16 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `perplexity-reasoning`
   * `qwen-coder`
   * `qwen-coder-large 💎`
-  * `qwen-large`
+  * `qwen-large 💎`
   * `qwen-safety`
-  * `qwen-vision`
-  * `qwen-vision-pro`
+  * `qwen-vision 💎`
+  * `qwen-vision-pro 💎`
+  * `qwen3.7-flash 💎`
   * `qwen3.7-max 💎`
   * `sharktide/inferenceport-ai-codestral-2508`
   * `sharktide/inferenceport-ai-command-r-plus`
   * `sharktide/inferenceport-ai-gemini-2.5-flash`
   * `sharktide/inferenceport-ai-gpt-4.1`
-  * `sharktide/inferenceport-ai-kimi-k2.5`
   * `sharktide/inferenceport-ai-kimi-k2.7-code`
   * `sharktide/inferenceport-ai-lightning-text-v2`
   * `sharktide/inferenceport-ai-mimo-v2.5`
@@ -237,29 +224,31 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `solarnode-developement/glm-5.2-cheap`
-  * `step-3.5-flash`
-  * `step-flash`
+  * `step-3.5-flash 💎`
+  * `step-flash 💎`
   * `timemachine-studio/mercury2`
   * `timemachine-studio/minimax-m3`
   * `tomdacatto/ezra`
   * `tomdacatto/gemma-4-31b-fast`
   * `tomdacatto/ling-3.0-flash`
   * `vendouple/claude-opus-4-8`
+  * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4-flash`
   * `vendouple/deepseek-v4-pro`
   * `vendouple/gemma-4-31B`
   * `vendouple/gpt-5.5`
-  * `vendouple/grok-4.5`
   * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
+  * `vendouple/minimax-m3`
   * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max-preview`
-  * `vendouple/unlocked-deepseek`
+  * `vendouple/venice-uncensored`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
+  * `voodoohop/weaver`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
@@ -281,7 +270,7 @@ Text-to-speech, music generation, and audio transcription.
   * `stable-audio-3-large 💎`
   * `stable-audio-3-medium 💎`
   * `universal-2`
-  * `universal-3-pro`
+  * `universal-3.5-pro`
   * `whisper`
 ---
 
