@@ -108,19 +108,17 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/auto-router-1`
-  * `Catniti/claude-sonnet-4.6`
+  * `Catniti/claude-sonnet-5`
   * `Catniti/command-r-plus`
   * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-oss-120b`
-  * `Catniti/kimi-k2.6`
   * `Catniti/openai-fast`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.0-flash`
   * `CloudCompile/grok-4.5`
-  * `JustScriptzz/big-pickle`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
   * `Lorodn4x/qwen3.7-max`
@@ -192,6 +190,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral-large`
   * `mistral-small-3.2 💎`
   * `morriszdweck/mercury-cheap`
+  * `morriszdweck/mistral-fat`
   * `muse-spark-1.1 💎`
   * `nemotron 💎`
   * `nova`
@@ -233,17 +232,17 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/ling-3.0-flash`
   * `vendouple/claude-opus-4-8`
   * `vendouple/deepseek-v3.2`
-  * `vendouple/deepseek-v4-flash`
+  * `vendouple/deepseek-v4`
   * `vendouple/deepseek-v4-pro`
-  * `vendouple/gemma-4-31B`
+  * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/gpt-5.5`
   * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
+  * `vendouple/kimi-k3:s2`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/minimax-m3`
   * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max-preview`
-  * `vendouple/venice-uncensored`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
@@ -263,6 +262,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenflash 💎`
   * `elevenlabs 💎`
   * `elevenmusic 💎`
+  * `kokoro 💎`
   * `lyria-3-clip 💎`
   * `qwen-tts 💎`
   * `qwen-tts-instruct 💎`
