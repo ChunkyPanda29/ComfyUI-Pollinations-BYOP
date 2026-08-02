@@ -116,6 +116,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/glm-4.7-flash`
   * `Catniti/gpt-oss-120b`
   * `Catniti/openai-fast`
+  * `Catniti/qwen3.7-flash`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.0-flash`
   * `CloudCompile/grok-4.5`
@@ -189,8 +190,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
-  * `morriszdweck/mercury-cheap`
-  * `morriszdweck/mistral-fat`
+  * `morriszdweck/osaii-api-fast`
+  * `morriszdweck/osaii-api-smart`
   * `muse-spark-1.1 💎`
   * `nemotron 💎`
   * `nova`
@@ -240,7 +241,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/kimi-k3`
   * `vendouple/kimi-k3:s2`
   * `vendouple/laguna-s-2.1:free`
-  * `vendouple/minimax-m3`
   * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max-preview`
   * `voodoohop/airforce-doubao-pro`
