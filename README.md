@@ -171,6 +171,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok-4-20-reasoning`
   * `grok-4.5 💎`
   * `grok-large`
+  * `inkling 💎`
   * `kimi`
   * `kimi-code`
   * `kimi-k3`
