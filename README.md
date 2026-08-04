@@ -43,6 +43,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `ideogram-v4-turbo 💎`
   * `klein`
   * `kontext`
+  * `krea 💎`
   * `meow18838/image-1`
   * `nanobanana 💎`
   * `nanobanana-2 💎`
@@ -58,15 +59,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5 💎`
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
-  * `tomdacatto/gpt-image-2`
-  * `tomdacatto/grok-imagine`
-  * `tomdacatto/grok-imagine-quality`
-  * `tomdacatto/kling-image-3`
-  * `tomdacatto/nano-banana`
-  * `tomdacatto/nano-banana-2`
-  * `tomdacatto/nano-banana-2-lite`
-  * `tomdacatto/nano-banana-pro`
-  * `tomdacatto/seedream-5-pro`
   * `vendouple/animagine`
   * `vendouple/flux-2`
   * `vendouple/grok-imagine`
@@ -74,7 +66,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
-  * `vendouple/pony-diffusion-XL-v6`
   * `vendouple/seedream-5-lite`
   * `vendouple/uncensored-image`
   * `vendouple/uncensored-image-enhanced`
@@ -87,19 +78,17 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 ### 2. 🌸🎞️ Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
+  * `grok-imagine-video-1.5 💎`
   * `grok-video-pro 💎`
   * `happyhorse-1.1 💎`
   * `nova-reel`
-  * `p-video-1080p 💎`
-  * `p-video-720p 💎`
+  * `p-video 💎`
   * `seedance-2.0 💎`
   * `seedance-pro 💎`
   * `veo 💎`
-  * `veo-1080p 💎`
   * `wan 💎`
   * `wan-fast 💎`
   * `wan-pro 💎`
-  * `wan-pro-1080p 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
@@ -122,7 +111,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `CloudCompile/grok-4.5`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
-  * `Lorodn4x/qwen3.7-max`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
@@ -206,6 +194,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `perplexity-fast`
   * `perplexity-high`
   * `perplexity-reasoning`
+  * `pollinations-router/polli`
   * `qwen-coder`
   * `qwen-coder-large 💎`
   * `qwen-large 💎`
@@ -214,6 +203,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen-vision-pro 💎`
   * `qwen3.7-flash 💎`
   * `qwen3.7-max 💎`
+  * `qwen3.8-max 💎`
   * `sharktide/inferenceport-ai-codestral-2508`
   * `sharktide/inferenceport-ai-command-r-plus`
   * `sharktide/inferenceport-ai-gemini-2.5-flash`
