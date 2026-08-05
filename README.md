@@ -144,8 +144,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-flash-lite-3.5 💎`
   * `gemini-large 💎`
   * `gemini-search 💎`
-  * `gemini-search-fast 💎`
-  * `gemini-search-large 💎`
   * `gemma 💎`
   * `gemma-4-31b 💎`
   * `glm`
@@ -156,7 +154,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gpt-5.6-terra`
   * `gpt-oss`
   * `grok`
-  * `grok-4-20-reasoning`
   * `grok-4.5 💎`
   * `grok-large`
   * `inkling 💎`
@@ -192,7 +189,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `openai-large`
   * `perplexity`
   * `perplexity-fast`
-  * `perplexity-high`
   * `perplexity-reasoning`
   * `pollinations-router/polli`
   * `qwen-coder`
@@ -232,7 +228,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/kimi-k3`
   * `vendouple/kimi-k3:s2`
   * `vendouple/laguna-s-2.1:free`
-  * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max-preview`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
