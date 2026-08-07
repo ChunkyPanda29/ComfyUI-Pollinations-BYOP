@@ -59,8 +59,11 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `vendouple/animagine`
+  * `vendouple/flux-2`
+  * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/seedream-5-lite`
+  * `vendouple/uncensored-image`
   * `vendouple/uncensored-image-enhanced`
   * `vendouple/wai-illustrious-xl`
   * `wan-image 💎`
@@ -90,8 +93,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-pro`
   * `Catniti/auto-router-1`
-  * `Catniti/command-r-plus`
-  * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
@@ -115,6 +116,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/gemma-4-31B-it`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
   * `YoannDev90/laguna-s-2.1:free`
+  * `YoannDev90/ling-3.0-flash:free`
   * `chirag-gamer/gpt-oss-120b`
   * `claude 💎`
   * `claude-fable-5 💎`
@@ -134,7 +136,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search 💎`
   * `gemma 💎`
   * `gemma-4-31b 💎`
-  * `gggff123/cohere-north-mini-code`
   * `gggff123/glm-5.2`
   * `glm`
   * `gpt-5.4`
@@ -202,17 +203,16 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `solarnode-developement/hy3`
   * `solarnode-developement/k3`
-  * `solarnode-developement/laguna-s-2.1`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
   * `timemachine-studio/mercury2`
   * `tomdacatto/ezra`
   * `tomdacatto/gemma-4-31b-fast`
   * `tomdacatto/ling-3.0-flash`
-  * `vendouple/deepseek-v4`
+  * `vendouple/claude-opus-4-8`
   * `vendouple/deepseek-v4-pro`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
-  * `vendouple/kimi-k2.6`
+  * `vendouple/gpt-5.6-sol`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/qwen3.8-max-preview`
