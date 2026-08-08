@@ -29,7 +29,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
   * `CloudCompile/agnes-image-2.0-flash`
-  * `Spit-fires/flux-schnell`
   * `dreamshaper`
   * `flux`
   * `gpt-image-2`
@@ -59,11 +58,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `vendouple/animagine`
-  * `vendouple/flux-2`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/seedream-5-lite`
-  * `vendouple/uncensored-image`
   * `vendouple/uncensored-image-enhanced`
   * `vendouple/wai-illustrious-xl`
   * `wan-image 💎`
@@ -91,7 +88,7 @@ Generates high-quality AI video.
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
-  * `Catniti/agnes-2.5-pro`
+  * `Catniti/agnes-2.5-flash`
   * `Catniti/auto-router-1`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
@@ -99,6 +96,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/qwen3.7-flash`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.0-flash`
+  * `CloudCompile/grok-4.5`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash`
@@ -137,6 +135,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemma 💎`
   * `gemma-4-31b 💎`
   * `gggff123/glm-5.2`
+  * `gggff123/step-3.7-flash`
   * `glm`
   * `gpt-5.4`
   * `gpt-5.4-mini`
@@ -203,6 +202,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `solarnode-developement/hy3`
   * `solarnode-developement/k3`
+  * `solarnode-developement/laguna-s-2.1`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
   * `timemachine-studio/mercury2`
@@ -234,6 +234,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenflash 💎`
   * `elevenlabs 💎`
   * `elevenmusic 💎`
+  * `grok-transcribe 💎`
   * `kokoro 💎`
   * `lyria-3-clip 💎`
   * `qwen-tts 💎`
