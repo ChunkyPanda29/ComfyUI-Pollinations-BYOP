@@ -57,6 +57,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5 💎`
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
+  * `tomdacatto/sana`
   * `vendouple/animagine`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
@@ -89,16 +90,18 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
-  * `Catniti/auto-router-1`
+  * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
-  * `Catniti/qwen3.7-flash`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.0-flash`
   * `CloudCompile/grok-4.5`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
+  * `LynxUnbanned/gpt-5.6-luna`
+  * `LynxUnbanned/gpt-5.6-sol`
+  * `LynxUnbanned/gpt-5.6-terra`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
@@ -134,6 +137,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search 💎`
   * `gemma 💎`
   * `gemma-4-31b 💎`
+  * `gggff123/Inkling`
   * `gggff123/glm-5.2`
   * `gggff123/step-3.7-flash`
   * `glm`
@@ -202,7 +206,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `solarnode-developement/hy3`
   * `solarnode-developement/k3`
-  * `solarnode-developement/laguna-s-2.1`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
   * `timemachine-studio/mercury2`
@@ -212,7 +215,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/claude-opus-4-8`
   * `vendouple/deepseek-v4-pro`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
-  * `vendouple/gpt-5.6-sol`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/qwen3.8-max-preview`
