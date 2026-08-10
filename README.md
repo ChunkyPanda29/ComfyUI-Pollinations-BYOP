@@ -42,7 +42,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `klein`
   * `kontext`
   * `krea 💎`
-  * `meow18838/image-1`
   * `nanobanana 💎`
   * `nanobanana-2 💎`
   * `nanobanana-2-lite 💎`
@@ -59,6 +58,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `tomdacatto/sana`
   * `vendouple/animagine`
+  * `vendouple/flux-2`
+  * `vendouple/gpt-image-2`
+  * `vendouple/grok-imagine`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/seedream-5-lite`
@@ -90,6 +92,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
+  * `Catniti/command-r-plus`
   * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
@@ -99,9 +102,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `CloudCompile/grok-4.5`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
-  * `LynxUnbanned/gpt-5.6-luna`
-  * `LynxUnbanned/gpt-5.6-sol`
-  * `LynxUnbanned/gpt-5.6-terra`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
@@ -170,8 +170,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
-  * `morriszdweck/osaii-api-fast`
-  * `morriszdweck/osaii-api-smart`
   * `muse-spark-1.1 💎`
   * `nemotron 💎`
   * `nova`
@@ -213,11 +211,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/gemma-4-31b-fast`
   * `tomdacatto/ling-3.0-flash`
   * `vendouple/claude-opus-4-8`
+  * `vendouple/deepseek-v4`
   * `vendouple/deepseek-v4-pro`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/kimi-k3`
+  * `vendouple/kimi-k3:s2`
   * `vendouple/laguna-s-2.1:free`
-  * `vendouple/qwen3.8-max-preview`
+  * `vendouple/qwen3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
