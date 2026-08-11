@@ -58,9 +58,10 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `tomdacatto/sana`
   * `vendouple/animagine`
-  * `vendouple/flux-2`
+  * `vendouple/flux-2-dev`
   * `vendouple/gpt-image-2`
   * `vendouple/grok-imagine`
+  * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/seedream-5-lite`
@@ -92,7 +93,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
-  * `Catniti/command-r-plus`
   * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
@@ -210,13 +210,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/ezra`
   * `tomdacatto/gemma-4-31b-fast`
   * `tomdacatto/ling-3.0-flash`
-  * `vendouple/claude-opus-4-8`
+  * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4`
   * `vendouple/deepseek-v4-pro`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
+  * `vendouple/gpt-5.6-sol`
   * `vendouple/kimi-k3`
-  * `vendouple/kimi-k3:s2`
   * `vendouple/laguna-s-2.1:free`
+  * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-grok-4-fast`
