@@ -56,7 +56,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5 💎`
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
-  * `tomdacatto/sana`
   * `vendouple/animagine`
   * `vendouple/flux-2-dev`
   * `vendouple/gpt-image-2`
@@ -93,13 +92,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
-  * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.0-flash`
-  * `CloudCompile/grok-4.5`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash`
@@ -118,7 +115,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
   * `YoannDev90/laguna-s-2.1:free`
   * `YoannDev90/ling-3.0-flash:free`
-  * `chirag-gamer/gpt-oss-120b`
+  * `YoannDev90/muse-glimmer-30b:free`
   * `claude 💎`
   * `claude-fable-5 💎`
   * `claude-fast 💎`
@@ -150,6 +147,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok`
   * `grok-4.5 💎`
   * `grok-large`
+  * `guus6457/llama-3.1-8b`
   * `inkling 💎`
   * `kimi`
   * `kimi-code`
@@ -170,6 +168,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
+  * `morriszdweck/osaii-api-fast`
+  * `morriszdweck/osaii-api-smart`
   * `muse-spark-1.1 💎`
   * `nemotron 💎`
   * `nova`
@@ -206,7 +206,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `solarnode-developement/k3`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
-  * `timemachine-studio/mercury2`
   * `tomdacatto/ezra`
   * `tomdacatto/gemma-4-31b-fast`
   * `tomdacatto/ling-3.0-flash`
@@ -217,10 +216,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/gpt-5.6-sol`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
-  * `vendouple/nemotron-3-ultra:free`
   * `vendouple/qwen3.8-max`
   * `voodoohop/airforce-doubao-pro`
-  * `voodoohop/airforce-grok-4-fast`
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
