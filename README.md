@@ -95,12 +95,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
+  * `Circuit-Overtime/OreoLook`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.0-flash`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
-  * `MarcosFRG/deepseek-v4-flash`
-  * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
@@ -116,6 +115,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `YoannDev90/laguna-s-2.1:free`
   * `YoannDev90/ling-3.0-flash:free`
   * `YoannDev90/muse-glimmer-30b:free`
+  * `chigwell/claude-sonnet-5`
+  * `chigwell/gemini-3.1-flash-lite`
+  * `chigwell/gpt-5.4`
+  * `chigwell/gpt-5.4-mini`
+  * `chigwell/kimi-k3`
+  * `chigwell/minimax-m2.7`
   * `claude 💎`
   * `claude-fable-5 💎`
   * `claude-fast 💎`
@@ -147,7 +152,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok`
   * `grok-4.5 💎`
   * `grok-large`
-  * `guus6457/llama-3.1-8b`
   * `inkling 💎`
   * `kimi`
   * `kimi-code`
@@ -168,8 +172,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
-  * `morriszdweck/osaii-api-fast`
-  * `morriszdweck/osaii-api-smart`
   * `muse-spark-1.1 💎`
   * `nemotron 💎`
   * `nova`
@@ -207,15 +209,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `step-3.5-flash 💎`
   * `step-flash 💎`
   * `tomdacatto/ezra`
-  * `tomdacatto/gemma-4-31b-fast`
   * `tomdacatto/ling-3.0-flash`
   * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4`
-  * `vendouple/deepseek-v4-pro`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/gpt-5.6-sol`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
+  * `vendouple/nemotron-3.5-lightning:free`
   * `vendouple/qwen3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
