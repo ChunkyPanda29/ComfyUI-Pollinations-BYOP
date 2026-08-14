@@ -50,6 +50,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `p-image 💎`
   * `p-image-edit 💎`
   * `qwen-image 💎`
+  * `qwen-image-3 💎`
   * `recraft-v4.1-vector 💎`
   * `seedream 💎`
   * `seedream-pro 💎`
@@ -57,13 +58,10 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `vendouple/animagine`
-  * `vendouple/flux-2-dev`
   * `vendouple/gpt-image-2`
   * `vendouple/grok-imagine`
-  * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
-  * `vendouple/seedream-5-lite`
   * `vendouple/uncensored-image-enhanced`
   * `vendouple/wai-illustrious-xl`
   * `wan-image 💎`
@@ -80,6 +78,7 @@ Generates high-quality AI video.
   * `nova-reel`
   * `p-video 💎`
   * `seedance-2.0 💎`
+  * `seedance-2.5 💎`
   * `seedance-pro 💎`
   * `veo 💎`
   * `wan 💎`
@@ -92,20 +91,27 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
+  * `Catniti/auto-router-1`
+  * `Catniti/claude-sonnet-5`
+  * `Catniti/command-r-plus`
+  * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
+  * `Catniti/kimi-k2.6`
+  * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/afforda-claude-haiku-4.5`
-  * `CloudCompile/agnes-2.0-flash`
+  * `CloudCompile/agnes-2.5-flash`
   * `Lorodn4x/gpt-5.6-terra`
   * `Lorodn4x/minimax-m3`
+  * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
   * `MarcosFRG/gemini-3.1-pro-preview`
-  * `MarcosFRG/gemma-3-27b`
   * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/glm-4.6v-flash`
   * `MarcosFRG/glm-5.2`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
@@ -113,13 +119,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/gemma-4-31B-it`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
   * `YoannDev90/laguna-s-2.1:free`
-  * `YoannDev90/ling-3.0-flash:free`
   * `YoannDev90/muse-glimmer-30b:free`
   * `chigwell/claude-sonnet-5`
   * `chigwell/gemini-3.1-flash-lite`
   * `chigwell/gpt-5.4`
   * `chigwell/gpt-5.4-mini`
-  * `chigwell/kimi-k3`
+  * `chigwell/gpt-5.5`
+  * `chigwell/gpt-5.6-terra`
+  * `chigwell/grok-4.5`
   * `chigwell/minimax-m2.7`
   * `claude 💎`
   * `claude-fable-5 💎`
@@ -152,6 +159,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok`
   * `grok-4.5 💎`
   * `grok-large`
+  * `guus6457/qwen-3.5-4b`
   * `inkling 💎`
   * `kimi`
   * `kimi-code`
@@ -205,7 +213,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `solarnode-developement/hy3`
-  * `solarnode-developement/k3`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
   * `tomdacatto/ezra`
@@ -213,10 +220,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
-  * `vendouple/gpt-5.6-sol`
+  * `vendouple/gpt-5.6-terra`
+  * `vendouple/grok-4.6`
+  * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
-  * `vendouple/nemotron-3.5-lightning:free`
+  * `vendouple/muse-glimmer-30b:free`
   * `vendouple/qwen3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
