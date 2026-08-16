@@ -93,21 +93,25 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
+  * `Catniti/auto-router-1`
+  * `Catniti/claude-sonnet-5`
+  * `Catniti/command-r-plus`
   * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
+  * `Catniti/kimi-k2.6`
+  * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.5-flash`
-  * `Lorodn4x/gpt-5.6-terra`
-  * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/glm-5.2`
+  * `MarcosFRG/metraxai`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
   * `Minor-fun/deepseek-v3.2`
@@ -123,6 +127,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/claude-sonnet-4-6`
   * `chigwell/claude-sonnet-5`
   * `chigwell/gemini-3-flash`
+  * `chigwell/gemini-3.1-flash-lite`
   * `chigwell/gemini-3.5-flash-low`
   * `chigwell/gpt-5.4`
   * `chigwell/gpt-5.4-mini`
@@ -130,6 +135,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/gpt-5.6-terra`
   * `chigwell/grok-4.5`
   * `chigwell/grok-4.6`
+  * `chigwell/kimi-k2.7-code`
   * `chigwell/kimi-k3`
   * `chigwell/llm7-fast`
   * `chigwell/llm7-pro`
@@ -166,7 +172,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok`
   * `grok-4.6 💎`
   * `grok-large`
-  * `guus6457/qwen-3.5-4b`
   * `inkling 💎`
   * `kimi`
   * `kimi-code`
@@ -187,6 +192,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
+  * `morriszdweck/osaii-api-fast`
+  * `morriszdweck/osaii-api-smart`
   * `muse-glimmer`
   * `muse-spark-1.2 💎`
   * `nemotron 💎`
@@ -217,6 +224,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-gpt-4.1`
   * `sharktide/inferenceport-ai-kimi-k2.7-code`
   * `sharktide/inferenceport-ai-lightning-text-v2`
+  * `sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge`
   * `sharktide/inferenceport-ai-mimo-v2.5`
   * `sharktide/inferenceport-ai-minimax-m3`
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
