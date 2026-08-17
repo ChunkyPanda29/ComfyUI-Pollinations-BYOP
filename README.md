@@ -28,7 +28,10 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
-  * `CloudCompile/agnes-image-2.0-flash`
+  * `chigwell/firefly-gpt-image-2`
+  * `chigwell/firefly-image-5`
+  * `chigwell/flux-klein-2`
+  * `chigwell/gpt-image-2`
   * `dreamshaper`
   * `flux`
   * `gpt-image-2`
@@ -59,6 +62,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `vendouple/animagine`
+  * `vendouple/flux-2-pro`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/uncensored-image-enhanced`
@@ -93,18 +97,22 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
-  * `Catniti/auto-router-1`
-  * `Catniti/claude-sonnet-5`
-  * `Catniti/command-r-plus`
   * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
   * `Catniti/gpt-oss-120b`
-  * `Catniti/kimi-k2.6`
-  * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.5-flash`
+  * `JustScriptzz/gemini-3.6-flash`
+  * `JustScriptzz/gpt-5-5`
+  * `JustScriptzz/helix-agent`
+  * `JustScriptzz/kimi-k2.6`
+  * `JustScriptzz/kimi-k2.6-thinking`
+  * `JustScriptzz/qwen3.7-max`
+  * `JustScriptzz/qwen3.8-max`
+  * `JustScriptzz/qwen3.8-max-preview`
+  * `Lorodn4x/intern-s2-preview-397b`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
@@ -114,8 +122,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/metraxai`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
+  * `MarcosFRG/qwen3.8-27b`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
+  * `Takax62/minimax-m3-429b-vml`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
   * `YoannDev90/laguna-s-2.1:free`
   * `YoannDev90/muse-glimmer-30b:free`
@@ -124,7 +134,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/claude-haiku-4-5`
   * `chigwell/claude-opus-4-8`
   * `chigwell/claude-opus-5`
-  * `chigwell/claude-sonnet-4-6`
   * `chigwell/claude-sonnet-5`
   * `chigwell/gemini-3-flash`
   * `chigwell/gemini-3.1-flash-lite`
@@ -136,7 +145,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/grok-4.5`
   * `chigwell/grok-4.6`
   * `chigwell/kimi-k2.7-code`
-  * `chigwell/kimi-k3`
   * `chigwell/llm7-fast`
   * `chigwell/llm7-pro`
   * `chigwell/minimax-m2.7`
@@ -160,7 +168,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemma 💎`
   * `gemma-4-31b 💎`
   * `gggff123/Inkling`
-  * `gggff123/glm-5.2`
   * `gggff123/step-3.7-flash`
   * `glm`
   * `gpt-5.4`
@@ -192,7 +199,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
-  * `morriszdweck/osaii-api-fast`
   * `morriszdweck/osaii-api-smart`
   * `muse-glimmer`
   * `muse-spark-1.2 💎`
@@ -225,18 +231,20 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-kimi-k2.7-code`
   * `sharktide/inferenceport-ai-lightning-text-v2`
   * `sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge`
-  * `sharktide/inferenceport-ai-mimo-v2.5`
   * `sharktide/inferenceport-ai-minimax-m3`
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
+  * `solarnode-developement/A-Hy3`
+  * `solarnode-developement/Qwen3.8-max`
   * `solarnode-developement/hy3`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
   * `tomdacatto/ezra`
-  * `tomdacatto/ling-3.0-flash`
+  * `tomdacatto/gemma-4-31b-fast`
   * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
+  * `vendouple/glm-5.3`
   * `vendouple/gpt-5.6-terra`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k2.6`
