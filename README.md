@@ -31,7 +31,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `chigwell/firefly-gpt-image-2`
   * `chigwell/firefly-image-5`
   * `chigwell/flux-klein-2`
-  * `chigwell/gpt-image-2`
   * `dreamshaper`
   * `flux`
   * `gpt-image-2`
@@ -63,6 +62,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `vendouple/animagine`
   * `vendouple/flux-2-pro`
+  * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
   * `vendouple/uncensored-image-enhanced`
@@ -97,6 +97,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 * **Supported Models:**
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.5-flash`
+  * `Catniti/command-r-plus`
   * `Catniti/deepseek-v4-flash`
   * `Catniti/gemma-4-31b`
   * `Catniti/glm-4.7`
@@ -104,24 +105,19 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/afforda-claude-haiku-4.5`
   * `CloudCompile/agnes-2.5-flash`
-  * `JustScriptzz/gemini-3.6-flash`
-  * `JustScriptzz/gpt-5-5`
-  * `JustScriptzz/helix-agent`
-  * `JustScriptzz/kimi-k2.6`
-  * `JustScriptzz/kimi-k2.6-thinking`
-  * `JustScriptzz/qwen3.7-max`
-  * `JustScriptzz/qwen3.8-max`
-  * `JustScriptzz/qwen3.8-max-preview`
   * `Lorodn4x/intern-s2-preview-397b`
   * `MarcosFRG/deepseek-v4-flash`
+  * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
+  * `MarcosFRG/gemma-4-26b-a4b`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/glm-5.2`
   * `MarcosFRG/metraxai`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
+  * `MarcosFRG/nemotron-3.5-lightning-30b`
   * `MarcosFRG/qwen3.8-27b`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
@@ -132,7 +128,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/DeepSeek-V4-Flash-0731`
   * `chigwell/claude-fable-5`
   * `chigwell/claude-haiku-4-5`
-  * `chigwell/claude-opus-4-8`
   * `chigwell/claude-opus-5`
   * `chigwell/claude-sonnet-5`
   * `chigwell/gemini-3-flash`
@@ -205,6 +200,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `nemotron 💎`
   * `nova`
   * `nova-fast`
+  * `novastardev/olmo-3.1-32b`
   * `openai`
   * `openai-audio`
   * `openai-audio-large`
@@ -243,8 +239,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/gemma-4-31b-fast`
   * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4`
+  * `vendouple/deepseek-v4-pro`
+  * `vendouple/gemini-3.6`
+  * `vendouple/gemini-3.7`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/glm-5.3`
+  * `vendouple/glm-5.3:s2`
   * `vendouple/gpt-5.6-terra`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k2.6`
