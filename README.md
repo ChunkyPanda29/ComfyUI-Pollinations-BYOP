@@ -29,6 +29,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
   * `CloudCompile/agnes-image-2.0-flash`
+  * `JustScriptzz/phoenix-1.0`
+  * `MarcosFRG/lucid-origin`
   * `chigwell/firefly-gpt-image-2`
   * `chigwell/firefly-image-5`
   * `chigwell/gpt-image-2`
@@ -60,11 +62,11 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream-pro 💎`
   * `seedream5 💎`
   * `seedream5-pro 💎`
+  * `sharktide/inferenceport-ai-lightning-image-plus`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `tomdacatto/chatgpt-image-2`
   * `tomdacatto/flux-2-max`
   * `vendouple/animagine`
-  * `vendouple/flux-2-pro`
   * `vendouple/grok-imagine`
   * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
@@ -106,10 +108,18 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/gpt-oss-120b`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/agnes-2.5-flash`
+  * `CloudCompile/agnes-video-v2.0`
   * `JustScriptzz/agnes-2.5-flash`
+  * `JustScriptzz/deepseek-v4-flash-0731`
+  * `JustScriptzz/deepseek-v4-pro-0813`
+  * `JustScriptzz/gemini-3.5-flash`
+  * `JustScriptzz/glm-5.2`
+  * `JustScriptzz/gpt-oss-120b`
   * `JustScriptzz/grok-4.6`
-  * `JustScriptzz/helix-agent`
-  * `JustScriptzz/mercury-2`
+  * `JustScriptzz/kimi-k2.6`
+  * `JustScriptzz/kimi-k3`
+  * `JustScriptzz/minimax-m3`
+  * `JustScriptzz/moondream-3.1`
   * `Lorodn4x/deepseek-v4-pro-0813`
   * `Lorodn4x/intern-s2-preview-397b`
   * `MarcosFRG/deepseek-v4-flash`
@@ -128,6 +138,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/glm-5.2`
+  * `Spit-fires/muse-glimmer`
   * `Takax62/minimax-m3-429b-vml`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
   * `YoannDev90/laguna-s-2.1:free`
@@ -170,9 +181,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gemini-search 💎`
   * `gemma 💎`
   * `gemma-4-31b 💎`
+  * `gggff123/Gemini-3.7-Flash`
+  * `gggff123/Glm-5.3`
   * `gggff123/Inkling`
   * `gggff123/step-3.7-flash`
   * `glm`
+  * `glm-5.3 💎`
   * `gpt-5.4`
   * `gpt-5.4-mini`
   * `gpt-5.6-luna`
@@ -206,6 +220,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `muse-glimmer`
   * `muse-spark-1.2 💎`
   * `nemotron 💎`
+  * `nemotron-3.5-lightning`
   * `nova`
   * `nova-fast`
   * `openai`
@@ -226,7 +241,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen3.7-flash 💎`
   * `qwen3.7-max 💎`
   * `qwen3.8-2.4t-a95b`
+  * `qwen3.8-27b 💎`
   * `qwen3.8-max 💎`
+  * `rodrigookk/STEP-3.7-flash`
+  * `rodrigookk/claude-fable-5`
+  * `rodrigookk/claude-sonnet-4.6`
+  * `rodrigookk/nemotron-3-super-120b-a12b`
+  * `rodrigookk/nemotron-3.5-lightning-30b-a3b`
   * `sharktide/inferenceport-ai-codestral-2508`
   * `sharktide/inferenceport-ai-command-r-plus`
   * `sharktide/inferenceport-ai-gemini-2.5-flash`
@@ -249,15 +270,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/gemini-3.6`
   * `vendouple/gemini-3.7`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
-  * `vendouple/glm-5.3`
-  * `vendouple/gpt-5.6-sol`
   * `vendouple/gpt-5.6-terra`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/muse-glimmer-30b:free`
-  * `vendouple/qwen-3.8-27b:free`
   * `vendouple/qwen3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
@@ -276,7 +294,9 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenflash 💎`
   * `elevenlabs 💎`
   * `elevenmusic 💎`
+  * `fish-audio-s2.1-pro 💎`
   * `grok-transcribe 💎`
+  * `grok-tts 💎`
   * `kokoro 💎`
   * `lyria-3-clip 💎`
   * `qwen-tts 💎`
