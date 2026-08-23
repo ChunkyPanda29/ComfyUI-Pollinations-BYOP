@@ -29,9 +29,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
   * `CloudCompile/agnes-image-2.0-flash`
-  * `JustScriptzz/flux-2-max`
   * `JustScriptzz/phoenix-1.0`
-  * `JustScriptzz/sdxl-lightning`
   * `MarcosFRG/lucid-origin`
   * `Spit-fires/flux-schnell`
   * `chigwell/firefly-gpt-image-2 💎`
@@ -61,14 +59,13 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `qwen-image 💎`
   * `qwen-image-3 💎`
   * `recraft-v4.1-vector 💎`
-  * `rodrigookk/z-image-turbo`
   * `seedream 💎`
   * `seedream-pro 💎`
   * `seedream5 💎`
   * `seedream5-pro 💎`
+  * `sharktide/inferenceport-ai-gpt-image-router 💎`
   * `sharktide/inferenceport-ai-image-ultra 💎`
   * `sharktide/inferenceport-ai-lightning-image-plus`
-  * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `tomdacatto/FLUX.1-kontext-max`
   * `tomdacatto/FLUX.1-kontext-max-paid 💎`
   * `tomdacatto/Qwen-Image-2.0-Pro`
@@ -76,7 +73,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `tomdacatto/chatgpt-image-2`
   * `tomdacatto/flux-2-max`
   * `vendouple/animagine`
-  * `vendouple/flux-2-pro`
   * `vendouple/grok-imagine`
   * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
@@ -125,7 +121,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/agnes-2.5-flash`
-  * `CloudCompile/agnes-video-v2.0`
   * `JustScriptzz/agnes-2.5-flash`
   * `JustScriptzz/deepseek-v4-flash-0731`
   * `JustScriptzz/deepseek-v4-pro-0813`
@@ -138,13 +133,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `JustScriptzz/minimax-m3`
   * `JustScriptzz/moondream-3.1`
   * `JustScriptzz/muse-spark-1.2`
-  * `JustScriptzz/qwen-3.8-max`
   * `Lorodn4x/claude-fable-5 💎`
   * `Lorodn4x/deepseek-v4-pro-0813`
   * `Lorodn4x/gpt-5.6-sol 💎`
   * `Lorodn4x/intern-s2-preview-397b`
   * `Lorodn4x/minimax-m3`
-  * `Lorodn4x/qwen3.8-max`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
@@ -160,6 +153,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
   * `MarcosFRG/nemotron-3.5-lightning-30b`
+  * `MarcosFRG/qwen3.8-2.4t-a95b`
   * `MarcosFRG/qwen3.8-27b`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
@@ -225,6 +219,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `grok-4.6 💎`
   * `grok-large`
   * `inkling 💎`
+  * `iotserver24/cheap-opus-4-8-thinking 💎`
+  * `iotserver24/cheap-opus-5-thinking 💎`
+  * `iotserver24/gpt-5-6-sol`
+  * `iotserver24/stealth-code`
   * `kimi`
   * `kimi-code`
   * `kimi-k3`
@@ -255,6 +253,17 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `openai-audio-large`
   * `openai-fast`
   * `openai-large`
+  * `pegalink/deepseek-v4-flash-0731 💎`
+  * `pegalink/gemini-3.1-pro-preview 💎`
+  * `pegalink/gemini-3.5-flash-lite`
+  * `pegalink/laguna-xs-2.1 💎`
+  * `pegalink/ling-3.0-flash-fast 💎`
+  * `pegalink/ling-3.0-flash-fast-code 💎`
+  * `pegalink/muse-spark-1.2 💎`
+  * `pegalink/ox-alpha`
+  * `pegalink/ox-alpha-agent`
+  * `pegalink/seed-2.1-turbo 💎`
+  * `pegalink/solar-pro4 💎`
   * `perplexity`
   * `perplexity-fast`
   * `perplexity-reasoning`
@@ -270,6 +279,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen3.8-2.4t-a95b`
   * `qwen3.8-27b 💎`
   * `qwen3.8-max 💎`
+  * `rodrigookk/claude-fable-5`
+  * `rodrigookk/claude-large`
+  * `rodrigookk/grok-large`
+  * `rodrigookk/laguna`
+  * `rodrigookk/step-flash`
   * `sharktide/inferenceport-ai-codestral-2508`
   * `sharktide/inferenceport-ai-command-r-plus`
   * `sharktide/inferenceport-ai-gemini-2.5-flash`
@@ -292,13 +306,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/gemini-3.6`
   * `vendouple/glm-5.3`
   * `vendouple/gpt-5.6-luna`
-  * `vendouple/gpt-5.6-terra 💎`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/muse-glimmer-30b:free`
-  * `vendouple/qwen3.8-max`
+  * `vendouple/ox-alpha`
+  * `vendouple/qwen-3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
