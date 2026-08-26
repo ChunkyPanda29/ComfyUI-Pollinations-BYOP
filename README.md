@@ -29,17 +29,19 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
   * `CloudCompile/agnes-image-2.0-flash`
-  * `JustScriptzz/lucid-origin`
+  * `JustScriptzz/flux-2-klein-9b`
   * `JustScriptzz/phoenix-1.0`
   * `JustScriptzz/sdxl-lightning`
+  * `MarcosFRG/flux-1-schnell`
+  * `MarcosFRG/flux-2-klein-4b`
   * `MarcosFRG/lucid-origin`
+  * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/sdxl-lightning`
   * `Spit-fires/flux-schnell`
-  * `chigwell/LLM7-image`
-  * `chigwell/firefly-gpt-image-2 💎`
-  * `chigwell/firefly-image-5`
+  * `chigwell/LLM7-image 💎`
+  * `chigwell/firefly-image-5 💎`
+  * `chigwell/flux-klein-2 💎`
   * `chigwell/gpt-image-2 💎`
-  * `chigwell/llm7-image`
   * `dreamshaper`
   * `flux`
   * `gpt-image-2`
@@ -69,15 +71,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `seedream5 💎`
   * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-gpt-image-router 💎`
-  * `sharktide/inferenceport-ai-image-ultra 💎`
   * `sharktide/inferenceport-ai-lightning-image-plus`
   * `sharktide/inferenceport-ai-lightning-image-turbo`
-  * `tomdacatto/FLUX.1-kontext-max`
-  * `tomdacatto/FLUX.1-kontext-max-paid 💎`
-  * `tomdacatto/Qwen-Image-2.0-Pro`
-  * `tomdacatto/Qwen-Image-2.0-Pro-paid 💎`
-  * `tomdacatto/chatgpt-image-2`
-  * `tomdacatto/flux-2-max`
   * `vendouple/anima`
   * `vendouple/animagine`
   * `vendouple/flux-2-klein`
@@ -86,7 +81,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/nano-banana-pro`
-  * `vendouple/uncensored-image`
   * `vendouple/uncensored-image-v2`
   * `wan-image 💎`
   * `wan-image-pro 💎`
@@ -109,6 +103,7 @@ Generates high-quality AI video.
   * `seedance-pro 💎`
   * `veo 💎`
   * `wan 💎`
+  * `wan-3.0 💎`
   * `wan-fast 💎`
   * `wan-pro 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
@@ -122,17 +117,26 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/gemma-4-31b`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/agnes-2.5-flash`
+  * `CloudCompile/agnes-video-v2.0`
+  * `CloudCompile/moondream3.1`
   * `JustScriptzz/agnes-2.5-flash`
   * `JustScriptzz/deepseek-v4-flash-0731`
   * `JustScriptzz/deepseek-v4-pro-0813`
   * `JustScriptzz/gemini-3.6-flash`
   * `JustScriptzz/glm-5.2`
+  * `JustScriptzz/gpt-5.6-luna`
   * `JustScriptzz/gpt-oss-120b`
   * `JustScriptzz/grok-4.6`
   * `JustScriptzz/helix-agent`
+  * `JustScriptzz/kimi-k2.7-code`
   * `JustScriptzz/minimax-m3`
   * `JustScriptzz/moondream-3.1`
-  * `JustScriptzz/muse-spark-1.2`
+  * `JustScriptzz/qwen-3.8`
+  * `Lorodn4x/claude-fable-5 💎`
+  * `Lorodn4x/deepseek-v4-pro-0813`
+  * `Lorodn4x/gpt-5.6-sol 💎`
+  * `Lorodn4x/intern-s2-preview-397b`
+  * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
   * `MarcosFRG/gemini-2.5-flash-lite`
@@ -158,18 +162,18 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `YoannDev90/laguna-s-2.1:free`
   * `YoannDev90/muse-glimmer-30b:free`
   * `chigwell/claude-fable-5 💎`
-  * `chigwell/claude-haiku-4-5`
+  * `chigwell/claude-haiku-4-5 💎`
   * `chigwell/claude-opus-4-8 💎`
   * `chigwell/claude-opus-5 💎`
   * `chigwell/claude-sonnet-4-6 💎`
   * `chigwell/claude-sonnet-5 💎`
   * `chigwell/gemini-3-flash 💎`
-  * `chigwell/gemini-3.1-flash-lite`
+  * `chigwell/gemini-3.1-flash-lite 💎`
   * `chigwell/gemini-3.5-flash-low 💎`
-  * `chigwell/gemini-3.7-flash`
+  * `chigwell/gemini-3.7-flash 💎`
   * `chigwell/glm-5.3 💎`
   * `chigwell/gpt-5.4 💎`
-  * `chigwell/gpt-5.4-mini`
+  * `chigwell/gpt-5.4-mini 💎`
   * `chigwell/gpt-5.5 💎`
   * `chigwell/gpt-5.6-sol 💎`
   * `chigwell/gpt-5.6-terra 💎`
@@ -177,7 +181,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/grok-4.6 💎`
   * `chigwell/llm7-fast`
   * `chigwell/llm7-pro 💎`
-  * `chigwell/minimax-m2.7`
+  * `chigwell/minimax-m2.7 💎`
   * `claude 💎`
   * `claude-fable-5 💎`
   * `claude-fast 💎`
@@ -218,7 +222,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `iotserver24/cheap-opus-4-8-thinking 💎`
   * `iotserver24/cheap-opus-5`
   * `iotserver24/cheap-opus-5-thinking 💎`
-  * `iotserver24/deepseek-fast`
   * `iotserver24/gpt-5-6-sol`
   * `iotserver24/route-r3ap3r`
   * `iotserver24/stealth-code`
@@ -273,7 +276,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen3.8-max 💎`
   * `sharktide/inferenceport-ai-codestral-2508`
   * `sharktide/inferenceport-ai-command-r-plus`
-  * `sharktide/inferenceport-ai-gpt-4.1`
+  * `sharktide/inferenceport-ai-gemini-2.5-flash`
   * `sharktide/inferenceport-ai-kimi-k2.7-code`
   * `sharktide/inferenceport-ai-lightning-text-v2`
   * `sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge`
@@ -292,9 +295,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/glm-5.3`
   * `vendouple/gpt-5.6-luna`
-  * `vendouple/gpt-5.6-terra`
   * `vendouple/grok-4.6`
-  * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/muse-glimmer-30b:free`
@@ -303,6 +304,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
+  * `zero2launch/gemini-3.6-flash 💎`
+  * `zero2launch/gemini-3.7-flash`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
