@@ -28,7 +28,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
-  * `CloudCompile/agnes-image-2.0-flash`
   * `JustScriptzz/flux-2-klein-9b`
   * `JustScriptzz/gpt-image-2`
   * `JustScriptzz/lucid-origin`
@@ -41,7 +40,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/sdxl-lightning`
   * `chigwell/LLM7-image 💎`
-  * `chigwell/firefly-image-5 💎`
   * `chigwell/flux-klein-2 💎`
   * `chigwell/gpt-image-2 💎`
   * `dreamshaper`
@@ -68,6 +66,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `qwen-image 💎`
   * `qwen-image-3 💎`
   * `recraft-v4.1-vector 💎`
+  * `rekty/rekty-dev-3 💎`
+  * `rekty/rekty-dev-v2 💎`
   * `seedream 💎`
   * `seedream-pro 💎`
   * `seedream5 💎`
@@ -91,6 +91,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 ### 2. 🌸🎞️ Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
+  * `google/gemini-omni-1.1-flash 💎`
   * `grok-imagine-video-1.5 💎`
   * `grok-video-pro 💎`
   * `happyhorse-1.1 💎`
@@ -127,10 +128,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `CloudCompile/agnes-2.5-flash`
   * `CloudCompile/moondream3.1`
   * `JustScriptzz/agnes-2.5-flash`
+  * `JustScriptzz/claude-opus-5`
   * `JustScriptzz/deepseek-v4-flash-0731`
   * `JustScriptzz/deepseek-v4-pro-0813`
   * `JustScriptzz/gemini-3.6-flash`
-  * `JustScriptzz/glm-5.2`
+  * `JustScriptzz/glm-5.3-flash`
+  * `JustScriptzz/gpt-5-6-sol`
   * `JustScriptzz/gpt-5.6-luna`
   * `JustScriptzz/gpt-oss-120b`
   * `JustScriptzz/grok-4.6`
@@ -139,7 +142,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `JustScriptzz/kimi-k3`
   * `JustScriptzz/minimax-m3`
   * `JustScriptzz/moondream-3.1`
-  * `JustScriptzz/notion-agent`
   * `JustScriptzz/qwen-3.8-max`
   * `Lorodn4x/claude-fable-5 💎`
   * `Lorodn4x/deepseek-v4-pro-0813`
@@ -164,7 +166,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/moondream-3.1`
   * `MarcosFRG/nemotron-3.5-lightning-30b`
   * `MarcosFRG/qwen3.8-27b`
-  * `MarcosFRG/qwen3.8-flash-next`
+  * `MarcosFRG/qwen3.8-flash`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/muse-glimmer`
@@ -258,7 +260,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral-small-3.2 💎`
   * `morriszdweck/osaii-api-fast`
   * `morriszdweck/osaii-api-smart`
-  * `morriszdweck/osaii-swarm`
   * `muse-glimmer`
   * `muse-spark-1.2 💎`
   * `nemotron 💎`
@@ -309,11 +310,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/claude-sonnet-5`
   * `tomdacatto/ezra`
   * `vendouple/deepseek-v4-flash-0731`
-  * `vendouple/deepseek-v4-pro`
   * `vendouple/gemini-3.6`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/glm-5.3`
   * `vendouple/gpt-5.6-luna`
+  * `vendouple/gpt-5.6-terra`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
@@ -321,6 +322,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/qwen-3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
+  * `z-ai/glm-5.3-flash 💎`
   * `zero2launch/gemini-3.6-flash 💎`
   * `zero2launch/gemini-3.7-flash`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
