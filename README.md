@@ -26,8 +26,6 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
-  * `Catniti/agnes-image-2.0-flash`
-  * `Catniti/agnes-image-2.1-flash`
   * `JustScriptzz/flux-2-klein-9b`
   * `JustScriptzz/gpt-image-2`
   * `JustScriptzz/lucid-origin`
@@ -39,9 +37,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `MarcosFRG/lucid-origin`
   * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/sdxl-lightning`
-  * `chigwell/LLM7-image 💎`
   * `chigwell/flux-klein-2 💎`
-  * `chigwell/gpt-image-2 💎`
   * `dreamshaper`
   * `flux`
   * `gpt-image-2`
@@ -67,6 +63,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `qwen-image-3 💎`
   * `recraft-v4.1-vector 💎`
   * `rekty/rekty-dev-3 💎`
+  * `rekty/rekty-dev-4 💎`
   * `rekty/rekty-dev-v2 💎`
   * `seedream 💎`
   * `seedream-pro 💎`
@@ -116,14 +113,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/agnes-2.5-flash`
-  * `Catniti/auto-router-1`
-  * `Catniti/claude-sonnet-5`
-  * `Catniti/command-r-plus`
   * `Catniti/gemma-4-31b`
-  * `Catniti/gpt-oss-120b`
-  * `Catniti/kimi-k2.6`
-  * `Catniti/openai-fast`
-  * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/agnes-2.5-flash`
   * `CloudCompile/moondream3.1`
@@ -132,7 +122,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `JustScriptzz/deepseek-v4-flash-0731`
   * `JustScriptzz/deepseek-v4-pro-0813`
   * `JustScriptzz/gemini-3.6-flash`
-  * `JustScriptzz/glm-5.3-flash`
   * `JustScriptzz/gpt-5-6-sol`
   * `JustScriptzz/gpt-5.6-luna`
   * `JustScriptzz/gpt-oss-120b`
@@ -143,9 +132,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `JustScriptzz/minimax-m3`
   * `JustScriptzz/moondream-3.1`
   * `JustScriptzz/qwen-3.8-max`
-  * `Lorodn4x/claude-fable-5 💎`
   * `Lorodn4x/deepseek-v4-pro-0813`
-  * `Lorodn4x/gpt-5.6-sol 💎`
   * `Lorodn4x/intern-s2-preview-397b`
   * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash`
@@ -160,13 +147,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/glm-5.2`
   * `MarcosFRG/glm-5.3-flash`
   * `MarcosFRG/gpt-5.6-luna`
+  * `MarcosFRG/kimi-k2.7-code`
   * `MarcosFRG/metraxai`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/minimax-m3`
   * `MarcosFRG/moondream-3.1`
   * `MarcosFRG/nemotron-3.5-lightning-30b`
   * `MarcosFRG/qwen3.8-27b`
-  * `MarcosFRG/qwen3.8-flash`
   * `Minor-fun/deepseek-v3.2`
   * `Minor-fun/gemma-4-31B-it`
   * `Spit-fires/muse-glimmer`
@@ -220,7 +207,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `gggff123/gpt-5-nano`
   * `gggff123/step-3.7-flash`
   * `glm`
-  * `glm-5.3 💎`
+  * `glm-5.3`
   * `gpt-5.4`
   * `gpt-5.4-mini`
   * `gpt-5.6-luna`
@@ -266,6 +253,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `nemotron-3.5-lightning`
   * `nova`
   * `nova-fast`
+  * `novastardev/olmo-3.1-32b`
   * `openai`
   * `openai-audio`
   * `openai-audio-large`
@@ -320,6 +308,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/muse-glimmer-30b:free`
   * `vendouple/qwen-3.8-max`
+  * `vendouple/qwen3.8-27b`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
   * `z-ai/glm-5.3-flash 💎`
