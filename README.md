@@ -26,8 +26,9 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
+  * `Catniti/agnes-image-2.0-flash`
+  * `Catniti/agnes-image-2.1-flash`
   * `JustScriptzz/flux-2-klein-9b`
-  * `JustScriptzz/gpt-image-2`
   * `JustScriptzz/lucid-origin`
   * `JustScriptzz/phoenix-1.0`
   * `JustScriptzz/qwen-image-3.0-pro`
@@ -37,7 +38,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `MarcosFRG/lucid-origin`
   * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/sdxl-lightning`
-  * `chigwell/flux-klein-2 💎`
+  * `chigwell/firefly-gpt-image-2 💎`
+  * `chigwell/gpt-image-2 💎`
   * `dreamshaper`
   * `flux`
   * `gpt-image-2`
@@ -110,20 +112,24 @@ Generates high-quality AI video.
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
+  * `AkshayCoder48/gpt-5.4-mini-no-login`
+  * `AkshayCoder48/gpt-o4-mini-no-login`
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/agnes-2.5-flash`
+  * `Catniti/auto-router-1`
+  * `Catniti/claude-sonnet-5`
+  * `Catniti/command-r-plus`
   * `Catniti/gemma-4-31b`
+  * `Catniti/gpt-oss-120b`
+  * `Catniti/kimi-k2.6`
+  * `Catniti/openai-fast`
+  * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/agnes-2.5-flash`
   * `CloudCompile/moondream3.1`
   * `JustScriptzz/agnes-2.5-flash`
-  * `JustScriptzz/claude-opus-5`
   * `JustScriptzz/deepseek-v4-flash-0731`
-  * `JustScriptzz/deepseek-v4-pro-0813`
-  * `JustScriptzz/gemini-3.6-flash`
-  * `JustScriptzz/gpt-5-6-sol`
-  * `JustScriptzz/gpt-5.6-luna`
   * `JustScriptzz/gpt-oss-120b`
   * `JustScriptzz/grok-4.6`
   * `JustScriptzz/helix-agent`
@@ -172,6 +178,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/gemini-3.5-flash-low 💎`
   * `chigwell/gemini-3.7-flash 💎`
   * `chigwell/glm-5.3 💎`
+  * `chigwell/glm-5.3-flash 💎`
   * `chigwell/gpt-5.4 💎`
   * `chigwell/gpt-5.4-mini 💎`
   * `chigwell/gpt-5.5 💎`
@@ -223,7 +230,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `iotserver24/cheap-opus-5`
   * `iotserver24/cheap-opus-5-thinking 💎`
   * `iotserver24/deepseek-fast`
-  * `iotserver24/gpt-5-6-sol`
+  * `iotserver24/kimi-k2.7-code-nitro`
+  * `iotserver24/kimi-k3 💎`
   * `iotserver24/route-r3ap3r`
   * `iotserver24/stealth-code`
   * `kimi`
@@ -245,7 +253,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral 💎`
   * `mistral-large`
   * `mistral-small-3.2 💎`
-  * `morriszdweck/osaii-api-fast`
   * `morriszdweck/osaii-api-smart`
   * `muse-glimmer`
   * `muse-spark-1.2 💎`
@@ -265,6 +272,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `perplexity`
   * `perplexity-fast`
   * `perplexity-reasoning`
+  * `pollinations-router/floret`
   * `pollinations-router/polli`
   * `qwen-coder`
   * `qwen-coder-large 💎`
@@ -304,7 +312,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/gpt-5.6-luna`
   * `vendouple/gpt-5.6-terra`
   * `vendouple/grok-4.6`
-  * `vendouple/kimi-k3`
   * `vendouple/laguna-s-2.1:free`
   * `vendouple/muse-glimmer-30b:free`
   * `vendouple/qwen-3.8-max`
