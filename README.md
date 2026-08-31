@@ -28,20 +28,17 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
   * `Catniti/agnes-image-2.0-flash`
   * `Catniti/agnes-image-2.1-flash`
-  * `JustScriptzz/flux-2-klein-9b`
-  * `JustScriptzz/lucid-origin`
-  * `JustScriptzz/phoenix-1.0`
+  * `JustScriptzz/gemini-3-flash-image`
   * `JustScriptzz/qwen-image-3.0-pro`
-  * `JustScriptzz/sdxl-lightning`
   * `MarcosFRG/flux-1-schnell`
   * `MarcosFRG/flux-2-klein-4b`
   * `MarcosFRG/lucid-origin`
-  * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/sdxl-lightning`
-  * `chigwell/firefly-gpt-image-2 💎`
   * `chigwell/gpt-image-2 💎`
   * `dreamshaper`
   * `flux`
+  * `flux-2-flex 💎`
+  * `flux-2-pro 💎`
   * `gpt-image-2`
   * `gptimage`
   * `gptimage-large`
@@ -77,10 +74,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `vendouple/anima`
   * `vendouple/animagine`
-  * `vendouple/gpt-image-2`
   * `vendouple/grok-imagine`
   * `vendouple/luma-photon-1`
-  * `vendouple/nano-banana-pro`
+  * `vendouple/qwen-image-3.0-pro 💎`
   * `vendouple/uncensored-image-v2`
   * `wan-image 💎`
   * `wan-image-pro 💎`
@@ -112,34 +108,97 @@ Generates high-quality AI video.
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
 Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting inside your workflow.
 * **Supported Models:**
+  * `AkshayCoder48/L3-70B-Euryale-v2.1`
+  * `AkshayCoder48/Lorbus-Qwen3.6-27B-int4-AutoRound`
+  * `AkshayCoder48/Lunaris`
+  * `AkshayCoder48/Nemo`
+  * `AkshayCoder48/Qwen3.5-9B-Q4_K_M.gguf`
+  * `AkshayCoder48/chat-model-reasoning`
+  * `AkshayCoder48/chat-model-reasoning-with-search`
+  * `AkshayCoder48/chatgpt`
+  * `AkshayCoder48/chatgpt-search`
+  * `AkshayCoder48/claude`
+  * `AkshayCoder48/claude-search`
+  * `AkshayCoder48/cohere-north-mini-code:free`
+  * `AkshayCoder48/deepseek`
+  * `AkshayCoder48/deepseek-r1`
+  * `AkshayCoder48/deepseek-search`
+  * `AkshayCoder48/deepseek-v3`
+  * `AkshayCoder48/deepseek-v3.1`
+  * `AkshayCoder48/dots-studio-dots-3-note-preview:free`
+  * `AkshayCoder48/gemini`
+  * `AkshayCoder48/gemini-2.5-flash`
+  * `AkshayCoder48/gemini-2.5-pro`
+  * `AkshayCoder48/gemini-3-flash`
+  * `AkshayCoder48/gemini-3.1-flash-lite`
+  * `AkshayCoder48/gemini-3.5-flash`
+  * `AkshayCoder48/gemini-search`
+  * `AkshayCoder48/gpt-4o-latest`
+  * `AkshayCoder48/gpt-5`
   * `AkshayCoder48/gpt-5.4-mini-no-login`
   * `AkshayCoder48/gpt-o4-mini-no-login`
+  * `AkshayCoder48/gpt-oss-120b`
+  * `AkshayCoder48/grok`
+  * `AkshayCoder48/grok-4-fast`
+  * `AkshayCoder48/grok-search`
+  * `AkshayCoder48/inclusionai-ling-3.0-flash-fin:free`
+  * `AkshayCoder48/jollygen`
+  * `AkshayCoder48/kilo-auto-free`
+  * `AkshayCoder48/kilo-auto-small`
+  * `AkshayCoder48/koboldcpp-L3-8B-Stheno-v3.2-Q8_0`
+  * `AkshayCoder48/koboldcpp-TheDrummer_Cydonia-24B-v4.3-Q4_K_M`
+  * `AkshayCoder48/laguna-s-2.1-free`
+  * `AkshayCoder48/llama3-8b`
+  * `AkshayCoder48/meta`
+  * `AkshayCoder48/meta-search`
+  * `AkshayCoder48/midnight-rose`
+  * `AkshayCoder48/nemotron-3-ultra-free`
+  * `AkshayCoder48/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning:free`
+  * `AkshayCoder48/nvidia-nemotron-3-super-120b-a12b:free`
+  * `AkshayCoder48/nvidia-nemotron-3-ultra-550b-a55b:free`
+  * `AkshayCoder48/perplexity`
+  * `AkshayCoder48/perplexity-search`
+  * `AkshayCoder48/poolside-laguna-s-2.1:free`
+  * `AkshayCoder48/qwen`
+  * `AkshayCoder48/stepfun-step-3.7-flash:free`
+  * `AkshayCoder48/tencent-hy3:free`
+  * `AkshayCoder48/toolbaz-v4.5-fast`
+  * `AkshayCoder48/toolbaz_v4`
+  * `AkshayCoder48/v3`
+  * `AkshayCoder48/vexa`
   * `Bakhshi7889/gemma-4-31b-it`
   * `Catniti/agnes-2.0-flash`
   * `Catniti/agnes-2.5-flash`
   * `Catniti/auto-router-1`
   * `Catniti/claude-sonnet-5`
-  * `Catniti/command-r-plus`
   * `Catniti/gemma-4-31b`
   * `Catniti/gpt-oss-120b`
   * `Catniti/kimi-k2.6`
-  * `Catniti/openai-fast`
   * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/agnes-2.5-flash`
   * `CloudCompile/moondream3.1`
   * `JustScriptzz/agnes-2.5-flash`
+  * `JustScriptzz/claude-fable-5`
+  * `JustScriptzz/claude-haiku-4-5`
+  * `JustScriptzz/claude-opus-5`
+  * `JustScriptzz/claude-sonnet-5`
   * `JustScriptzz/deepseek-v4-flash-0731`
+  * `JustScriptzz/deepseek-v4-pro-0813`
+  * `JustScriptzz/gemini-3.6-flash`
+  * `JustScriptzz/glm-5.2`
+  * `JustScriptzz/glm-5.3-flash`
+  * `JustScriptzz/gpt-5.6-sol`
   * `JustScriptzz/gpt-oss-120b`
   * `JustScriptzz/grok-4.6`
   * `JustScriptzz/helix-agent`
-  * `JustScriptzz/kimi-k2.7-code`
   * `JustScriptzz/kimi-k3`
   * `JustScriptzz/minimax-m3`
   * `JustScriptzz/moondream-3.1`
   * `JustScriptzz/qwen-3.8-max`
+  * `Lorodn4x/claude-fable-5 💎`
   * `Lorodn4x/deepseek-v4-pro-0813`
-  * `Lorodn4x/intern-s2-preview-397b`
+  * `Lorodn4x/gpt-5.6-sol 💎`
   * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash`
   * `MarcosFRG/deepseek-v4-pro`
@@ -254,6 +313,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `mistral-large`
   * `mistral-small-3.2 💎`
   * `morriszdweck/osaii-api-smart`
+  * `morriszdweck/osaii-swarm`
   * `muse-glimmer`
   * `muse-spark-1.2 💎`
   * `nemotron 💎`
@@ -299,6 +359,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `solarnode-developement/hy3`
   * `step-3.5-flash 💎`
   * `step-flash 💎`
+  * `thinkingmachines/inkling 💎`
   * `tomdacatto/claude-haiku-4.5`
   * `tomdacatto/claude-opus-4-6`
   * `tomdacatto/claude-opus-4-7`
@@ -318,7 +379,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/qwen3.8-27b`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
-  * `z-ai/glm-5.3-flash 💎`
+  * `voodoohop/anyvm-deepseek-chat`
+  * `z-ai/glm-5.3-flash`
   * `zero2launch/gemini-3.6-flash 💎`
   * `zero2launch/gemini-3.7-flash`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
