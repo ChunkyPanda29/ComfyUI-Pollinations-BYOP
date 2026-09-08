@@ -10,12 +10,17 @@ REPO_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_FILE = os.path.join(REPO_DIR, "models.json")
 README_FILE = os.path.join(REPO_DIR, "README.md")
 
+def display_names(model):
+    # ComfyUI validates saved workflow values against the dropdown's enum.
+    names = [model["name"], *(model.get("aliases") or [])]
+    return [f"{name} 💎" if model.get("paid_only") else name for name in names]
+
 def fetch_api_models():
     print("🛰️ Scouting Pollinations Official API (Quad-Modal Pass)...")
     try:
         # 1. Text Models
         text_resp = requests.get("https://gen.pollinations.ai/text/models", timeout=10).json()
-        text_models = [f"{m['name']} 💎" if m.get("paid_only") else m["name"] for m in text_resp if "name" in m]
+        text_models = [name for m in text_resp if "name" in m for name in display_names(m)]
         
         # 2. Image & Video Models
         img_vid_resp = requests.get("https://gen.pollinations.ai/image/models", timeout=10).json()
@@ -23,21 +28,20 @@ def fetch_api_models():
         for m in img_vid_resp:
             name = m.get("name")
             if not name: continue
-            display = f"{name} 💎" if m.get("paid_only") else name
             if "video" in m.get("output_modalities", []):
-                video_models.append(display)
+                video_models.extend(display_names(m))
             else:
-                image_models.append(display)
+                image_models.extend(display_names(m))
 
         # 3. Audio Models
         audio_resp = requests.get("https://gen.pollinations.ai/audio/models", timeout=10).json()
-        audio_models = [f"{m['name']} 💎" if m.get("paid_only") else m["name"] for m in audio_resp if "name" in m]
+        audio_models = [name for m in audio_resp if "name" in m for name in display_names(m)]
 
         return {
-            "image": sorted(image_models), 
-            "video": sorted(video_models), 
-            "text": sorted(text_models),
-            "audio": sorted(audio_models)
+            "image": sorted(set(image_models)),
+            "video": sorted(set(video_models)),
+            "text": sorted(set(text_models)),
+            "audio": sorted(set(audio_models))
         }
     except Exception as e:
         print(f"❌ API Fetch Failed: {e}")
