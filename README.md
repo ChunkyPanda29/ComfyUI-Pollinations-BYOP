@@ -26,8 +26,6 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
-  * `Catniti/agnes-image-2.0-flash`
-  * `Catniti/agnes-image-2.1-flash`
   * `JustScriptzz/phoenix-1.0`
   * `MarcosFRG/flux-1-schnell`
   * `MarcosFRG/flux-2-klein-4b`
@@ -36,75 +34,75 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `MarcosFRG/phoenix-1.0:paid 💎`
   * `NamanSoni78/Z-Image-Turbo 💎`
   * `NamanSoni78/ideogram-v4-quality 💎`
+  * `alibaba/wan-2.7-image 💎`
+  * `alibaba/wan-2.7-image-pro 💎`
+  * `amazon/nova-canvas-v1`
+  * `black-forest-labs/flux.1-kontext-pro`
+  * `black-forest-labs/flux.1-schnell`
+  * `black-forest-labs/flux.2-flex 💎`
+  * `black-forest-labs/flux.2-klein-4b`
+  * `black-forest-labs/flux.2-pro 💎`
+  * `bytedance/seedream-4.0 💎`
+  * `bytedance/seedream-4.5 💎`
+  * `bytedance/seedream-5.0-lite 💎`
+  * `bytedance/seedream-5.0-pro 💎`
   * `chigwell/gpt-image-2 💎`
-  * `dreamshaper`
-  * `flux`
-  * `flux-2-flex 💎`
-  * `flux-2-pro 💎`
-  * `gpt-image-2`
-  * `gptimage`
-  * `gptimage-large`
-  * `grok-imagine 💎`
-  * `grok-imagine-image-2.0 💎`
-  * `grok-imagine-pro 💎`
-  * `ideogram-v4-balanced 💎`
-  * `ideogram-v4-quality 💎`
-  * `ideogram-v4-turbo 💎`
-  * `klein`
-  * `kontext`
-  * `krea 💎`
+  * `google/gemini-2.5-flash-image 💎`
+  * `google/gemini-3-pro-image 💎`
+  * `google/gemini-3.1-flash-image 💎`
+  * `google/gemini-3.1-flash-lite-image 💎`
+  * `ideogram-ai/ideogram-v4-balanced 💎`
+  * `ideogram-ai/ideogram-v4-quality 💎`
+  * `ideogram-ai/ideogram-v4-turbo 💎`
+  * `krea/krea-2-medium 💎`
+  * `lykon/dreamshaper-8-lcm`
   * `microsoft/mai-image-2.5-flash`
-  * `nanobanana 💎`
-  * `nanobanana-2 💎`
-  * `nanobanana-2-lite 💎`
-  * `nanobanana-pro 💎`
-  * `nova-canvas`
-  * `p-image 💎`
-  * `p-image-edit 💎`
-  * `qwen-image 💎`
-  * `qwen-image-3 💎`
-  * `recraft-v4.1-vector 💎`
+  * `openai/gpt-image-1-mini`
+  * `openai/gpt-image-1.5`
+  * `openai/gpt-image-2`
+  * `prunaai/p-image 💎`
+  * `prunaai/p-image-edit 💎`
+  * `qwen/qwen-image 💎`
+  * `qwen/qwen-image-3 💎`
+  * `recraft/recraft-v4.1-vector 💎`
   * `rekty/rekty-dev-3 💎`
   * `rekty/rekty-dev-v2 💎`
-  * `seedream 💎`
-  * `seedream-pro 💎`
-  * `seedream5 💎`
-  * `seedream5-pro 💎`
   * `sharktide/inferenceport-ai-gpt-image-router 💎`
   * `sharktide/inferenceport-ai-image-ultra 💎`
+  * `tongyi-mai/z-image-turbo`
   * `vendouple/anima`
   * `vendouple/animagine`
   * `vendouple/lucid-origin`
   * `vendouple/luma-photon-1`
   * `vendouple/qwen-image-3.0-pro 💎`
   * `vendouple/uncensored-image-v2`
-  * `wan-image 💎`
-  * `wan-image-pro 💎`
-  * `zimage`
+  * `x-ai/grok-imagine-image 💎`
+  * `x-ai/grok-imagine-image-2.0 💎`
+  * `x-ai/grok-imagine-image-quality 💎`
 * **Parameters:** `prompt`, `model`, `width`, `height`, `seed`, `api_key`, `negative_prompt`
 
 ### 2. 🌸🎞️ Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
   * `NamanSoni78/Seedance-2.5 💎`
+  * `alibaba/happyhorse-1.1 💎`
+  * `alibaba/wan-2.2-fast 💎`
+  * `alibaba/wan-2.6 💎`
+  * `alibaba/wan-2.7 💎`
+  * `alibaba/wan-3.0 💎`
+  * `amazon/nova-reel-v1`
+  * `bytedance/seedance-1-pro-fast 💎`
+  * `bytedance/seedance-2.0 💎`
+  * `bytedance/seedance-2.0-fast 💎`
+  * `bytedance/seedance-2.0-mini 💎`
+  * `bytedance/seedance-2.5 💎`
   * `google/gemini-omni-1.1-flash 💎`
-  * `grok-imagine-video-1.5 💎`
-  * `grok-video-pro 💎`
-  * `happyhorse-1.1 💎`
-  * `minimax-h3 💎`
+  * `google/veo-3.1-fast 💎`
+  * `minimax/minimax-h3 💎`
   * `minimax/minimax-h3-max-turbo 💎`
-  * `nova-reel`
-  * `p-video 💎`
-  * `seedance-2.0 💎`
-  * `seedance-2.0-fast 💎`
-  * `seedance-2.0-mini 💎`
-  * `seedance-2.5 💎`
-  * `seedance-pro 💎`
-  * `veo 💎`
-  * `wan 💎`
-  * `wan-3.0 💎`
-  * `wan-fast 💎`
-  * `wan-pro 💎`
+  * `prunaai/p-video 💎`
+  * `x-ai/grok-imagine-video 💎`
+  * `x-ai/grok-imagine-video-1.5 💎`
 * **Parameters:** `prompt`, `model`, `seed`, `api_key`
 
 ### 3. 🌸🤖 Pollinations Text Gen (BYOP)
@@ -127,7 +125,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/code-pair`
   * `AkshayCoder48/cohere-north-mini-code:free`
   * `AkshayCoder48/deepseek-search`
-  * `AkshayCoder48/deepseek-v3.1`
   * `AkshayCoder48/deepseek-v4-pro`
   * `AkshayCoder48/free-clips 💎`
   * `AkshayCoder48/free-voice`
@@ -138,7 +135,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/gemini-3.6-flash`
   * `AkshayCoder48/gemini-search`
   * `AkshayCoder48/glm-5-2`
-  * `AkshayCoder48/gpt-5`
+  * `AkshayCoder48/gpt-4o-latest`
   * `AkshayCoder48/gpt-5-4`
   * `AkshayCoder48/gpt-5-5`
   * `AkshayCoder48/gpt-5-6-luna`
@@ -152,7 +149,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/kilo-auto-free`
   * `AkshayCoder48/kilo-auto-small`
   * `AkshayCoder48/kimi-k3`
-  * `AkshayCoder48/laguna-s-2.1-free`
   * `AkshayCoder48/llama3-8b`
   * `AkshayCoder48/meta`
   * `AkshayCoder48/meta-search`
@@ -184,22 +180,24 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Lorodn4x/deepseek-v4-pro-0813`
   * `Lorodn4x/minimax-m3`
   * `MarcosFRG/deepseek-v4-flash-0731`
+  * `MarcosFRG/deepseek-v4-flash-0731:paid 💎`
   * `MarcosFRG/deepseek-v4-pro-0813`
   * `MarcosFRG/gemini-2.5-flash-lite`
+  * `MarcosFRG/gemini-2.5-flash-lite:paid 💎`
   * `MarcosFRG/gemini-3-flash-preview`
   * `MarcosFRG/gemini-3.1-flash-lite`
   * `MarcosFRG/gemini-3.1-pro-preview 💎`
   * `MarcosFRG/gemma-4-26b-a4b`
   * `MarcosFRG/gemma-4-26b-a4b:paid 💎`
   * `MarcosFRG/gemma-4-31b`
+  * `MarcosFRG/gemma-4-31b:paid 💎`
   * `MarcosFRG/glm-4.6v-flash`
-  * `MarcosFRG/glm-5.2`
   * `MarcosFRG/glm-5.3`
   * `MarcosFRG/glm-5.3-flash`
-  * `MarcosFRG/metraxai`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/moondream-3.1`
   * `MarcosFRG/nemotron-3.5-lightning 💎`
+  * `MarcosFRG/north-mini-code`
   * `MarcosFRG/qwen3.8-27b`
   * `MarcosFRG/qwen3.8-27b:paid 💎`
   * `MarcosFRG/qwen3.8-flash`
@@ -215,13 +213,21 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `NamanSoni78/gpt-5.4-nano`
   * `NamanSoni78/gpt-6-astra`
   * `NamanSoni78/kimi-k3`
-  * `NamanSoni78/nemotron-3-ultra-550b-a55b`
   * `Spit-fires/muse-glimmer`
   * `YoannDev90/diffusiongemma-26b-a4b-it:free`
   * `YoannDev90/gemini-3-flash`
   * `YoannDev90/muse-glimmer-30b:free`
-  * `YoannDev90/qwen3.7-flash`
+  * `YoannDev90/poolside-laguna-s-2.1:free`
+  * `amazon/nova-2-lite-v1`
+  * `amazon/nova-micro-v1`
+  * `anthropic/claude-fable-5 💎`
   * `anthropic/claude-fable-5.1 💎`
+  * `anthropic/claude-haiku-4.5 💎`
+  * `anthropic/claude-opus-4.6 💎`
+  * `anthropic/claude-opus-4.7 💎`
+  * `anthropic/claude-opus-5 💎`
+  * `anthropic/claude-sonnet-4.6 💎`
+  * `anthropic/claude-sonnet-5 💎`
   * `chigwell/claude-fable-5 💎`
   * `chigwell/claude-fable-5-1 💎`
   * `chigwell/claude-haiku-4-5`
@@ -235,7 +241,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/gemini-3.7-flash 💎`
   * `chigwell/gemini-3.8-flash-high 💎`
   * `chigwell/glm-5.3 💎`
-  * `chigwell/gpt-5.4 💎`
   * `chigwell/gpt-5.5 💎`
   * `chigwell/gpt-5.6-sol 💎`
   * `chigwell/gpt-5.6-terra 💎`
@@ -246,121 +251,110 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `chigwell/llm7-fast`
   * `chigwell/llm7-pro 💎`
   * `chigwell/minimax-m2.7 💎`
-  * `claude 💎`
-  * `claude-fable-5 💎`
-  * `claude-fast 💎`
-  * `claude-large 💎`
-  * `claude-opus-4.6 💎`
-  * `claude-opus-4.7 💎`
-  * `claude-sonnet-5 💎`
-  * `command-a-plus`
-  * `deepseek`
-  * `deepseek-pro`
+  * `cohere/command-a-plus`
+  * `deepseek/deepseek-v4-flash`
   * `deepseek/deepseek-v4-flash-vision-exp`
-  * `gemini 💎`
-  * `gemini-3-flash 💎`
-  * `gemini-fast 💎`
-  * `gemini-flash-lite-3.5 💎`
-  * `gemini-large 💎`
-  * `gemini-search 💎`
-  * `gemma 💎`
-  * `gemma-4-31b 💎`
+  * `deepseek/deepseek-v4-pro`
   * `gggff123/Gemini-3.7-Flash`
   * `gggff123/Glm-5.3`
   * `gggff123/Inkling`
   * `gggff123/gpt-5-nano`
   * `gggff123/step-3.7-flash`
-  * `glm`
-  * `glm-5.3`
+  * `google/gemini-2.5-flash-lite 💎`
+  * `google/gemini-2.5-flash-lite:search 💎`
+  * `google/gemini-3-flash-preview 💎`
+  * `google/gemini-3.1-pro-preview 💎`
+  * `google/gemini-3.5-flash-lite 💎`
+  * `google/gemini-3.7-flash 💎`
   * `google/gemini-3.8-flash 💎`
-  * `gpt-5.4`
-  * `gpt-5.4-mini`
-  * `gpt-5.6-luna`
-  * `gpt-5.6-sol`
-  * `gpt-5.6-terra`
-  * `gpt-oss`
-  * `grok`
-  * `grok-4.6`
-  * `grok-large`
+  * `google/gemma-4-26b-a4b-it 💎`
+  * `google/gemma-4-31b-it 💎`
+  * `immature-yt/alara-nova-1 💎`
+  * `inception/mercury-2 💎`
   * `inception/mercury-2.5-preview 💎`
-  * `inkling 💎`
   * `iotserver24/deepseek-fast`
-  * `iotserver24/deepseek-v4f-free`
   * `iotserver24/glm-5.3 💎`
   * `iotserver24/kimi-k3 💎`
   * `iotserver24/route-r3ap3r`
   * `iotserver24/stealth-code`
-  * `kimi`
-  * `kimi-code`
-  * `kimi-k3`
-  * `laguna 💎`
-  * `llama`
-  * `llama-maverick 💎`
-  * `llama-scout 💎`
-  * `longcat 💎`
-  * `mercury 💎`
-  * `midijourney`
-  * `midijourney-large`
+  * `meituan/longcat-2.0 💎`
+  * `meta/llama-3.3-70b-instruct`
+  * `meta/llama-4-maverick 💎`
+  * `meta/llama-4-scout 💎`
+  * `meta/muse-glimmer-30b`
+  * `meta/muse-spark-1.2 💎`
   * `mikl-shortcuts/ministral-3`
-  * `mimo-v2.5 💎`
-  * `mimo-v2.5-pro 💎`
-  * `minimax`
-  * `minimax-m2.7 💎`
-  * `mistral 💎`
-  * `mistral-large`
-  * `mistral-small-3.2 💎`
+  * `minimax/minimax-m2.7 💎`
+  * `minimax/minimax-m3`
+  * `mistralai/mistral-large-3`
+  * `mistralai/mistral-small-3.2 💎`
+  * `mistralai/mistral-small-4 💎`
+  * `moonshotai/kimi-k2.6`
+  * `moonshotai/kimi-k2.7-code`
+  * `moonshotai/kimi-k3`
   * `morriszdweck/osaii-api-fast`
   * `morriszdweck/osaii-api-smart`
   * `morriszdweck/osaii-swarm`
-  * `muse-glimmer`
-  * `muse-spark-1.2 💎`
-  * `nemotron 💎`
-  * `nemotron-3.5-lightning`
-  * `nova`
-  * `nova-fast`
   * `novastardev/olmo-3.1-32b`
-  * `openai`
-  * `openai-audio`
-  * `openai-audio-large`
-  * `openai-fast`
-  * `openai-large`
+  * `nvidia/nemotron-3-ultra 💎`
+  * `nvidia/nemotron-3.5-lightning`
+  * `openai/gpt-5-nano`
+  * `openai/gpt-5.4`
+  * `openai/gpt-5.4-mini`
+  * `openai/gpt-5.4-nano`
+  * `openai/gpt-5.5`
+  * `openai/gpt-5.6-luna`
+  * `openai/gpt-5.6-sol`
+  * `openai/gpt-5.6-terra`
   * `openai/gpt-6-astra`
+  * `openai/gpt-audio-1.5`
+  * `openai/gpt-audio-mini`
+  * `openai/gpt-oss-20b`
   * `pegalink/gemini-3.1-pro-preview 💎`
   * `pegalink/gemini-3.5-flash-lite`
   * `pegalink/gemini-3.8-flash 💎`
   * `pegalink/gemini-pro-coder 💎`
-  * `perplexity`
-  * `perplexity-fast`
-  * `perplexity-reasoning`
-  * `qwen-coder`
-  * `qwen-coder-large 💎`
-  * `qwen-large 💎`
-  * `qwen-safety`
-  * `qwen-vision 💎`
-  * `qwen-vision-pro 💎`
+  * `perplexity/sonar`
+  * `perplexity/sonar-pro`
+  * `perplexity/sonar-reasoning-pro`
+  * `pollinations/midijourney`
+  * `pollinations/midijourney-large`
+  * `poolside/laguna-s-2.1 💎`
+  * `qwen/qwen3-coder-30b-a3b-instruct`
+  * `qwen/qwen3-coder-next 💎`
+  * `qwen/qwen3-vl-235b-a22b-thinking 💎`
+  * `qwen/qwen3-vl-30b-a3b-instruct 💎`
+  * `qwen/qwen3.7-flash 💎`
+  * `qwen/qwen3.7-max 💎`
+  * `qwen/qwen3.7-plus 💎`
+  * `qwen/qwen3.8-2.4t-a95b`
+  * `qwen/qwen3.8-27b 💎`
   * `qwen/qwen3.8-flash 💎`
+  * `qwen/qwen3.8-max 💎`
   * `qwen/qwen3.8-max-0902 💎`
-  * `qwen3.7-flash 💎`
-  * `qwen3.7-max 💎`
-  * `qwen3.8-2.4t-a95b`
-  * `qwen3.8-27b 💎`
-  * `qwen3.8-max 💎`
+  * `qwen/qwen3guard-gen-8b`
   * `sharktide/inferenceport-ai-codestral-2508`
   * `sharktide/inferenceport-ai-command-r-plus`
   * `sharktide/inferenceport-ai-gemini-2.5-flash`
+  * `sharktide/inferenceport-ai-kimi-k2.7-code`
   * `sharktide/inferenceport-ai-lightning-text-v2`
+  * `sharktide/inferenceport-ai-minimax-m3`
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `smplstuff/falcon-h1-tiny`
-  * `step-3.5-flash 💎`
-  * `step-flash 💎`
+  * `stepfun/step-3.5-flash 💎`
+  * `stepfun/step-3.7-flash 💎`
   * `thinkingmachines/inkling 💎`
+  * `thinkingmachines/inkling-small 💎`
   * `tomdacatto/claude-haiku-4.5`
   * `tomdacatto/claude-opus-4-6`
   * `tomdacatto/claude-opus-4-7`
   * `tomdacatto/claude-opus-5`
   * `tomdacatto/claude-sonnet-5`
   * `tomdacatto/ezra`
+  * `tomdacatto/fable-5.1`
+  * `tomdacatto/gpt-6-astra`
+  * `tomdacatto/llama-3.1-8B`
   * `tomdacatto/muse-spark-1.3-contributor`
   * `tomdacatto/muse-spark-1.3-contributor-paid 💎`
   * `tomdacatto/qwen-3.8-27B-fast`
@@ -375,6 +369,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
   * `voodoohop/email-overview 💎`
+  * `x-ai/grok-4.20`
+  * `x-ai/grok-4.3`
+  * `x-ai/grok-4.6`
+  * `xiaomi/mimo-v2.5 💎`
+  * `xiaomi/mimo-v2.5-pro 💎`
+  * `z-ai/glm-5.2`
+  * `z-ai/glm-5.3`
   * `z-ai/glm-5.3-flash`
   * `zero2launch/gemini-3.6-flash 💎`
   * `zero2launch/gemini-3.7-flash`
@@ -390,29 +391,29 @@ Text-to-speech, music generation, and audio transcription.
   * `NamanSoni78/nova-3`
   * `NamanSoni78/whisper-large-v3`
   * `NamanSoni78/whisper-large-v3-turbo`
-  * `csm-1b 💎`
-  * `eleven-dialogue 💎`
-  * `eleven-multilingual-v2 💎`
-  * `eleven-sfx 💎`
-  * `eleven-voice-changer 💎`
-  * `eleven-voice-isolator 💎`
-  * `elevenflash 💎`
-  * `elevenlabs 💎`
-  * `elevenmusic 💎`
-  * `fish-audio-s2.1-pro 💎`
-  * `gpt-transcribe`
-  * `grok-transcribe 💎`
-  * `grok-tts 💎`
-  * `kokoro 💎`
-  * `lyria-3-clip 💎`
-  * `qwen-tts 💎`
-  * `qwen-tts-instruct 💎`
-  * `scribe 💎`
-  * `stable-audio-3-large 💎`
-  * `stable-audio-3-medium 💎`
-  * `universal-2`
-  * `universal-3.5-pro`
-  * `whisper`
+  * `assemblyai/universal-2`
+  * `assemblyai/universal-3.5-pro`
+  * `elevenlabs/eleven-flash-v2.5 💎`
+  * `elevenlabs/eleven-multilingual-sts-v2 💎`
+  * `elevenlabs/eleven-multilingual-v2 💎`
+  * `elevenlabs/eleven-text-to-sound-v2 💎`
+  * `elevenlabs/eleven-v3 💎`
+  * `elevenlabs/eleven-v3:dialogue 💎`
+  * `elevenlabs/music-v2 💎`
+  * `elevenlabs/scribe-v2 💎`
+  * `elevenlabs/voice-isolator 💎`
+  * `fish-audio/s2.1-pro 💎`
+  * `google/lyria-3-clip-preview 💎`
+  * `hexgrad/kokoro-82m 💎`
+  * `openai/gpt-transcribe`
+  * `openai/whisper-large-v3`
+  * `qwen/qwen3-tts-flash 💎`
+  * `qwen/qwen3-tts-instruct-flash 💎`
+  * `sesame/csm-1b 💎`
+  * `stability-ai/stable-audio-3 💎`
+  * `stability-ai/stable-audio-3-medium 💎`
+  * `x-ai/grok-transcribe 💎`
+  * `x-ai/grok-tts 💎`
 ---
 
 ## 📸 Screenshots
