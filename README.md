@@ -26,14 +26,17 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
+  * `Catniti/agnes-image-2.1-flash`
   * `JustScriptzz/phoenix-1.0`
   * `MarcosFRG/flux-1-schnell`
   * `MarcosFRG/flux-2-klein-4b`
+  * `MarcosFRG/lucid-origin`
   * `MarcosFRG/lucid-origin:paid 💎`
   * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/phoenix-1.0:paid 💎`
+  * `MarcosFRG/sdxl-lightning`
+  * `NamanSoni78/Imagine-4`
   * `NamanSoni78/Z-Image-Turbo 💎`
-  * `NamanSoni78/ideogram-v4-quality 💎`
   * `alibaba/wan-2.7-image 💎`
   * `alibaba/wan-2.7-image-pro 💎`
   * `amazon/nova-canvas-v1`
@@ -60,6 +63,8 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `openai/gpt-image-1-mini`
   * `openai/gpt-image-1.5`
   * `openai/gpt-image-2`
+  * `openai/gpt-image-2.5-flare 💎`
+  * `openai/gpt-image-2.5-sunburst 💎`
   * `prunaai/p-image 💎`
   * `prunaai/p-image-edit 💎`
   * `qwen/qwen-image 💎`
@@ -67,8 +72,13 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `recraft/recraft-v4.1-vector 💎`
   * `rekty/rekty-dev-3 💎`
   * `rekty/rekty-dev-v2 💎`
+  * `sharktide/gpt-image-2.5-flare-input-cheap 💎`
+  * `sharktide/gpt-image-2.5-sunburst-input-cheap 💎`
+  * `sharktide/inferenceport-ai-gpt-image-2.5-flare 💎`
+  * `sharktide/inferenceport-ai-gpt-image-2.5-sunburst 💎`
   * `sharktide/inferenceport-ai-gpt-image-router 💎`
   * `sharktide/inferenceport-ai-image-ultra 💎`
+  * `sharktide/inferenceport-ai-lightning-image-plus`
   * `tongyi-mai/z-image-turbo`
   * `vendouple/anima`
   * `vendouple/animagine`
@@ -84,7 +94,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 ### 2. 🌸🎞️ Pollinations Video Gen (BYOP)
 Generates high-quality AI video.
 * **Supported Models:**
-  * `NamanSoni78/Seedance-2.5 💎`
+  * `NamanSoni78/Seedance-2.5`
   * `alibaba/happyhorse-1.1 💎`
   * `alibaba/wan-2.2-fast 💎`
   * `alibaba/wan-2.6 💎`
@@ -116,7 +126,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/chat-model-reasoning-with-search`
   * `AkshayCoder48/chatgpt`
   * `AkshayCoder48/chatgpt-search`
-  * `AkshayCoder48/claude`
   * `AkshayCoder48/claude-fable-5`
   * `AkshayCoder48/claude-opus-4-8`
   * `AkshayCoder48/claude-opus-5`
@@ -143,7 +152,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/gpt-5.6-sol`
   * `AkshayCoder48/gpt-o4-mini-no-login`
   * `AkshayCoder48/grok-4-3`
-  * `AkshayCoder48/grok-4-6`
   * `AkshayCoder48/grok-search`
   * `AkshayCoder48/jollygen`
   * `AkshayCoder48/kilo-auto-free`
@@ -153,7 +161,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/meta`
   * `AkshayCoder48/meta-search`
   * `AkshayCoder48/midnight-rose`
-  * `AkshayCoder48/mistral-nemo-instruct-2407`
   * `AkshayCoder48/perplexity`
   * `AkshayCoder48/perplexity-search`
   * `AkshayCoder48/poolside-laguna-s-2.1:free`
@@ -165,7 +172,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/v3`
   * `AkshayCoder48/vexa`
   * `Bakhshi7889/gemma-4-31b-it`
-  * `Catniti/agnes-2.0-flash`
+  * `Catniti/auto-router-1`
+  * `Catniti/claude-sonnet-5`
+  * `Catniti/gemma-4-31b`
+  * `Catniti/gpt-oss-120b`
+  * `Catniti/qwen3.7-flash`
   * `Circuit-Overtime/OreoLook`
   * `CloudCompile/moondream3.1`
   * `JustScriptzz/agnes-2.5-flash`
@@ -194,6 +205,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/glm-4.6v-flash`
   * `MarcosFRG/glm-5.3`
   * `MarcosFRG/glm-5.3-flash`
+  * `MarcosFRG/metraxai`
   * `MarcosFRG/mimo-v2.5`
   * `MarcosFRG/moondream-3.1`
   * `MarcosFRG/nemotron-3.5-lightning 💎`
@@ -213,9 +225,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `NamanSoni78/gpt-5.4-nano`
   * `NamanSoni78/gpt-6-astra`
   * `NamanSoni78/kimi-k3`
+  * `NamanSoni78/nemotron-3-ultra-550b-a55b`
   * `Spit-fires/muse-glimmer`
-  * `YoannDev90/diffusiongemma-26b-a4b-it:free`
-  * `YoannDev90/gemini-3-flash`
   * `YoannDev90/muse-glimmer-30b:free`
   * `YoannDev90/poolside-laguna-s-2.1:free`
   * `amazon/nova-2-lite-v1`
@@ -269,10 +280,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `google/gemini-3.8-flash 💎`
   * `google/gemma-4-26b-a4b-it 💎`
   * `google/gemma-4-31b-it 💎`
-  * `immature-yt/alara-nova-1 💎`
+  * `immature-yt/alara-nova-1`
   * `inception/mercury-2 💎`
   * `inception/mercury-2.5-preview 💎`
   * `iotserver24/deepseek-fast`
+  * `iotserver24/deepseek-v4f`
   * `iotserver24/glm-5.3 💎`
   * `iotserver24/kimi-k3 💎`
   * `iotserver24/route-r3ap3r`
@@ -342,6 +354,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `smplstuff/falcon-h1-tiny`
+  * `smplstuff/title-generator`
   * `stepfun/step-3.5-flash 💎`
   * `stepfun/step-3.7-flash 💎`
   * `thinkingmachines/inkling 💎`
@@ -358,13 +371,20 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/muse-spark-1.3-contributor`
   * `tomdacatto/muse-spark-1.3-contributor-paid 💎`
   * `tomdacatto/qwen-3.8-27B-fast`
+  * `vendouple/deepseek-v3.2`
+  * `vendouple/deepseek-v4-flash`
+  * `vendouple/deepseek-v4-pro`
+  * `vendouple/gemini-3.8-flash`
+  * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/glm-5.3`
   * `vendouple/gpt-5.6-luna`
+  * `vendouple/gpt-5.6-sol`
   * `vendouple/gpt-6-astra`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k2.6`
   * `vendouple/kimi-k3`
   * `vendouple/muse-glimmer-30b:free`
+  * `vendouple/qwen-3.8-max`
   * `voodoohop/airforce-doubao-pro`
   * `voodoohop/airforce-qwen3-max`
   * `voodoohop/anyvm-deepseek-chat`
