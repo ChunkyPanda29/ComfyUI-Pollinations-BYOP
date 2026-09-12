@@ -26,14 +26,14 @@ Whether you are running on an 8GB laptop or a cloud server, this node suite offl
 ### 1. 🌸🖼️ Pollinations Image Gen (BYOP)
 Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
 * **Supported Models:** 
-  * `Catniti/agnes-image-2.1-flash`
+  * `Catniti/agnes-image-2.5-flash`
+  * `CloudCompile/agnes-image-2.0-flash`
   * `CloudCompile/flux-2-klein-4b`
   * `CloudCompile/flux-2-klein-9b`
   * `CloudCompile/sdxl-lightning`
   * `MarcosFRG/flux-1-schnell`
   * `MarcosFRG/flux-1-schnell:paid 💎`
   * `MarcosFRG/flux-2-klein-4b`
-  * `MarcosFRG/lucid-origin`
   * `MarcosFRG/lucid-origin:paid 💎`
   * `MarcosFRG/phoenix-1.0`
   * `MarcosFRG/phoenix-1.0:paid 💎`
@@ -53,6 +53,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `bytedance/seedream-5.0-lite 💎`
   * `bytedance/seedream-5.0-pro 💎`
   * `chigwell/gpt-image-2 💎`
+  * `chigwell/gpt-image-2.5 💎`
   * `google/gemini-2.5-flash-image 💎`
   * `google/gemini-3-pro-image 💎`
   * `google/gemini-3.1-flash-image 💎`
@@ -82,11 +83,11 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `sharktide/inferenceport-ai-gpt-image-router 💎`
   * `sharktide/inferenceport-ai-image-ultra 💎`
   * `sharktide/inferenceport-ai-lightning-image-plus`
+  * `sharktide/inferenceport-ai-lightning-image-turbo`
   * `tongyi-mai/z-image-turbo`
   * `vendouple/anima`
   * `vendouple/animagine`
   * `vendouple/lucid-origin`
-  * `vendouple/luma-photon-1`
   * `vendouple/qwen-image-3.0-pro 💎`
   * `vendouple/uncensored-image-v2`
   * `x-ai/grok-imagine-image 💎`
@@ -162,7 +163,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `AkshayCoder48/v3`
   * `AkshayCoder48/vexa`
   * `Bakhshi7889/gemma-4-31b-it`
-  * `Catniti/auto-router-1`
   * `Catniti/claude-sonnet-4`
   * `Catniti/deepseek-r1-free`
   * `Catniti/gemini-3.6-flash`
@@ -176,7 +176,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/nemotron-3-ultra`
   * `Catniti/nemotron-3.5-lightning`
   * `Catniti/north-mini-code`
+  * `Catniti/qwen3.7-flash`
   * `Catniti/step-3.7-flash`
+  * `CloudCompile/agnes-2.5-flash`
+  * `CloudCompile/agnes-3.0-flash`
   * `CloudCompile/auto`
   * `CloudCompile/gemma-4-26b`
   * `CloudCompile/glm-5.3`
@@ -205,7 +208,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `MarcosFRG/gemma-4-26b-a4b:paid 💎`
   * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/gemma-4-31b:paid 💎`
-  * `MarcosFRG/glm-4.6v-flash`
   * `MarcosFRG/glm-5.2:paid 💎`
   * `MarcosFRG/glm-5.3`
   * `MarcosFRG/glm-5.3-flash`
@@ -228,8 +230,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `NamanSoni78/DeepSeek-V4.1-Flash`
   * `NamanSoni78/deepseek-v4-pro-0813`
   * `NamanSoni78/devin-ai`
-  * `NamanSoni78/gemini-3.8-flash`
-  * `NamanSoni78/gpt-5.4-nano`
   * `NamanSoni78/gpt-6-astra`
   * `NamanSoni78/gpt-6-astra-pro`
   * `NamanSoni78/kimi-k3`
@@ -289,8 +289,8 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `inception/mercury-2 💎`
   * `inception/mercury-2.5-preview 💎`
   * `iotserver24/deepseek-fast`
-  * `iotserver24/deepseek-v4f`
   * `iotserver24/glm-5.3 💎`
+  * `iotserver24/gpt-5-6-sol`
   * `iotserver24/kimi-k3 💎`
   * `iotserver24/route-r3ap3r`
   * `iotserver24/stealth-code`
@@ -354,7 +354,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-gemini-2.5-flash`
   * `sharktide/inferenceport-ai-kimi-k2.7-code`
   * `sharktide/inferenceport-ai-lightning-text-v2`
-  * `sharktide/inferenceport-ai-lightning-text-v2-expanded-knowledge`
   * `sharktide/inferenceport-ai-minimax-m3`
   * `sharktide/inferenceport-ai-qwen-3.6-27b`
   * `sharktide/inferenceport.ai-gpt-oss-20b`
@@ -373,11 +372,12 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tomdacatto/muse-spark-1.3-contributor`
   * `tomdacatto/muse-spark-1.3-contributor-paid 💎`
   * `tomdacatto/qwen-3.8-27B-fast`
-  * `vendouple/deepseek-v4-flash`
+  * `vendouple/deepseek-v3.2`
   * `vendouple/deepseek-v4-pro`
   * `vendouple/gemini-3.8-flash`
   * `vendouple/gemma-4-31b-sdft-heretic-rp`
   * `vendouple/glm-5.3`
+  * `vendouple/gpt-5.6-luna`
   * `vendouple/gpt-6-astra`
   * `vendouple/grok-4.6`
   * `vendouple/kimi-k3`
@@ -395,7 +395,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `z-ai/glm-5.2`
   * `z-ai/glm-5.3`
   * `z-ai/glm-5.3-flash`
-  * `zero2launch/gemini-3.7-flash`
 * **Parameters:** `prompt`, `system_instruction`, `model`, `temperature`, `seed`, `api_key`
 
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
