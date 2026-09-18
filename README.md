@@ -47,6 +47,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `community/MarcosFRG/flux-1-schnell`
   * `community/MarcosFRG/flux-1-schnell:paid 💎`
   * `community/MarcosFRG/flux-2-klein-4b`
+  * `community/MarcosFRG/lucid-origin`
   * `community/MarcosFRG/lucid-origin:paid 💎`
   * `community/MarcosFRG/phoenix-1.0`
   * `community/MarcosFRG/phoenix-1.0:paid 💎`
@@ -68,6 +69,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `community/tomdacatto/grok-imagine`
   * `community/tomdacatto/nano-banana-pro`
   * `community/vendouple/anima`
+  * `community/vendouple/animagine`
   * `community/vendouple/grok-imagine`
   * `community/vendouple/lucid-origin`
   * `community/vendouple/luma-photon-1`
@@ -160,6 +162,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Creatneworld/sirius-elevator-descent 💎`
   * `community/JustScriptzz/agnes-2.5-flash`
   * `community/JustScriptzz/deepseek-v4-flash-0731`
+  * `community/JustScriptzz/glm-5.3-flash`
   * `community/JustScriptzz/gpt-oss-120b`
   * `community/JustScriptzz/grok-4.6`
   * `community/JustScriptzz/kimi-k2-7-code`
@@ -168,7 +171,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Lorodn4x/claude-sonnet-5 💎`
   * `community/Lorodn4x/com.claude-gpt-6.astra 💎`
   * `community/Lorodn4x/deepseek-v4-flash`
-  * `community/Lorodn4x/minimax-m3`
   * `community/MarcosFRG/deepseek-v4-flash-0731`
   * `community/MarcosFRG/deepseek-v4-flash-0731:paid 💎`
   * `community/MarcosFRG/deepseek-v4-pro-0813`
@@ -208,6 +210,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/NamanSoni78/opus-5-max`
   * `community/Spit-fires/muse-glimmer`
   * `community/YoannDev90/diffusiongemma-26b-a4b-it:free`
+  * `community/YoannDev90/kilocode-laguna-s-2.1:free`
   * `community/YoannDev90/muse-glimmer-30b:free`
   * `community/YoannDev90/qwen3.7-flash`
   * `community/ZapGaming/gpt-oss-120b-ultrafast 💎`
@@ -226,6 +229,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/chigwell/gemini-3.7-flash 💎`
   * `community/chigwell/gemini-3.8-flash-high 💎`
   * `community/chigwell/glm-5.3 💎`
+  * `community/chigwell/gpt-5.5 💎`
   * `community/chigwell/gpt-5.6-sol 💎`
   * `community/chigwell/gpt-5.6-terra 💎`
   * `community/chigwell/gpt-6-astra 💎`
@@ -238,9 +242,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/gggff123/Glm-5.3`
   * `community/gggff123/gpt-5-nano`
   * `community/immature-yt/alara-nova-1`
-  * `community/iotserver24/deepseek-fast`
   * `community/iotserver24/deepseek-v4f`
-  * `community/iotserver24/kimi-k3 💎`
   * `community/iotserver24/route-r3ap3r`
   * `community/iotserver24/stealth-code`
   * `community/mikl-shortcuts/ministral-3`
@@ -282,7 +284,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/tomdacatto/llama-3.1-8B`
   * `community/tomdacatto/qwen-3.8-27B-fast`
   * `community/vendouple/deepseek-v3.2`
-  * `community/vendouple/deepseek-v4-flash`
   * `community/vendouple/deepseek-v4-pro`
   * `community/vendouple/gemini-3.8-flash`
   * `community/vendouple/gemma-4-31b-isometry-rp`
