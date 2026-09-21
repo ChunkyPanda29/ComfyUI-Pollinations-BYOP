@@ -42,6 +42,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `community/Catniti/agnes-image-2.5-flash`
   * `community/CloudCompile/agnes-image-2.0-flash`
   * `community/CloudCompile/flux-2-klein-4b`
+  * `community/CloudCompile/flux-2-klein-9b`
   * `community/CloudCompile/sdxl-lightning`
   * `community/JustScriptzz/qwen-image-3.0-pro`
   * `community/MarcosFRG/flux-1-schnell`
@@ -114,8 +115,6 @@ Generates high-quality AI video.
   * `bytedance/seedance-2.0-fast 💎`
   * `bytedance/seedance-2.0-mini 💎`
   * `bytedance/seedance-2.5 💎`
-  * `community/NamanSoni78/Seedance-2.5`
-  * `community/ZapGaming/failure-reel-v1`
   * `google/gemini-omni-1.1-flash 💎`
   * `google/veo-3.1-fast 💎`
   * `minimax/minimax-h3 💎`
@@ -140,40 +139,57 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `anthropic/claude-sonnet-5 💎`
   * `cohere/command-a-plus`
   * `community/AkshayCoder48/L3-70B-Euryale-v2.1`
+  * `community/AkshayCoder48/Nemo`
   * `community/AkshayCoder48/Qwen3.5-9B-Q4_K_M.gguf`
+  * `community/AkshayCoder48/chat-model-reasoning`
   * `community/AkshayCoder48/chat-model-reasoning-with-search`
+  * `community/AkshayCoder48/claude-sonnet-4`
   * `community/AkshayCoder48/code-pair`
   * `community/AkshayCoder48/codestral-latest`
   * `community/AkshayCoder48/cohere-north-mini-code:free`
+  * `community/AkshayCoder48/deepseek-r1`
+  * `community/AkshayCoder48/deepseek-v3`
+  * `community/AkshayCoder48/deepseek-v3.1`
   * `community/AkshayCoder48/free-clips 💎`
   * `community/AkshayCoder48/free-voice`
   * `community/AkshayCoder48/gemini-2.5-flash`
+  * `community/AkshayCoder48/gemini-2.5-pro`
   * `community/AkshayCoder48/gemini-3-flash`
   * `community/AkshayCoder48/gemini-3.1-flash-lite`
+  * `community/AkshayCoder48/gemini-3.5-flash`
   * `community/AkshayCoder48/gemini-3.6-flash`
   * `community/AkshayCoder48/gpt-4o-latest`
+  * `community/AkshayCoder48/gpt-5`
   * `community/AkshayCoder48/gpt-5-6-luna`
-  * `community/AkshayCoder48/grok`
+  * `community/AkshayCoder48/gpt-5.2`
+  * `community/AkshayCoder48/gpt-oss-120b`
   * `community/AkshayCoder48/grok-4-3`
   * `community/AkshayCoder48/grok-4-6`
   * `community/AkshayCoder48/grok-4-fast`
+  * `community/AkshayCoder48/jollygen`
   * `community/AkshayCoder48/kilo-auto-free`
   * `community/AkshayCoder48/kilo-auto-small`
   * `community/AkshayCoder48/lfm-7b`
+  * `community/AkshayCoder48/llama3-8b`
   * `community/AkshayCoder48/midnight-rose`
-  * `community/AkshayCoder48/minimax-m2.7`
   * `community/AkshayCoder48/nvidia-nemotron-3-nano-omni-30b-a3b-reasoning-free`
   * `community/AkshayCoder48/nvidia-nemotron-3-super-120b-a12b-free`
   * `community/AkshayCoder48/nvidia-nemotron-3-ultra-550b-a55b-free`
+  * `community/AkshayCoder48/o3-mini`
   * `community/AkshayCoder48/poolside-laguna-s-2.1:free`
   * `community/AkshayCoder48/prompt-to-art 💎`
   * `community/AkshayCoder48/qwen3-coder-480b`
   * `community/AkshayCoder48/researcher 💎`
   * `community/AkshayCoder48/sft-7b`
   * `community/AkshayCoder48/stepfun-step-3.7-flash-free`
+  * `community/AkshayCoder48/toolbaz-v4.5-fast`
+  * `community/AkshayCoder48/toolbaz_v4`
   * `community/AkshayCoder48/v3`
+  * `community/AkshayCoder48/vexa`
   * `community/Bakhshi7889/gemma-4-31b-it`
   * `community/Catniti/nemotron-3.5-lightning`
+  * `community/CloudCompile/agnes-2.5-flash`
+  * `community/CloudCompile/agnes-3.0-flash`
   * `community/CloudCompile/auto`
   * `community/CloudCompile/gemma-4-26b`
   * `community/CloudCompile/pollinations-code-agent-but-weird`
@@ -192,11 +208,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Lorodn4x/com.claude-gpt-6.astra 💎`
   * `community/Lorodn4x/deepseek-v4-flash`
   * `community/Lorodn4x/deepseek-v4-pro-0813`
-  * `community/Lorodn4x/minimax-m3`
   * `community/MarcosFRG/deepseek-v4-flash-0731`
   * `community/MarcosFRG/deepseek-v4-flash-0731:paid 💎`
   * `community/MarcosFRG/deepseek-v4-pro-0813`
-  * `community/MarcosFRG/gemini-2.5-flash-lite:paid 💎`
   * `community/MarcosFRG/gemini-3-flash-preview:paid 💎`
   * `community/MarcosFRG/gemini-3.1-flash-lite`
   * `community/MarcosFRG/gemini-3.1-pro-preview 💎`
@@ -219,17 +233,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/MarcosFRG/qwen3.8-max 💎`
   * `community/Minor-fun/deepseek-v3.2`
   * `community/Minor-fun/gemma-4-31B-it`
-  * `community/NamanSoni78/Claude-Fable-5.1`
-  * `community/NamanSoni78/Claude-Sonnet-5`
-  * `community/NamanSoni78/DeepSeek-V4.1-Flash`
-  * `community/NamanSoni78/GPT-5.5-xHigh`
   * `community/NamanSoni78/devin-agi-agent`
-  * `community/NamanSoni78/devin-ai`
-  * `community/NamanSoni78/fugu-ultra-v2`
-  * `community/NamanSoni78/gpt-6-astra-pro`
-  * `community/NamanSoni78/nemotron-3-ultra-550b-a55b`
-  * `community/NamanSoni78/opus-5-max`
   * `community/Spit-fires/muse-glimmer`
+  * `community/Spit-fires/router`
+  * `community/YoannDev90/agentic-gt`
+  * `community/YoannDev90/ling-3.0-flash-vl`
   * `community/YoannDev90/muse-glimmer-30b:free`
   * `community/YoannDev90/poolside-laguna-s-2.1:free`
   * `community/YoannDev90/qwen3.7-flash`
@@ -237,6 +245,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/ZapGaming/llama3.1-8b-xturbo`
   * `community/ZapGaming/mercury-2.5-ultrafast`
   * `community/aikhusus2025-ctrl/ember-perch`
+  * `community/aikhusus2025-ctrl/place-painter`
   * `community/aikhusus2025-ctrl/sirius-elevator`
   * `community/aikhusus2025-ctrl/sirius-scorekeeper`
   * `community/chigwell/claude-fable-5 💎`
@@ -260,8 +269,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/chigwell/llm7-fast`
   * `community/chigwell/llm7-pro 💎`
   * `community/chigwell/minimax-m2.7 💎`
+  * `community/chirag-gamer/gpt-oss-120b`
+  * `community/fadyabohamza-netizen/frugal`
   * `community/gggff123/Glm-5.3`
   * `community/gggff123/gpt-5-nano`
+  * `community/gggff123/qwen3.8-27b:free`
   * `community/immature-yt/alara-nova-1`
   * `community/iotserver24/deepseek-fast`
   * `community/iotserver24/deepseek-v4f`
@@ -270,6 +282,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/iotserver24/supercharge`
   * `community/mikl-shortcuts/ministral-3`
   * `community/morriszdweck/osaii-api-fast`
+  * `community/morriszdweck/osaii-api-smart`
   * `community/morriszdweck/osaii-swarm`
   * `community/pegalink/gemini-3.1-pro-preview 💎`
   * `community/pegalink/gemini-3.5-flash-lite`
@@ -282,7 +295,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/pollinations-router/midijourney`
   * `community/pollinations-router/polli`
   * `community/scriptsnsenses-sys/glm-5.3-flash-free`
-  * `community/scriptsnsenses-sys/gpt-5.6-luna`
+  * `community/scriptsnsenses-sys/gpt-5.6-sol-free`
   * `community/scriptsnsenses-sys/muse-spark-1.2-contributor-free`
   * `community/sharktide/3D-agent`
   * `community/sharktide/inferenceport-ai-codestral-2508`
@@ -300,11 +313,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/tomdacatto/ezra`
   * `community/tomdacatto/llama-3.1-8B`
   * `community/tomdacatto/qwen-3.8-27B-fast`
+  * `community/vendouple/claude-opus-5 💎`
   * `community/vendouple/deepseek-v3.2`
   * `community/vendouple/deepseek-v4-pro`
+  * `community/vendouple/fable-5.1`
   * `community/vendouple/gemini-3.8-flash`
   * `community/vendouple/gemma-4-31b-isometry-rp`
   * `community/vendouple/glm-5.3`
+  * `community/vendouple/gpt-5.6-sol`
   * `community/vendouple/grok-4.6`
   * `community/vendouple/kimi-k3`
   * `community/vendouple/muse-glimmer-30b:free`
@@ -386,7 +402,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `tencent/hy4-preview 💎`
   * `thinkingmachines/inkling 💎`
   * `thinkingmachines/inkling-small 💎`
-  * `typesafe/jev`
+  * `typesafe/jev-1.13`
   * `x-ai/grok-4.20`
   * `x-ai/grok-4.3`
   * `x-ai/grok-4.6`
@@ -402,14 +418,6 @@ Text-to-speech, music generation, and audio transcription.
 * **Supported Models:**
   * `assemblyai/universal-2`
   * `assemblyai/universal-3.5-pro`
-  * `community/NamanSoni78/FISH-AUDIO-S2.1-PRO`
-  * `community/NamanSoni78/aura-2-amalthea-en`
-  * `community/NamanSoni78/aura-2-atlas-en`
-  * `community/NamanSoni78/aura-2-orpheus-en`
-  * `community/NamanSoni78/aura-2-thalia-en`
-  * `community/NamanSoni78/nova-3`
-  * `community/NamanSoni78/whisper-large-v3`
-  * `community/NamanSoni78/whisper-large-v3-turbo`
   * `elevenlabs/eleven-flash-v2.5 💎`
   * `elevenlabs/eleven-multilingual-sts-v2 💎`
   * `elevenlabs/eleven-multilingual-v2 💎`
