@@ -138,6 +138,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Catniti/catniti-ai-agent`
   * `community/Catniti/muse-glimmer-30b`
   * `community/Catniti/nemotron-3.5-lightning`
+  * `community/CloudCompile/agnes-3.0-flash`
   * `community/CloudCompile/pollinations-code-agent-but-weird`
   * `community/Creatneworld/catgpt-comic 💎`
   * `community/Creatneworld/lamplighter 💎`
@@ -148,13 +149,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/MarcosFRG/deepseek-v4-flash-0731`
   * `community/MarcosFRG/deepseek-v4-flash-0731:paid 💎`
   * `community/MarcosFRG/gemini-3-flash-preview:paid 💎`
-  * `community/MarcosFRG/gemini-3.1-flash-lite`
   * `community/MarcosFRG/gemini-3.1-pro-preview 💎`
-  * `community/MarcosFRG/gemma-4-26b-a4b`
   * `community/MarcosFRG/gemma-4-26b-a4b:paid 💎`
   * `community/MarcosFRG/gemma-4-31b`
   * `community/MarcosFRG/gemma-4-31b:paid 💎`
-  * `community/MarcosFRG/glm-5.2:paid 💎`
   * `community/MarcosFRG/glm-5.3-flash`
   * `community/MarcosFRG/glm-5.3:paid 💎`
   * `community/MarcosFRG/gpt-5.6-luna:paid 💎`
@@ -162,10 +160,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/MarcosFRG/minimax-m3:paid 💎`
   * `community/MarcosFRG/nemotron-3.5-lightning:paid 💎`
   * `community/MarcosFRG/qwen3.8-27b:paid 💎`
-  * `community/Minor-fun/gemma-4-31B-it`
   * `community/Saauf/gpt-6-luna`
   * `community/Takax62/minimax-m3-429b-vml`
   * `community/YoannDev90/agentic-gt`
+  * `community/YoannDev90/muse-glimmer-30b:free`
   * `community/YoannDev90/qwen3.7-flash`
   * `community/ZapGaming/llama3.1-8b-ultrafast`
   * `community/ZapGaming/llama3.1-8b-xturbo`
@@ -189,9 +187,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/pegalink/gemini-3.8-flash 💎`
   * `community/pegalink/gemini-pro-coder 💎`
   * `community/pegalink/hy4-preview-coding 💎`
-  * `community/pollinations-router/floret`
-  * `community/pollinations-router/midijourney`
-  * `community/pollinations-router/polli`
+  * `community/pollinations-ai/floret`
+  * `community/pollinations-ai/midijourney`
+  * `community/pollinations-ai/polli`
   * `community/scriptsnsenses-sys/gemini-3.1-pro-free`
   * `community/scriptsnsenses-sys/glm-5.3-flash-free`
   * `community/scriptsnsenses-sys/kimi-k3-free`
@@ -208,8 +206,13 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/tomdacatto/gotcha-scout`
   * `community/tomdacatto/llama-3.1-8B`
   * `community/tomdacatto/tiered-health-router`
-  * `community/vendouple/Claude-opus-5.5:s 💎`
+  * `community/vendouple/claude-opus-5.5:stable 💎`
+  * `community/vendouple/deepseek-v3.2`
   * `community/vendouple/gemini-3.8-flash`
+  * `community/vendouple/gpt-6-luna:stable 💎`
+  * `community/vendouple/gpt-6-sol:stable 💎`
+  * `community/vendouple/muse-glimmer-30b:free`
+  * `community/vendouple/qwen-3.8-max`
   * `community/voodoohop/airforce-doubao-pro`
   * `community/voodoohop/airforce-grok-4-fast`
   * `community/voodoohop/airforce-qwen3-max`
