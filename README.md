@@ -54,6 +54,7 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `community/sharktide/inferenceport-ai-image-ultra 💎`
   * `community/sharktide/inferenceport-ai-lightning-image-plus`
   * `community/sharktide/inferenceport-ai-lightning-image-turbo`
+  * `community/tomdacatto/grok-imagine`
   * `community/vendouple/anima 💎`
   * `community/vendouple/uncensored-image-v2`
   * `google/gemini-2.5-flash-image 💎`
@@ -125,7 +126,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `anthropic/claude-sonnet-4.6 💎`
   * `anthropic/claude-sonnet-5 💎`
   * `cohere/command-a-plus`
+  * `community/AkshayCoder48/claude-opus-4-8`
+  * `community/AkshayCoder48/claude-sonnet-5`
   * `community/AkshayCoder48/code-pair`
+  * `community/AkshayCoder48/deepseek-v4-pro`
   * `community/AkshayCoder48/free-clips 💎`
   * `community/AkshayCoder48/free-voice`
   * `community/AkshayCoder48/gpt-5-6-luna`
@@ -134,11 +138,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/AkshayCoder48/prompt-to-art 💎`
   * `community/AkshayCoder48/qwen3-coder-480b`
   * `community/AkshayCoder48/researcher 💎`
-  * `community/Bakhshi7889/gemma-4-31b-it`
   * `community/Catniti/catniti-ai-agent`
   * `community/Catniti/muse-glimmer-30b`
   * `community/Catniti/nemotron-3.5-lightning`
-  * `community/CloudCompile/agnes-3.0-flash`
   * `community/CloudCompile/pollinations-code-agent-but-weird`
   * `community/Creatneworld/catgpt-comic 💎`
   * `community/Creatneworld/lamplighter 💎`
@@ -146,16 +148,16 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Creatneworld/sirius-elevator-descent 💎`
   * `community/Guest453/show-your-work`
   * `community/JustScriptzz/gpt-oss-120b`
+  * `community/Lorodn4x/deepseek-v4-pro-0813`
   * `community/MarcosFRG/deepseek-v4-flash-0731`
   * `community/MarcosFRG/deepseek-v4-flash-0731:paid 💎`
-  * `community/MarcosFRG/gemini-3-flash-preview:paid 💎`
-  * `community/MarcosFRG/gemini-3.1-pro-preview 💎`
+  * `community/MarcosFRG/gemini-3.1-flash-lite`
   * `community/MarcosFRG/gemma-4-26b-a4b:paid 💎`
   * `community/MarcosFRG/gemma-4-31b`
   * `community/MarcosFRG/gemma-4-31b:paid 💎`
+  * `community/MarcosFRG/glm-4.6v-flash`
   * `community/MarcosFRG/glm-5.3-flash`
   * `community/MarcosFRG/glm-5.3:paid 💎`
-  * `community/MarcosFRG/gpt-5.6-luna:paid 💎`
   * `community/MarcosFRG/metraxai`
   * `community/MarcosFRG/minimax-m3:paid 💎`
   * `community/MarcosFRG/nemotron-3.5-lightning:paid 💎`
@@ -163,7 +165,6 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Saauf/gpt-6-luna`
   * `community/Takax62/minimax-m3-429b-vml`
   * `community/YoannDev90/agentic-gt`
-  * `community/YoannDev90/muse-glimmer-30b:free`
   * `community/YoannDev90/qwen3.7-flash`
   * `community/ZapGaming/llama3.1-8b-ultrafast`
   * `community/ZapGaming/llama3.1-8b-xturbo`
@@ -179,11 +180,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/gggff123/step-3.7-flash`
   * `community/immature-yt/alara-nova-1`
   * `community/iotserver24/kimi-k2.7-code-nitro`
-  * `community/iotserver24/stealth-code`
   * `community/iotserver24/supercharge`
   * `community/morriszdweck/osaii-swarm`
   * `community/pegalink/gemini-3.1-pro-preview 💎`
-  * `community/pegalink/gemini-3.5-flash-lite`
   * `community/pegalink/gemini-3.8-flash 💎`
   * `community/pegalink/gemini-pro-coder 💎`
   * `community/pegalink/hy4-preview-coding 💎`
@@ -207,11 +206,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/tomdacatto/llama-3.1-8B`
   * `community/tomdacatto/tiered-health-router`
   * `community/vendouple/claude-opus-5.5:stable 💎`
+  * `community/vendouple/claude-sonnet-5.5:stable 💎`
   * `community/vendouple/deepseek-v3.2`
+  * `community/vendouple/deepseek-v4-pro`
   * `community/vendouple/gemini-3.8-flash`
-  * `community/vendouple/gpt-6-luna:stable 💎`
   * `community/vendouple/gpt-6-sol:stable 💎`
-  * `community/vendouple/muse-glimmer-30b:free`
   * `community/vendouple/qwen-3.8-max`
   * `community/voodoohop/airforce-doubao-pro`
   * `community/voodoohop/airforce-grok-4-fast`
@@ -319,6 +318,7 @@ Text-to-speech, music generation, and audio transcription.
   * `elevenlabs/music-v2 💎`
   * `elevenlabs/music-v2.5 💎`
   * `elevenlabs/scribe-v2 💎`
+  * `elevenlabs/stem-separation 💎`
   * `elevenlabs/voice-isolator 💎`
   * `fish-audio/s2.1-pro 💎`
   * `google/gemini-3.8-flash-lite-tts 💎`
