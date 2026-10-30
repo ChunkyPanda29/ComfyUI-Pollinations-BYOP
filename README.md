@@ -29,6 +29,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `MarcosFRG/flux-schnell:paid 💎`
   * `MarcosFRG/lucid-origin`
   * `MarcosFRG/lucid-origin:paid 💎`
+  * `MarcosFRG/phoenix-1.0`
+  * `MarcosFRG/phoenix-1.0:paid 💎`
+  * `MarcosFRG/sdxl-lightning`
   * `Saauf/grok-imagine-image 💎`
   * `Saauf/seedream-5.0-lite 💎`
   * `alibaba/wan-2.7-image 💎`
@@ -56,6 +59,9 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `community/MarcosFRG/flux-schnell:paid 💎`
   * `community/MarcosFRG/lucid-origin`
   * `community/MarcosFRG/lucid-origin:paid 💎`
+  * `community/MarcosFRG/phoenix-1.0`
+  * `community/MarcosFRG/phoenix-1.0:paid 💎`
+  * `community/MarcosFRG/sdxl-lightning`
   * `community/Saauf/grok-imagine-image 💎`
   * `community/Saauf/seedream-5.0-lite 💎`
   * `community/chigwell/gemini-3.0-pro-image 💎`
@@ -75,7 +81,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `community/sharktide/inferenceport-ai-image-ultra 💎`
   * `community/sharktide/inferenceport-ai-lightning-image-plus`
   * `community/tomdacatto/gpt-image-2.5-flare`
-  * `community/tomdacatto/gpt-image-2.5-sunburst`
   * `community/vendouple/anima 💎`
   * `community/vendouple/lucid-origin`
   * `community/vendouple/uncensored-image-v2 💎`
@@ -175,7 +180,6 @@ Generates high-fidelity images directly to a ComfyUI `IMAGE` tensor.
   * `sharktide/inferenceport-ai-image-ultra 💎`
   * `sharktide/inferenceport-ai-lightning-image-plus`
   * `tomdacatto/gpt-image-2.5-flare`
-  * `tomdacatto/gpt-image-2.5-sunburst`
   * `tongyi-mai/z-image-turbo`
   * `vendouple/anima 💎`
   * `vendouple/lucid-origin`
@@ -272,8 +276,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Catniti/agnes-3.0-flash`
   * `Catniti/catniti-ai-agent`
   * `Catniti/glm-5.3-flash`
+  * `Catniti/muse-glimmer-30b`
   * `Catniti/nemotron-3.5-lightning`
   * `CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free`
+  * `CloudCompile/reflection-beam-free`
   * `Creatneworld/catgpt-comic 💎`
   * `Creatneworld/lamplighter 💎`
   * `Creatneworld/pen`
@@ -282,13 +288,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Derlifed/retail-fastfood-interview-coach`
   * `Guest453/idea-judge`
   * `Guest453/show-your-work`
-  * `JustScriptzz/minimax-3.1-flash`
   * `MarcosFRG/gemini-3-flash-preview:paid 💎`
   * `MarcosFRG/gemma-4-26b-a4b:paid 💎`
-  * `MarcosFRG/gemma-4-31b`
   * `MarcosFRG/gemma-4-31b:paid 💎`
-  * `MarcosFRG/glm-5.3`
   * `MarcosFRG/glm-5.3-flash`
+  * `MarcosFRG/gpt-5.6-luna:paid 💎`
   * `MarcosFRG/metraxai`
   * `MarcosFRG/minimax-m3:paid 💎`
   * `MarcosFRG/nemotron-3.5-lightning:paid 💎`
@@ -306,7 +310,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `Marcus-Mok-GH/pt-quietloop`
   * `Marcus-Mok-GH/pt-tidepool`
   * `Saauf/llama3.1-8B:ultrafast`
+  * `Saauf/muse-glimmer-30b`
+  * `YoannDev90/muse-glimmer-30b:free`
+  * `YoannDev90/poolside-laguna-s-2.1:free`
   * `YoannDev90/qwen3.7-flash`
+  * `YoannDev90/vercel-beam:free`
+  * `YoannDev90/vercel-nemotron-3.5-lightning:free`
+  * `ZapGaming/gpt-oss-120b-ultrafast 💎`
+  * `ZapGaming/mix-router`
   * `afanasevmylife/gazette`
   * `afanasevmylife/polyrouter`
   * `aikhusus2025-ctrl/ember-perch`
@@ -366,8 +377,10 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Catniti/agnes-3.0-flash`
   * `community/Catniti/catniti-ai-agent`
   * `community/Catniti/glm-5.3-flash`
+  * `community/Catniti/muse-glimmer-30b`
   * `community/Catniti/nemotron-3.5-lightning`
   * `community/CloudCompile/nvidia-nemotron-3-ultra-550b-a55b:free`
+  * `community/CloudCompile/reflection-beam-free`
   * `community/Creatneworld/catgpt-comic 💎`
   * `community/Creatneworld/lamplighter 💎`
   * `community/Creatneworld/pen`
@@ -376,13 +389,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Derlifed/retail-fastfood-interview-coach`
   * `community/Guest453/idea-judge`
   * `community/Guest453/show-your-work`
-  * `community/JustScriptzz/minimax-3.1-flash`
   * `community/MarcosFRG/gemini-3-flash-preview:paid 💎`
   * `community/MarcosFRG/gemma-4-26b-a4b:paid 💎`
-  * `community/MarcosFRG/gemma-4-31b`
   * `community/MarcosFRG/gemma-4-31b:paid 💎`
-  * `community/MarcosFRG/glm-5.3`
   * `community/MarcosFRG/glm-5.3-flash`
+  * `community/MarcosFRG/gpt-5.6-luna:paid 💎`
   * `community/MarcosFRG/metraxai`
   * `community/MarcosFRG/minimax-m3:paid 💎`
   * `community/MarcosFRG/nemotron-3.5-lightning:paid 💎`
@@ -400,7 +411,14 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/Marcus-Mok-GH/pt-quietloop`
   * `community/Marcus-Mok-GH/pt-tidepool`
   * `community/Saauf/llama3.1-8B:ultrafast`
+  * `community/Saauf/muse-glimmer-30b`
+  * `community/YoannDev90/muse-glimmer-30b:free`
+  * `community/YoannDev90/poolside-laguna-s-2.1:free`
   * `community/YoannDev90/qwen3.7-flash`
+  * `community/YoannDev90/vercel-beam:free`
+  * `community/YoannDev90/vercel-nemotron-3.5-lightning:free`
+  * `community/ZapGaming/gpt-oss-120b-ultrafast 💎`
+  * `community/ZapGaming/mix-router`
   * `community/afanasevmylife/gazette`
   * `community/afanasevmylife/polyrouter`
   * `community/aikhusus2025-ctrl/ember-perch`
@@ -426,10 +444,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/pollinations-ai/midijourney`
   * `community/pollinations-ai/polli`
   * `community/samueltargino0567-ux/Gt3`
-  * `community/scriptsnsenses-sys/deepseek-v4.1-flash`
   * `community/scriptsnsenses-sys/glm-5.3-flash-free`
+  * `community/scriptsnsenses-sys/minimax-m3.1-flash-free`
   * `community/sharktide/3D-agent`
   * `community/sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone 💎`
+  * `community/sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone 💎`
   * `community/sharktide/inferenceport-ai-gemini-2.5-flash 💎`
   * `community/sharktide/inferenceport-ai-gpt-6-luna 💎`
   * `community/sharktide/inferenceport-ai-kimi-k2.7-code-deep-logician 💎`
@@ -438,18 +457,17 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/sharktide/inferenceport-ai-mimo-v2.5 💎`
   * `community/sharktide/inferenceport-ai-minimax-m3 💎`
   * `community/sharktide/inferenceport-ai-qwen-3.8-27b 💎`
+  * `community/sharktide/inferenceport.ai-gpt-oss-20b`
   * `community/smplstuff/title-generator`
   * `community/sonofstrange/gemini-3.8-flash`
   * `community/sonofstrange/glm-5.3 💎`
   * `community/sonofstrange/gpt-6-astra 💎`
   * `community/sonofstrange/gpt-6.1-sol 💎`
+  * `community/sonofstrange/gpt-6.1-sol-quest`
   * `community/tomdacatto/Humanish-Roleplay-Llama-3.1-8B 💎`
-  * `community/tomdacatto/Qwen3.8-27B-Uncensored 💎`
   * `community/tomdacatto/Qwen3.8-Flash-Next 💎`
   * `community/tomdacatto/gemini-3-8-flash 💎`
-  * `community/tomdacatto/gemma-4-31B-it-uncensored 💎`
   * `community/tomdacatto/gotcha-scout`
-  * `community/tomdacatto/llama-3.1-8B`
   * `community/tomdacatto/tiered-health-router`
   * `community/tomdacatto/tower-fieldnotes`
   * `community/tomdacatto/tower-kitchen-table`
@@ -462,10 +480,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `community/vendouple/claude-opus-5.5:stable 💎`
   * `community/vendouple/claude-sonnet-5.5:stable 💎`
   * `community/vendouple/deepseek-v3.2`
-  * `community/vendouple/deepseek-v4-pro`
   * `community/vendouple/gemini-3.8-flash`
-  * `community/vendouple/gemma-4-31b-isometry-rp`
-  * `community/vendouple/gpt-6-luna`
   * `community/vendouple/gpt-6-luna:stable 💎`
   * `community/vendouple/gpt-6-sol:stable 💎`
   * `community/vendouple/gpt-6.1-sol:stable 💎`
@@ -800,10 +815,11 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `qwen3p7-plus 💎`
   * `respan/span-01-lite`
   * `samueltargino0567-ux/Gt3`
-  * `scriptsnsenses-sys/deepseek-v4.1-flash`
   * `scriptsnsenses-sys/glm-5.3-flash-free`
+  * `scriptsnsenses-sys/minimax-m3.1-flash-free`
   * `sharktide/3D-agent`
   * `sharktide/inferenceport-ai-FW-GLM-5.2-Fast:azure:data-zone 💎`
+  * `sharktide/inferenceport-ai-deepseek-v3.2:azure:data-zone 💎`
   * `sharktide/inferenceport-ai-gemini-2.5-flash 💎`
   * `sharktide/inferenceport-ai-gpt-6-luna 💎`
   * `sharktide/inferenceport-ai-kimi-k2.7-code-deep-logician 💎`
@@ -812,6 +828,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sharktide/inferenceport-ai-mimo-v2.5 💎`
   * `sharktide/inferenceport-ai-minimax-m3 💎`
   * `sharktide/inferenceport-ai-qwen-3.8-27b 💎`
+  * `sharktide/inferenceport.ai-gpt-oss-20b`
   * `smplstuff/title-generator`
   * `sonar 💎`
   * `sonar-deep 💎`
@@ -823,6 +840,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `sonofstrange/glm-5.3 💎`
   * `sonofstrange/gpt-6-astra 💎`
   * `sonofstrange/gpt-6.1-sol 💎`
+  * `sonofstrange/gpt-6.1-sol-quest`
   * `spark 💎`
   * `spark-1.1 💎`
   * `stealth/glyph-cluster`
@@ -841,12 +859,9 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `thinkingmachines/inkling 💎`
   * `thinkingmachines/inkling-small 💎`
   * `tomdacatto/Humanish-Roleplay-Llama-3.1-8B 💎`
-  * `tomdacatto/Qwen3.8-27B-Uncensored 💎`
   * `tomdacatto/Qwen3.8-Flash-Next 💎`
   * `tomdacatto/gemini-3-8-flash 💎`
-  * `tomdacatto/gemma-4-31B-it-uncensored 💎`
   * `tomdacatto/gotcha-scout`
-  * `tomdacatto/llama-3.1-8B`
   * `tomdacatto/tiered-health-router`
   * `tomdacatto/tower-fieldnotes`
   * `tomdacatto/tower-kitchen-table`
@@ -861,10 +876,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
   * `vendouple/claude-opus-5.5:stable 💎`
   * `vendouple/claude-sonnet-5.5:stable 💎`
   * `vendouple/deepseek-v3.2`
-  * `vendouple/deepseek-v4-pro`
   * `vendouple/gemini-3.8-flash`
-  * `vendouple/gemma-4-31b-isometry-rp`
-  * `vendouple/gpt-6-luna`
   * `vendouple/gpt-6-luna:stable 💎`
   * `vendouple/gpt-6-sol:stable 💎`
   * `vendouple/gpt-6.1-sol:stable 💎`
@@ -900,7 +912,7 @@ Leverage top-tier LLMs for prompt expansion, dynamic tagging, or scriptwriting i
 ### 4.🌸🔊 Pollinations Audio Gen (BYOP)
 Text-to-speech, music generation, and audio transcription.
 * **Supported Models:**
-  * `Catniti/fish-audio-s2.1-pro`
+  * `Catniti/fish-audio-s2.1-pro 💎`
   * `assemblyai-pro 💎`
   * `assemblyai-u2 💎`
   * `assemblyai-u3-pro 💎`
@@ -912,7 +924,7 @@ Text-to-speech, music generation, and audio transcription.
   * `assemblyai/universal-2 💎`
   * `assemblyai/universal-3.5-pro 💎`
   * `audio-cleanup 💎`
-  * `community/Catniti/fish-audio-s2.1-pro`
+  * `community/Catniti/fish-audio-s2.1-pro 💎`
   * `csm 💎`
   * `csm-1b 💎`
   * `dialogue 💎`
